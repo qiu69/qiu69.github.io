@@ -39,7 +39,7 @@ main:
     image: ./assets/img/FoundTS.png
     
   - title: "DiffImp: Efficient Diffusion Model for Probabilistic Time Series Imputation with Bidirectional Mamba Backbone"
-    authors: Hongfan Gao, Wangmeng Shen, <strong>Xiangfei Qiu</strong>, Ronghui Xu, Jilin Hu, Bin Yang
+    authors: Hongfan Gao, Wangmeng Shen, <strong>Xiangfei Qiu</strong>, Ronghui Xu, Jilin Hu#, Bin Yang
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/pdf/2410.13338
