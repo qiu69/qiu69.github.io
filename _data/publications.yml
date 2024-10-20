@@ -27,7 +27,7 @@ main:
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/pdf/2410.12261
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:S_vSoi-ihBMJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6ULImQ:AFWwaeYAAAAAZxUNOmSUrlZIk1MbuplLcyq9O-o&scisig=AFWwaeYAAAAAZxUNOmtQEz0TMqbWMbb0XLTPNjs&scisf=4&ct=citation&cd=-1
+#    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:S_vSoi-ihBMJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6ULImQ:AFWwaeYAAAAAZxUNOmSUrlZIk1MbuplLcyq9O-o&scisig=AFWwaeYAAAAAZxUNOmtQEz0TMqbWMbb0XLTPNjs&scisf=4&ct=citation&cd=-1
     image: ./assets/img/CATCH.png
     
   - title: "FoundTS: Comprehensive and Unified Benchmarking of Foundation Models for Time Series Forecasting"
@@ -35,7 +35,7 @@ main:
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/pdf/2410.11802
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Sd95Ai8dgjgJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UIv2k:AFWwaeYAAAAAZxUOp2niaL5MPyyeSsQbMX_BK6g&scisig=AFWwaeYAAAAAZxUOp372grJY_1sN007jxxoqMUM&scisf=4&ct=citation&cd=-1
+#    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Sd95Ai8dgjgJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UIv2k:AFWwaeYAAAAAZxUOp2niaL5MPyyeSsQbMX_BK6g&scisig=AFWwaeYAAAAAZxUOp372grJY_1sN007jxxoqMUM&scisf=4&ct=citation&cd=-1
     image: ./assets/img/FoundTS.png
     
   - title: "DiffImp: Efficient Diffusion Model for Probabilistic Time Series Imputation with Bidirectional Mamba Backbone"
@@ -43,5 +43,5 @@ main:
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/pdf/2410.13338
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FHf5dj7CBUYJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UI2Ng:AFWwaeYAAAAAZxUOwNjD9zgPCZrdbAjv7RZeJk8&scisig=AFWwaeYAAAAAZxUOwJjJItMlSyJSMA2TgXj8fkw&scisf=4&ct=citation&cd=-1
+#    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FHf5dj7CBUYJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UI2Ng:AFWwaeYAAAAAZxUOwNjD9zgPCZrdbAjv7RZeJk8&scisig=AFWwaeYAAAAAZxUOwJjJItMlSyJSMA2TgXj8fkw&scisf=4&ct=citation&cd=-1
     image: ./assets/img/DiffImp.png
