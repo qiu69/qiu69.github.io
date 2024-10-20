@@ -37,8 +37,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 ## Honors & Awards
 
 - National Scholarship (国家奖学金, Top 1%), 2024
-
 - VLDB Best Research Paper Award Nomination (first author), 2024
-
 - National Scholarship (国家奖学金, Top 1%), 2022
 - National Scholarship (国家奖学金, Top 1%), 2021
