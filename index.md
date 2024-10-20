@@ -14,7 +14,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 {% include_relative _includes/publications.md %}
 
-*** *Equal* *Contribution*, *#* *Corresponding* *Author*
+**Equal* *Contribution*, *#* *Corresponding* *Author*
 
 
 
