@@ -7,7 +7,7 @@ main:
     pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
     code: https://github.com/decisionintelligence/TFB
     bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/TFB.png
     blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: Best Research Paper Award Nomination
 
@@ -20,5 +20,5 @@ main:
     blog: https://mp.weixin.qq.com/s/bh_gjodiXlwvF7DBi_itZw
     bibtex: https://dblp.org/rec/journals/vldb/WuWYZGQHSJ24.html?view=bibtex
     notes: Accepted
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/AutoCTS++.png
     
