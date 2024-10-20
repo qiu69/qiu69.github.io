@@ -8,6 +8,7 @@ main:
     code: https://github.com/decisionintelligence/TFB
     bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/teaser_example_2.png
+    page: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: Best Research Paper Award Nomination
 
   - title: "AutoCTS++: zero-shot joint neural architecture and hyperparameter search for correlated time series forecasting"
@@ -16,6 +17,7 @@ main:
     conference: VLDB JOURNAL <strong>(VLDBJ)</strong>, 2024.
     pdf: https://vbn.aau.dk/ws/portalfiles/portal/730426496/AutoCTS_.pdf
     code: https://github.com/decisionintelligence/AutoCTS_plusplus
+    page: https://mp.weixin.qq.com/s/bh_gjodiXlwvF7DBi_itZw
     bibtex: https://dblp.org/rec/journals/vldb/WuWYZGQHSJ24.html?view=bibtex
     notes: Accept
     image: ./assets/img/teaser_example.png
