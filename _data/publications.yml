@@ -1,7 +1,7 @@
 main:
 
   - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
-    authors: <strong>Xiangfei Qiu*</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S Jensen, Zhenli Sheng, Bin Yang
+    authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S Jensen, Zhenli Sheng, Bin Yang
     conference_short: PVLDB
     conference: International Conference on Very Large Databases <strong>(PVLDB)</strong>, 2024.
     pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
