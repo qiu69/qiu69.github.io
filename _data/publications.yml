@@ -1,23 +1,23 @@
 main:
 
   - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
-    authors: <strong>Xiangfei Qiu*</strong>, Jilin Hu\#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S Jensen, Zhenli Sheng, Bin Yang
+    authors: <strong>Xiangfei Qiu*</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S Jensen, Zhenli Sheng, Bin Yang
     conference_short: PVLDB
     conference: International Conference on Very Large Databases <strong>(PVLDB)</strong>, 2024.
     pdf: www.vldb.org/pvldb/vol17/p2363-hu.pdf
     code: https://github.com/decisionintelligence/TFB
-    bibtex: https://bib.yliu.me/MICCAI23.txt
+    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/teaser_example_2.png
     notes: Best Research Paper Award Nomination
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
+  - title: "AutoCTS++: zero-shot joint neural architecture and hyperparameter search for correlated time series forecasting"
+    authors: Xinle Wu, Xingjian Wu, Bin Yang\#, Lekui Zhou, Chenjuan Guo, <strong>Xiangfei Qiu*</strong>, Jilin Hu, Zhenli Sheng, Christian S. Jensen
+    conference_short: VLDBJ
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://dblp.org/rec/journals/vldb/WuWYZGQHSJ24.html?view=bibtex
     notes: Oral Presentation
     image: ./assets/img/teaser_example.png
     
