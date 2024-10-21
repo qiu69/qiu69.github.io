@@ -16,6 +16,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 - **[Oct. 2024]** I have been awarded the **National Scholarship!**
 - **[Aug. 2024]** My paper "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods" receives **VLDB 2024 Best Paper Award Nomination!**
+- **[Aug. 2024]** We have created a leaderboard for time series analytics, called [OpenTS](https://decisionintelligence.github.io/OpenTS/).
 
 
 
