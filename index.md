@@ -55,4 +55,5 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=_UnR_BWZblPRwNeJPyRss9VHoFGGqw7QXdJIndRV49Q"></script>
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?cl=ffffff&w=300&d=_UnR_BWZblPRwNeJPyRss9VHoFGGqw7QXdJIndRV49Q"></script>
+
+
