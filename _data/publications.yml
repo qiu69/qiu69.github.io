@@ -1,7 +1,7 @@
 main:
 
   - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
-    authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S Jensen, Zhenli Sheng, Bin Yang
+    authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
     conference_short: PVLDB
     conference: International Conference on Very Large Databases <strong>(PVLDB)</strong>, 2024.
     pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
@@ -31,7 +31,7 @@ main:
     image: ./assets/img/CATCH.png
     
   - title: "FoundTS: Comprehensive and Unified Benchmarking of Foundation Models for Time Series Forecasting"
-    authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S Jensen, Bin Yang
+    authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S. Jensen, Bin Yang
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/pdf/2410.11802

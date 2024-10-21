@@ -33,7 +33,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 #### Teaching Experiences
 
-- Teaching Assistant, Introduction to Data Science, Spring 2024, Prof. [Jilin hu](https://faculty.ecnu.edu.cn/_s37/hjl2/main.psp).
+- Teaching Assistant, Introduction to Data Science, Fall 2024, Prof. [Jilin hu](https://faculty.ecnu.edu.cn/_s37/hjl2/main.psp).
 
   
 
