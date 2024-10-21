@@ -54,9 +54,9 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 - National Scholarship (国家奖学金, Top 1%), 2022
 
-- National Scholarship (国家奖学金, Top 1%), 2021
-
 - GroupProgramming Ladder Tournament (Team leader, Third Prize in the National Competition), 2022
+
+- National Scholarship (国家奖学金, Top 1%), 2021
 
 - National College Student Information Security Contest (Third Prize in the National Competition), 2021
 
