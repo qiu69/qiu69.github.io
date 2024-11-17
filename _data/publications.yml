@@ -1,5 +1,12 @@
 main:
 
+  - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
+    authors: <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Yan Lin, Chenjuan Guo, Jilin Hu#, Bin Yang
+    conference_short: SIGKDD
+    conference: ACM Knowledge Discovery and Data Mining <strong>(SIGKDD)</strong>, 2025.
+    image: ./assets/img/duet.png
+
+    
   - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
     authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
     conference_short: PVLDB
