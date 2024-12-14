@@ -1,10 +1,11 @@
 main:
 
   - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
-    authors: <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Yan Lin, Chenjuan Guo, Jilin Hu#, Bin Yang
+    authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Yan Lin, Chenjuan Guo, Jilin Hu#, Bin Yang
     conference_short: SIGKDD
     conference: ACM Knowledge Discovery and Data Mining <strong>(SIGKDD)</strong>, 2025.
     image: ./assets/img/duet.png
+    code: https://github.com/decisionintelligence/DUET
     notes: Accepted
     
   - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
@@ -30,7 +31,7 @@ main:
     image: ./assets/img/AutoCTS++.png
     
   - title: "CATCH: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching"
-    authors: Xingjian Wu*, <strong>Xiangfei Qiu*</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
+    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/pdf/2410.12261
