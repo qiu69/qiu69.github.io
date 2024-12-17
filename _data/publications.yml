@@ -5,6 +5,7 @@ main:
     conference_short: SIGKDD
     conference: ACM Knowledge Discovery and Data Mining <strong>(SIGKDD)</strong>, 2025.
     image: ./assets/img/duet.png
+    pdf: https://arxiv.org/pdf/2412.10859
     code: https://github.com/decisionintelligence/DUET
     notes: Accepted
     
