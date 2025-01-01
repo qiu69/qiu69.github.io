@@ -5,7 +5,7 @@ main:
     conference_short: ICDE
     conference: IEEE International Conference on Data Engineering <strong>(ICDE)</strong>, 2025.
     image: ./assets/img/EasyTime.png
-    pdf: https://arxiv.org/abs/2412.17603
+    pdf: https://arxiv.org/pdf/2412.17603
     notes: Accepted
     
   - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
