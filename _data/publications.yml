@@ -52,7 +52,7 @@ main:
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/pdf/2410.11802
-    bibtex: https://mp.weixin.qq.com/s/VhF9Xyt6e-XS5ervaA7tkA
+    blog: https://mp.weixin.qq.com/s/VhF9Xyt6e-XS5ervaA7tkA
     image: ./assets/img/FoundTS.png
     
   - title: "DiffImp: Efficient Diffusion Model for Probabilistic Time Series Imputation with Bidirectional Mamba Backbone"
@@ -68,5 +68,5 @@ main:
     conference_short: arXiv
     conference: arXiv preprint, 2024.
     pdf: https://arxiv.org/abs/2410.15997
-    bibtex: https://mp.weixin.qq.com/s/u-0mqxrm6EqlGkNx5thTPQ
+    blog: https://mp.weixin.qq.com/s/u-0mqxrm6EqlGkNx5thTPQ
     image: ./assets/img/MultiRC.png
