@@ -40,6 +40,8 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 #### Academic Services
 
+- Program Committee Member (ADS Track), ACM SIGKDD Conference on Knowledge Discovery and Data Mining ([KDD](https://kdd2025.kdd.org/)) 2025.
+
 - Program Committee Member (Main & Survey Track), International Joint Conference on Artificial Intelligence ([IJCAI](https://2025.ijcai.org/)) 2025.
 - External Reviewer, International Conference on Database Systems for Advanced Applications ([DASFAA](https://dasfaa2025.github.io/)) 2025.
 - Conference Reviewer, International Conference on Learning Representations ([ICLR](http://iclr.cc/)) 2025.
