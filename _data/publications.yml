@@ -1,5 +1,13 @@
 main:
 
+  - title: "CATCH: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching"
+    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
+    conference_short: ICLR
+    conference: International Conference on Learning Representations, 2025.
+    pdf: https://arxiv.org/pdf/2410.12261
+    image: ./assets/img/CATCH.png
+    notes: Accepted
+    
   - title: "EasyTime: Time Series Forecasting Made Easy"
     authors: <strong>Xiangfei Qiu*</strong>, Xiuwen Li*, Ruiyang Pang*, Zhicheng Pan*, Xingjian Wu*, Liu Yang*, Jilin Hu, Yang Shu, Xuesong Lu, Chengcheng Yang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen and Bin Yang.
     conference_short: ICDE
@@ -40,12 +48,6 @@ main:
     notes: Accepted
     image: ./assets/img/AutoCTS++.png
     
-  - title: "CATCH: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching"
-    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
-    conference_short: arXiv
-    conference: arXiv preprint, 2024.
-    pdf: https://arxiv.org/pdf/2410.12261
-    image: ./assets/img/CATCH.png
     
   - title: "FoundTS: Comprehensive and Unified Benchmarking of Foundation Models for Time Series Forecasting"
     authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S. Jensen, Bin Yang
