@@ -3,7 +3,7 @@ main:
   - title: "CATCH: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching"
     authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
     conference_short: ICLR
-    conference: International Conference on Learning Representations, 2025.
+    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2410.12261
     image: ./assets/img/CATCH.png
     notes: Accepted

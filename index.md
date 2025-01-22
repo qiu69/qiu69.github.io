@@ -15,7 +15,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 ## News
 
 - **[Dec. 2024]** Our paper "CATCH: Channel-Aware multivariate Time Series Anomaly Detection via Frequency Patching" has been accepted by **ICLR 2025**.
-
 - **[Dec. 2024]** My paper "EasyTime: Time Series Forecasting Made Easy" has been accepted by **ICDE 2025**.
 - **[Nov. 2024]** My paper "**[DUET](https://arxiv.org/pdf/2412.10859)**: Dual Clustering Enhanced Multivariate Time Series Forecasting" has been accepted by **SIGKDD 2025**.
 - **[Oct. 2024]** I have been awarded the **National Scholarship!**
