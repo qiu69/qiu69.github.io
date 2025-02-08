@@ -41,7 +41,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 #### Conference PC member:
 
-- ACM SIGKDD Conference on Knowledge Discovery and Data Mining ([KDD](https://kdd2025.kdd.org/)), (ADS Track) 2025.
+- ACM SIGKDD Conference on Knowledge Discovery and Data Mining ([KDD](https://kdd2025.kdd.org/)), (Main & ADS Track) 2025.
 - International Joint Conference on Artificial Intelligence ([IJCAI](https://2025.ijcai.org/)), (Main & Survey Track) 2025.
 - International Conference on Learning Representations ([ICLR](http://iclr.cc/)) 2025.
 - External Reviewer, International Conference on Database Systems for Advanced Applications ([DASFAA](https://dasfaa2025.github.io/)) 2025.
