@@ -1,11 +1,20 @@
 main:
 
+  - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
+    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo
+    conference_short: arXiv
+    conference: arXiv preprint, 2025.
+#    pdf: https://arxiv.org/pdf/2410.12261
+    image: ./assets/img/CS4TS.png
+#    notes: Accepted
+    
   - title: "CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching"
     authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
     conference_short: ICLR
     conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2410.12261
     image: ./assets/img/CATCH.png
+    blog: https://mp.weixin.qq.com/s/zhAp-texiJFnUFduJx8fgQ
     notes: Accepted
     
   - title: "EasyTime: Time Series Forecasting Made Easy"
