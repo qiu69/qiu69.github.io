@@ -5,6 +5,7 @@ main:
     conference_short: arXiv
     conference: arXiv preprint, 2025.
 #    pdf: https://arxiv.org/pdf/2410.12261
+    code: https://github.com/decisionintelligence/CS4TS
     image: ./assets/img/CS4TS.png
 #    notes: Accepted
     
