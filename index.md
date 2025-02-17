@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## 🏷️ About Me
 
 I am currently a Master student (from fall, 2023) at the [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [East China Normal University](https://www.ecnu.edu.cn/) and a member of the [Decision Intelligence Lab](https://decisionintelligence.github.io/index), advised by Prof. [Jilin Hu](https://hujilin1229.github.io/). 
 
