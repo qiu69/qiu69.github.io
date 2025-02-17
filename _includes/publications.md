@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications & Preprints</h2>
+## 📝 Publications & Preprints
 
 <div class="publications">
 <ol class="bibliography">
