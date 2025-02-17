@@ -51,23 +51,18 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 - Teaching Assistant, Introduction to Data Science, Fall 2024, Prof. [Jilin Hu](https://hujilin1229.github.io/).
 
-  
+
 
 ## 🎖 Honors & Awards
 
 - National Scholarship, 2024
-
 - **VLDB Best Research Paper Award Nomination (First author)**, 2024
-
 - National Scholarship, 2022
-
 - GroupProgramming Ladder Tournament (Team leader, Third Prize in the National Competition), 2022
-
 - National Scholarship, 2021
-
 - National College Student Information Security Contest (Third Prize in the National Competition), 2021
 
-  
+
 
 ## 👀 Visitors
 
