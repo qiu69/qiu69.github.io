@@ -6,6 +6,7 @@ main:
     conference: arXiv preprint, 2025.
     pdf: https://arxiv.org/pdf/2502.10721
     code: https://github.com/decisionintelligence/CS4TS
+    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/CS4TS.png
 #    notes: Accepted
     
