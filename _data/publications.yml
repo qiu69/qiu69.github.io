@@ -4,7 +4,7 @@ main:
     authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo
     conference_short: arXiv
     conference: arXiv preprint, 2025.
-#    pdf: https://arxiv.org/pdf/2410.12261
+    pdf: https://arxiv.org/pdf/2502.10721
     code: https://github.com/decisionintelligence/CS4TS
     image: ./assets/img/CS4TS.png
 #    notes: Accepted
