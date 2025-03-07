@@ -1,7 +1,7 @@
 main:
 
   - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
-    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo
+    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
     conference_short: arXiv
     conference: arXiv preprint, 2025.
     pdf: https://arxiv.org/pdf/2502.10721
