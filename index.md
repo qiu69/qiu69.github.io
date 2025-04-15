@@ -4,7 +4,7 @@ layout: homepage
 
 ## 👋 About Me
 
-I am currently a Master student (from fall, 2023) at the [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [East China Normal University](https://www.ecnu.edu.cn/) and a member of the [Decision Intelligence Lab](https://decisionintelligence.github.io/index), advised by Prof. [Jilin Hu](https://hujilin1229.github.io/). 
+I am currently a Master student (from fall, 2023) at the [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [East China Normal University](https://www.ecnu.edu.cn/) and a member of the [Decision Intelligence Lab](https://decisionintelligence.github.io/index), advised by Prof. [Jilin Hu](https://hujilin1229.github.io/) and Prof. [Bin Yang](https://binyangdk.github.io/). 
 
 
 
@@ -45,7 +45,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 #### Conference PC member:
 
-- ACM SIGKDD Conference on Knowledge Discovery and Data Mining ([KDD](https://kdd2025.kdd.org/)), (Main & ADS Track) 2025.
+- ACM SIGKDD Conference on Knowledge Discovery and Data Mining ([KDD](https://kdd2025.kdd.org/)), (Main & ADS & Benchmark Track) 2025.
 - International Joint Conference on Artificial Intelligence ([IJCAI](https://2025.ijcai.org/)), (Main & Survey Track) 2025.
 - International Conference on Learning Representations ([ICLR](http://iclr.cc/)) 2025.
 - External Reviewer, International Conference on Database Systems for Advanced Applications ([DASFAA](https://dasfaa2025.github.io/)) 2025.
