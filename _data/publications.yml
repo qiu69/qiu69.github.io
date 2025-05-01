@@ -1,6 +1,6 @@
 main:
 
- - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
+  - title: "K2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting"
     authors: Xingjian Wu*, <strong>Xiangfei Qiu*</strong>, Hongfan Gao, Jilin Hu, Chenjuan Guo, Bin Yang#
     conference_short: ICML
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
