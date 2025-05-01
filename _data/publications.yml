@@ -1,5 +1,16 @@
 main:
 
+ - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
+    authors: Xingjian Wu*, <strong>Xiangfei Qiu*</strong>, Hongfan Gao, Jilin Hu, Chenjuan Guo, Bin Yang#
+    conference_short: ICML
+    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
+#    pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
+#    code: https://github.com/decisionintelligence/TFB
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/k2vae.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    notes: Accepted (Spotlight)
+    
   - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
     authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
     conference_short: arXiv
