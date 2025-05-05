@@ -47,7 +47,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 #### Conference PC member:
 
 - European Conference on Artificial Intelligence ([ECAI](https://ecai2025.org/)) 2025.
-
 - ACM SIGKDD Conference on Knowledge Discovery and Data Mining ([KDD](https://kdd2025.kdd.org/)), (Main & ADS & Benchmark Track) 2025.
 - International Joint Conference on Artificial Intelligence ([IJCAI](https://2025.ijcai.org/)), (Main & Survey Track) 2025.
 - International Conference on Learning Representations ([ICLR](http://iclr.cc/)) 2025.
