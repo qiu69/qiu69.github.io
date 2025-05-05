@@ -24,51 +24,51 @@ main:
   - title: "CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching"
     authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
     conference_short: ICLR
-    conference: International Conference on Learning Representations <strong>(ICLR, Core A*)</strong>, 2025.
+    conference: International Conference on Learning Representations, 2025.
     pdf: https://arxiv.org/pdf/2410.12261
     image: ./assets/img/CATCH.png
     code: https://github.com/decisionintelligence/CATCH
     blog: https://mp.weixin.qq.com/s/zhAp-texiJFnUFduJx8fgQ
-    notes: Accepted
+    notes: ICLR, Core A*, Accepted
     
   - title: "EasyTime: Time Series Forecasting Made Easy"
     authors: <strong>Xiangfei Qiu*</strong>, Xiuwen Li*, Ruiyang Pang*, Zhicheng Pan*, Xingjian Wu*, Liu Yang*, Jilin Hu, Yang Shu, Xuesong Lu, Chengcheng Yang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen and Bin Yang.
     conference_short: ICDE
-    conference: IEEE International Conference on Data Engineering <strong>(ICDE, CCF A)</strong>, 2025.
+    conference: IEEE International Conference on Data Engineering, 2025.
     image: ./assets/img/EasyTime.png
     pdf: https://arxiv.org/pdf/2412.17603
-    notes: Accepted
+    notes: ICDE, CCF A, Accepted
     
   - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Yan Lin, Chenjuan Guo, Jilin Hu#, Bin Yang
     conference_short: SIGKDD
-    conference: ACM Knowledge Discovery and Data Mining <strong>(SIGKDD, CCF A)</strong>, 2025.
+    conference: ACM Knowledge Discovery and Data Mining, 2025.
     image: ./assets/img/duet.png
     pdf: https://arxiv.org/pdf/2412.10859
     code: https://github.com/decisionintelligence/DUET
     blog: https://mp.weixin.qq.com/s/Yx9UJGFbU54QUwmYBbhr7w
-    notes: Accepted
+    notes: SIGKDD, CCF A, Accepted
     
   - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
     authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
     conference_short: PVLDB
-    conference: International Conference on Very Large Databases <strong>(PVLDB, CCF A)</strong>, 2024.
+    conference: International Conference on Very Large Databases, 2024.
     pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
     code: https://github.com/decisionintelligence/TFB
     bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/TFB.png
     blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: Best Paper Award Nomination
+    notes: PVLDB, CCF A, Accepted (Best Paper Award Nomination)
 
   - title: "AutoCTS++: zero-shot joint neural architecture and hyperparameter search for correlated time series forecasting"
     authors: Xinle Wu, Xingjian Wu, Bin Yang#, Lekui Zhou, Chenjuan Guo, <strong>Xiangfei Qiu</strong>, Jilin Hu, Zhenli Sheng, Christian S. Jensen
     conference_short: VLDBJ
-    conference: VLDB Journal <strong>(VLDBJ, CCF A)</strong>, 2024.
+    conference: VLDB Journal, 2024.
     pdf: https://vbn.aau.dk/ws/portalfiles/portal/730426496/AutoCTS_.pdf
     code: https://github.com/decisionintelligence/AutoCTS_plusplus
     blog: https://mp.weixin.qq.com/s/bh_gjodiXlwvF7DBi_itZw
     bibtex: https://dblp.org/rec/journals/vldb/WuWYZGQHSJ24.html?view=bibtex
-    notes: Accepted
+    notes: VLDBJ, CCF A, Accepted
     image: ./assets/img/AutoCTS++.png
     
     
