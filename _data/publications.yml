@@ -81,13 +81,14 @@ main:
     blog: https://mp.weixin.qq.com/s/VhF9Xyt6e-XS5ervaA7tkA
     image: ./assets/img/FoundTS.png
     
-  - title: "DiffImp: Efficient Diffusion Model for Probabilistic Time Series Imputation with Bidirectional Mamba Backbone"
+  - title: "SSD-TS: Exploring the potential of linear state space models for diffusion models in time series imputation"
     authors: Hongfan Gao, Wangmeng Shen, <strong>Xiangfei Qiu</strong>, Ronghui Xu, Jilin Hu#, Bin Yang
-    conference_short: arXiv
-    conference: arXiv preprint, 2024.
+    conference_short: SIGKDD
+    conference: ACM Knowledge Discovery and Data Mining, 2025.
     pdf: https://arxiv.org/pdf/2410.13338
 #    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FHf5dj7CBUYJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UI2Ng:AFWwaeYAAAAAZxUOwNjD9zgPCZrdbAjv7RZeJk8&scisig=AFWwaeYAAAAAZxUOwJjJItMlSyJSMA2TgXj8fkw&scisf=4&ct=citation&cd=-1
     image: ./assets/img/DiffImp.png
+    notes: SIGKDD, CCF A, Accepted
     
   - title: "MultiRC: Joint Learning for Time Series Anomaly Prediction and Detection with Multi-scale Reconstructive Contrast"
     authors: Shiyan Hu, Kai Zhao, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Bin Yang, Chenjuan Guo#
