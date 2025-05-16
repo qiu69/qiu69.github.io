@@ -18,10 +18,10 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 ## 🔥 News
 
-- **[May. 2025]** Our paper "**TAB**: Unified Benchmarking of Time Series Anomaly Detection Methods" has been accepted by **PVLDB 2025**.
+- **[May. 2025]** My paper "**TAB**: Unified Benchmarking of Time Series Anomaly Detection Methods" has been accepted by **PVLDB 2025**.
 - **[May. 2025]** Our paper "**[FM4TS-Bench](https://arxiv.org/pdf/2410.11802)**: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting" has been accepted by **SIGKDD 2025**.
 - **[May. 2025]** Our paper "**[SSD-TS](https://arxiv.org/pdf/2410.13338)**: Exploring the potential of linear state space models for diffusion models in time series imputation" has been accepted by **SIGKDD 2025**.
-- **[May. 2025]** Our paper "**K2VAE**: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting" has been accepted as **ICML 2025 Spotlight**.
+- **[May. 2025]** My paper "**K2VAE**: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting" has been accepted as **ICML 2025 Spotlight**.
 
 - **[Jan. 2025]** Our paper "**[CATCH](https://arxiv.org/pdf/2410.12261)**: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching" has been accepted by **ICLR 2025**.
 - **[Dec. 2024]** My paper "**[EasyTime](https://arxiv.org/pdf/2412.17603)**: Time Series Forecasting Made Easy" has been accepted by **ICDE 2025**.
