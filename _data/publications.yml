@@ -91,6 +91,17 @@ main:
     notes: VLDBJ, CCF A, Accepted
     image: ./assets/img/AutoCTS++.png
     
+
+  - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
+    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu, Zhengyu Li, Chenjuan Guo, Jilin Hu,Bin Yang
+    conference_short: arXiv
+    conference: arXiv preprint, 2025.
+#    pdf: https://arxiv.org/pdf/2502.10721
+#    code: https://github.com/decisionintelligence/CS4TS
+#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/APN.png
+    
+    
   - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
     authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
     conference_short: arXiv
