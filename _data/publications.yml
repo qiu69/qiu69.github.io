@@ -1,5 +1,16 @@
 main:
 
+  - title: "TAB: Unified Benchmarking of Time Series Anomaly Detection Methods"
+    authors: <strong>Xiangfei Qiu</strong>, Zhe Li, Wanghui Qiu, Shiyan Hu, Lekui Zhou, Xingjian Wu, Zhengyu Li Chenjuan Guo, Aoying Zhou, Zhenli Sheng, Jilin Hu, Christian S. Jensen, Bin Yang
+    conference_short: PVLDB
+    conference: International Conference on Very Large Databases, 2025.
+#    pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
+#    code: https://github.com/decisionintelligence/TFB
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/TAB.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    notes: PVLDB, CCF A, Accepted
+        
   - title: "K2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting"
     authors: Xingjian Wu*, <strong>Xiangfei Qiu*</strong>, Hongfan Gao, Jilin Hu, Chenjuan Guo, Bin Yang#
     conference_short: ICML
@@ -73,13 +84,15 @@ main:
     image: ./assets/img/AutoCTS++.png
     
     
-  - title: "FoundTS: Comprehensive and Unified Benchmarking of Foundation Models for Time Series Forecasting"
+  - title: "FM4TS-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting"
     authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S. Jensen, Bin Yang
-    conference_short: arXiv
-    conference: arXiv preprint, 2024.
+    conference_short: SIGKDD
+    conference: ACM Knowledge Discovery and Data Mining, 2025.
     pdf: https://arxiv.org/pdf/2410.11802
     blog: https://mp.weixin.qq.com/s/VhF9Xyt6e-XS5ervaA7tkA
     image: ./assets/img/FoundTS.png
+    notes: SIGKDD, CCF A, Accepted
+
     
   - title: "SSD-TS: Exploring the potential of linear state space models for diffusion models in time series imputation"
     authors: Hongfan Gao, Wangmeng Shen, <strong>Xiangfei Qiu</strong>, Ronghui Xu, Jilin Hu#, Bin Yang
