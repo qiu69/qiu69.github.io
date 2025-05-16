@@ -93,7 +93,7 @@ main:
     
 
   - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
-    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu, Zhengyu Li, Chenjuan Guo, Jilin Hu,Bin Yang
+    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
     conference_short: arXiv
     conference: arXiv preprint, 2025.
 #    pdf: https://arxiv.org/pdf/2502.10721
