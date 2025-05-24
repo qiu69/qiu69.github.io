@@ -67,7 +67,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 - **First place** in Master Group of  **CCF Academic Show**, 2025.
 - National Scholarship, 2024
-
 - **VLDB Best Research Paper Award Nomination (First author)**, 2024
 - National Scholarship, 2022
 - GroupProgramming Ladder Tournament (Team leader, Third Prize in the National Competition), 2022
