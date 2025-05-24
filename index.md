@@ -20,7 +20,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 - **[May. 2025]** I have been awarded **the first place** in Master Group of 2025 **CCF Academic Show**.
 - **[May. 2025]** My paper "**TAB**: Unified Benchmarking of Time Series Anomaly Detection Methods" has been accepted by **PVLDB 2025**.
-
 - **[May. 2025]** Our paper "**[FM4TS-Bench](https://arxiv.org/pdf/2410.11802)**: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting" has been accepted by **SIGKDD 2025**.
 - **[May. 2025]** Our paper "**[SSD-TS](https://arxiv.org/pdf/2410.13338)**: Exploring the potential of linear state space models for diffusion models in time series imputation" has been accepted by **SIGKDD 2025**.
 - **[May. 2025]** My paper "**K2VAE**: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting" has been accepted as **ICML 2025 Spotlight**.
