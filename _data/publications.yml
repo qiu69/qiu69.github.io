@@ -51,7 +51,7 @@ main:
     blog: https://mp.weixin.qq.com/s/Yx9UJGFbU54QUwmYBbhr7w
     notes: SIGKDD, CCF A, Accepted
     
-  - title: "FM4TS-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting"
+  - title: "TSFM-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting"
     authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S. Jensen, Bin Yang
     conference_short: SIGKDD
     conference: ACM Knowledge Discovery and Data Mining, 2025.
