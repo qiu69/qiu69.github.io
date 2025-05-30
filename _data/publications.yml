@@ -15,7 +15,7 @@ main:
     authors: Xingjian Wu*, <strong>Xiangfei Qiu*</strong>, Hongfan Gao, Jilin Hu, Chenjuan Guo, Bin Yang#
     conference_short: ICML
     conference: International Conference on Machine Learning, 2025.
-#    pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
+    pdf: https://arxiv.org/pdf/2505.23017
 #    code: https://github.com/decisionintelligence/TFB
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/k2vae.png
