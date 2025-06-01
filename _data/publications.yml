@@ -96,7 +96,7 @@ main:
     authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
     conference_short: arXiv
     conference: arXiv preprint, 2025.
-#    pdf: https://arxiv.org/pdf/2502.10721
+    pdf: https://arxiv.org/pdf/2505.11250
 #    code: https://github.com/decisionintelligence/CS4TS
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/APN.png
