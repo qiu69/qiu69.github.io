@@ -66,8 +66,10 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 ## 🎖 Honors & Awards
 
-- SIGKDD 2025 Excellent Reviewer, 2025.
-- **First place** in Master Group of  **CCF Academic Show**, 2025.
+- SIGKDD 2025 Research Track **Outstanding Reviewer**, 2025, [Link](https://kdd2025.kdd.org/research-track-program-committee/)
+
+- SIGKDD 2025 Applied Data Science (ADS) Track **Excellent Reviewer**, 2025, [Link](https://kdd2025.kdd.org/applied-data-science-ads-track-program-committee/#february_cycle)
+- **First place** in Master Group of  **CCF Academic Show**, 2025
 - National Scholarship, 2024
 - **VLDB Best Research Paper Award Nomination (First author)**, 2024
 - National Scholarship, 2022
