@@ -51,9 +51,11 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 #### Conference PC member:
 
+- International World Wide Web Conference ([WWW](https://www2026.thewebconf.org/)) industry track 2026.
 - AAAI Conference on Artificial Intelligence ([AAAI](https://aaai.org/conference/aaai/aaai-26/)) 2026.
 - European Conference on Artificial Intelligence ([ECAI](https://ecai2025.org/)) 2025.
 - ACM SIGKDD Conference on Knowledge Discovery and Data Mining ([KDD](https://kdd2025.kdd.org/)), (Main & ADS & Benchmark Track) 2025、2026.
+
 - International Joint Conference on Artificial Intelligence ([IJCAI](https://2025.ijcai.org/)), (Main & Survey Track) 2025.
 - International Conference on Learning Representations ([ICLR](http://iclr.cc/)) 2025.
 - External Reviewer, International Conference on Database Systems for Advanced Applications ([DASFAA](https://dasfaa2025.github.io/)) 2025.
