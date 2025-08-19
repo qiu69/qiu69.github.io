@@ -75,7 +75,7 @@ main:
     authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
     conference_short: PVLDB
     conference: International Conference on Very Large Databases, 2024.
-    pdf: https://www.vldb.org/pvldb/vol17/p2363-hu.pdf
+    pdf: https://arxiv.org/pdf/2403.20150
     code: https://github.com/decisionintelligence/TFB
     bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/TFB.png
