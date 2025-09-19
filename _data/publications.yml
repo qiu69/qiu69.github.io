@@ -10,7 +10,7 @@ main:
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: NeurIPS, CCF A, Accepted
     
- - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
+  - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
     authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
     conference_short: NeurIPS
     conference: Neural Information Processing Systems Conference, 2025.
@@ -21,7 +21,7 @@ main:
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: NeurIPS, CCF A, Accepted (Spotlight)
 
- - title: "DAG: A Dual Causal Network for Time Series Forecasting with Exogenous Variables"
+  - title: "DAG: A Dual Causal Network for Time Series Forecasting with Exogenous Variables"
     authors: <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Zhengyu Li, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
     conference_short: arXiv
     conference: arXiv preprint, 2026.
