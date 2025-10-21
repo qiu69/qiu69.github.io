@@ -1,4 +1,15 @@
 main:
+  - title: "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data"
+    authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
+    conference_short: ICDE
+    conference: IEEE International Conference on Data Engineering, 2026.
+#    pdf: https://arxiv.org/pdf/2506.18046
+#    code: https://github.com/decisionintelligence/TAB
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/EDAD.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    notes: ICDE, CCF A, Accepted
+    
   - title: "DBLoss: Decomposition-based Loss Function for Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Hanyin Cheng, Xvyuan Liu, Chenjuan Guo, Jilin Hu#, Bin Yang
     conference_short: NeurIPS
