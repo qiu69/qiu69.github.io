@@ -3,7 +3,7 @@ main:
     authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
     conference_short: ICDE
     conference: IEEE International Conference on Data Engineering, 2026.
-#    pdf: https://arxiv.org/pdf/2506.18046
+    pdf: https://arxiv.org/pdf/2510.18998
 #    code: https://github.com/decisionintelligence/TAB
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/EDAD.png
@@ -14,8 +14,8 @@ main:
     authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Hanyin Cheng, Xvyuan Liu, Chenjuan Guo, Jilin Hu#, Bin Yang
     conference_short: NeurIPS
     conference: Neural Information Processing Systems Conference, 2025.
-#    pdf: https://arxiv.org/pdf/2506.18046
-#    code: https://github.com/decisionintelligence/TAB
+    pdf: https://arxiv.org/pdf/2510.23672
+    code: https://github.com/decisionintelligence/DBLoss
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/DBLoss.png
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
@@ -25,8 +25,8 @@ main:
     authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
     conference_short: NeurIPS
     conference: Neural Information Processing Systems Conference, 2025.
-#    pdf: https://arxiv.org/pdf/2506.18046
-#    code: https://github.com/decisionintelligence/TAB
+    pdf: https://arxiv.org/pdf/2510.14510
+    code: https://github.com/decisionintelligence/SRSNet
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/SRSNet.png
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
