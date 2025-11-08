@@ -1,4 +1,13 @@
 main:
+  - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
+    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
+    conference_short: AAAI
+    conference: AAAI Conference on Artificial Intelligence, 2026.
+    pdf: https://arxiv.org/pdf/2505.11250
+#    code: https://github.com/decisionintelligence/CS4TS
+#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/APN.png
+    
   - title: "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data"
     authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
     conference_short: ICDE
@@ -158,15 +167,6 @@ main:
     image: ./assets/img/CS4TS.png
 #    notes: Accepted
 
-
-  - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
-    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2505.11250
-#    code: https://github.com/decisionintelligence/CS4TS
-#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-    image: ./assets/img/APN.png
     
   - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
     authors: Xvyuan Liu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
