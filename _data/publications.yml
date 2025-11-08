@@ -7,6 +7,7 @@ main:
 #    code: https://github.com/decisionintelligence/CS4TS
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/APN.png
+    notes: AAAI, CCF A, Accepted
     
   - title: "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data"
     authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
