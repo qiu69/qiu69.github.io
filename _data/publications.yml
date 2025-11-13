@@ -1,6 +1,6 @@
 main:
   - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
-    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
+    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
     conference_short: AAAI
     conference: AAAI Conference on Artificial Intelligence, 2026.
     pdf: https://arxiv.org/pdf/2505.11250
@@ -31,16 +31,6 @@ main:
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: NeurIPS, CCF A, Accepted
     
-  - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
-    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
-    conference_short: NeurIPS
-    conference: Neural Information Processing Systems Conference, 2025.
-    pdf: https://arxiv.org/pdf/2510.14510
-    code: https://github.com/decisionintelligence/SRSNet
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/SRSNet.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: NeurIPS, CCF A, Accepted (Spotlight)
 
   - title: "TAB: Unified Benchmarking of Time Series Anomaly Detection Methods"
     authors: <strong>Xiangfei Qiu</strong>, Zhe Li, Wanghui Qiu, Shiyan Hu, Lekui Zhou, Xingjian Wu, Zhengyu Li Chenjuan Guo, Aoying Zhou, Zhenli Sheng, Jilin Hu, Christian S. Jensen, Bin Yang
@@ -168,6 +158,16 @@ main:
     image: ./assets/img/CS4TS.png
 #    notes: Accepted
 
+  - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
+    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
+    conference_short: arXiv
+    conference: arXiv preprint, 2025.
+    pdf: https://arxiv.org/pdf/2510.14510
+    code: https://github.com/decisionintelligence/SRSNet
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/SRSNet.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: NeurIPS, CCF A, Accepted (Spotlight)
     
   - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
     authors: Xvyuan Liu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
