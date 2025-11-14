@@ -64,6 +64,10 @@ For more information, you may take a look at my [Google Scholar](https://schola
 - External Reviewer, International Conference on Database Systems for Advanced Applications ([DASFAA](https://dasfaa2025.github.io/)) 2025.
 - External Reviewer, International Conference on Information and Knowledge Management ([CIKM](https://cikm2024.org/)) 2024.
 
+#### Journal Reviewers
+
+- IEEE Transactions on Neural Networks and learning systems ([TNNLS](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems))
+
 #### Teaching Experiences
 
 - Teaching Assistant, Introduction to Data Science, Fall 2024、2025, Prof. [Jilin Hu](https://hujilin1229.github.io/).
