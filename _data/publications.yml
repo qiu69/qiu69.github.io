@@ -20,6 +20,17 @@ main:
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: ICDE, CCF A, Accepted
     
+  - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
+    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
+    conference_short: arXiv
+    conference: arXiv preprint, 2025.
+    pdf: https://arxiv.org/pdf/2510.14510
+    code: https://github.com/decisionintelligence/SRSNet
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/SRSNet.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    notes: NeurIPS, CCF A, Accepted (Spotlight)
+    
   - title: "DBLoss: Decomposition-based Loss Function for Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Hanyin Cheng, Xvyuan Liu, Chenjuan Guo, Jilin Hu#, Bin Yang
     conference_short: NeurIPS
@@ -158,16 +169,6 @@ main:
     image: ./assets/img/CS4TS.png
 #    notes: Accepted
 
-  - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
-    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2510.14510
-    code: https://github.com/decisionintelligence/SRSNet
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/SRSNet.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-#    notes: NeurIPS, CCF A, Accepted (Spotlight)
     
   - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
     authors: Xvyuan Liu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
