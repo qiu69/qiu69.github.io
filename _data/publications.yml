@@ -22,8 +22,8 @@ main:
     
   - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
     authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
+    conference_short: NeurIPS
+#    conference: arXiv preprint, 2025.
     pdf: https://arxiv.org/pdf/2510.14510
     code: https://github.com/decisionintelligence/SRSNet
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
