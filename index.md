@@ -21,7 +21,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 - **[Dec. 2025]** Time series model ([DUET](https://arxiv.org/pdf/2412.10859)) was selected as [most influential papers](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/) by Paper Digest.
 - **[Nov. 2025]** Our paper "[Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline](https://arxiv.org/pdf/2505.11250)" has been accepted for an **oral presentation at AAAI 2026**.
 - **[Oct. 2025]** Our paper "[EDAD](https://arxiv.org/pdf/2510.18998): An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data" has been accepted by **ICDE 2026**.
-
 - **[Oct. 2025]** I have been awarded the **National Scholarship!**
 - **[Sep. 2025]** Our papers "[SRSNet](https://arxiv.org/pdf/2510.14510) & [DBLoss](https://arxiv.org/pdf/2510.23672)" have been accepted to **NeurIPS 2025**, with one Spotlight and one Poster.
 - **[Jun. 2025]** I am honored to receive recognition as an **Outstanding Reviewer** for the SIGKDD 2025 Research Track and an **Excellent Reviewer** for the Applied Data Science (ADS) Track.
