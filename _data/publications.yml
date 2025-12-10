@@ -92,7 +92,7 @@ main:
     code: https://github.com/decisionintelligence/DUET
     bibtex: https://dblp.org/rec/conf/kdd/QiuW0GH025.html?view=bibtex
     blog: https://mp.weixin.qq.com/s/Yx9UJGFbU54QUwmYBbhr7w
-    notes: SIGKDD, CCF A, Accepted
+    notes: SIGKDD, CCF A, Accepted, PaperDigest Most Influential Paper
     
   - title: "TSFM-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting"
     authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S. Jensen, Bin Yang

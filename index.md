@@ -18,6 +18,8 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 ## 🔥 News
 
+- **[Dec. 2025]** Time series model ([DUET](https://arxiv.org/pdf/2412.10859)) was selected as [most influential papers](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/) by Paper Digest.
+
 - **[Nov. 2025]** Our paper "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline" has been accepted for an **oral presentation at AAAI 2026**.
 - **[Oct. 2025]** Our paper "[EDAD](https://arxiv.org/pdf/2510.18998): An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data" has been accepted by **ICDE 2026**.
 - **[Oct. 2025]** I have been awarded the **National Scholarship!**
