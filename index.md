@@ -20,7 +20,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 - **[Dec. 2025]** I have been selected for the **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology).
 - **[Dec. 2025]** Time series model ([DUET](https://arxiv.org/pdf/2412.10859)) was selected as [most influential papers](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/) by Paper Digest.
-
 - **[Nov. 2025]** Our paper "[Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline](https://arxiv.org/pdf/2505.11250)" has been accepted for an **oral presentation at AAAI 2026**.
 - **[Oct. 2025]** Our paper "[EDAD](https://arxiv.org/pdf/2510.18998): An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data" has been accepted by **ICDE 2026**.
 - **[Oct. 2025]** I have been awarded the **National Scholarship!**
@@ -80,16 +79,15 @@ For more information, you may take a look at my [Google Scholar](https://schola
 ## 🎖 Honors & Awards
 
 - **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology), 2025
-
-- National Scholarship, 2025
+- **National Scholarship**, 2025
 - SIGKDD 2025 Research Track **Outstanding Reviewer**, 2025, [Link](https://kdd2025.kdd.org/research-track-program-committee/)
 - SIGKDD 2025 Applied Data Science (ADS) Track **Excellent Reviewer**, 2025, [Link](https://kdd2025.kdd.org/applied-data-science-ads-track-program-committee/#february_cycle)
 - **First place** in Master Group of  **CCF Academic Show**, 2025, [Link](https://mp.weixin.qq.com/s/EGGc0RsM-JgD9ecNBAHjIA)
-- National Scholarship, 2024
+- **National Scholarship**, 2024
 - **VLDB Best Research Paper Award Nomination (First author)**, 2024
-- National Scholarship, 2022
+- **National Scholarship**, 2022
 - GroupProgramming Ladder Tournament (Team leader, Third Prize in the National Competition), 2022
-- National Scholarship, 2021
+- **National Scholarship**, 2021
 - National College Student Information Security Contest (Third Prize in the National Competition), 2021
 
 
