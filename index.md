@@ -70,6 +70,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 - IEEE Transactions on Neural Networks and learning systems ([TNNLS](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems))
 - Expert Systems With Applications ([Expert Syst. Appl.](https://www.sciencedirect.com/journal/expert-systems-with-applications))
+- Knowledge-based Systems ([KBS](https://www.sciencedirect.com/journal/knowledge-based-systems))
 
 #### Teaching Experiences
 
