@@ -29,7 +29,7 @@ benchmark:
     bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/TFB.png
     blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: PVLDB, CCF A, Accepted (Best Paper Award Nomination)
+    notes: PVLDB, CCF A, Accepted 🏆 (Best Paper Award Nomination)
 
     
 forecast:
@@ -95,7 +95,7 @@ forecast:
     code: https://github.com/decisionintelligence/DUET
     bibtex: https://dblp.org/rec/conf/kdd/QiuW0GH025.html?view=bibtex
     blog: https://mp.weixin.qq.com/s/Yx9UJGFbU54QUwmYBbhr7w
-    notes: SIGKDD, CCF A, Accepted (PaperDigest Most Influential Paper)
+    notes: SIGKDD, CCF A, Accepted 🏆 (PaperDigest Most Influential Paper)
 
   - title: "AutoCTS++: zero-shot joint neural architecture and hyperparameter search for correlated time series forecasting"
     authors: Xinle Wu, Xingjian Wu, Bin Yang#, Lekui Zhou, Chenjuan Guo, <strong>Xiangfei Qiu</strong>, Jilin Hu, Zhenli Sheng, Christian S. Jensen
