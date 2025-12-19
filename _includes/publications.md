@@ -1,5 +1,3 @@
-## 📝 Publications & Preprints
-
 ### 📊 Time Series Benchmark
 
 <div class="publications">
