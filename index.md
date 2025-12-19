@@ -4,11 +4,11 @@ layout: homepage
 
 
 
-<nav class="custom-navbar">   <div class="nav-container">     <a href="#" class="nav-link active">Homepage</a>     <a href="#-about-me" class="nav-link">About Me</a>     <a href="#-news" class="nav-link">News</a>     <a href="#-publications" class="nav-link">Publications</a>     <a href="#-applications" class="nav-link">Applications</a>     <a href="#-services" class="nav-link">Services</a>     <a href="#-honors--awards" class="nav-link">Honors and Awards</a>   </div> </nav>  <style>   html { scroll-behavior: smooth; scroll-padding-top: 80px; }   .custom-navbar {     position: sticky;     top: 0;     background-color: rgba(255, 255, 255, 0.95);     backdrop-filter: blur(10px);     z-index: 9999;     border-bottom: 1px solid #f0f0f0;     margin: -20px -20px 30px -20px;     padding: 15px 0;   }   .nav-container {     max-width: 1000px; /* 增加宽度以容纳更多导航项 */     margin: 0 auto;     display: flex;     justify-content: flex-start;     gap: 20px; /* 缩小间距以防在一行内排不下 */     padding: 0 20px;   }   .nav-link {     text-decoration: none !important;     color: #757575 !important;     font-weight: 600;     font-size: 15px; /* 略微缩小字号确保横向排布 */     transition: color 0.3s;     position: relative;     padding-bottom: 5px;     white-space: nowrap; /* 禁止文字换行 */   }   .nav-link:hover { color: #333 !important; }   .nav-link.active::after {     content: '';     position: absolute;     bottom: 0;     left: 40%;     width: 20%;     height: 3px;     background-color: #999;     border-radius: 2px;   }   @media (max-width: 768px) {     .nav-container {        gap: 15px;        overflow-x: auto;        white-space: nowrap;       justify-content: flex-start;     }     .nav-link { font-size: 14px; }   } </style>
+<nav class="custom-navbar">   <div class="nav-container">     <a href="#homepage" class="nav-link active" data-section="homepage">Homepage</a>     <a href="#about" class="nav-link" data-section="about">About Me</a>     <a href="#news" class="nav-link" data-section="news">News</a>     <a href="#publications" class="nav-link" data-section="publications">Publications</a>     <a href="#applications" class="nav-link" data-section="applications">Applications</a>     <a href="#services" class="nav-link" data-section="services">Services</a>     <a href="#honors" class="nav-link" data-section="honors">Honors</a>   </div> </nav>  <style>   html {      scroll-behavior: smooth;      scroll-padding-top: 100px; /* 防止跳转后标题被导航栏遮挡 */   }    .custom-navbar {     position: sticky;     top: 0;     background-color: rgba(255, 255, 255, 0.95);     backdrop-filter: blur(10px);     z-index: 9999;     border-bottom: 1px solid #f0f0f0;     margin: -20px -20px 30px -20px;     padding: 15px 0;   }    .nav-container {     max-width: 1000px;     margin: 0 auto;     display: flex;     justify-content: flex-start;     gap: 25px;     padding: 0 20px;   }    .nav-link {     text-decoration: none !important;     color: #757575 !important;     font-weight: 600;     font-size: 15px;     transition: all 0.3s ease;     position: relative;     padding-bottom: 8px;     white-space: nowrap;   }    .nav-link:hover { color: #333 !important; }    /* 激活状态样式：文字变黑并显示底部横杠 */   .nav-link.active { color: #333 !important; }   .nav-link.active::after {     content: '';     position: absolute;     bottom: 0;     left: 20%;     width: 60%;     height: 3px;     background-color: #999;     border-radius: 2px;   }    @media (max-width: 768px) {     .nav-container { gap: 15px; overflow-x: auto; justify-content: flex-start; }     .nav-link { font-size: 14px; }   } </style>  <script> document.addEventListener('DOMContentLoaded', function() {   const navLinks = document.querySelectorAll('.nav-link');   // 选取所有带有 ID 的二级标题作为监测目标   const sections = document.querySelectorAll('h2[id], div[id="homepage"]');    function changeActiveLink() {     let index = sections.length;     // 循环判断当前滚动条位置处于哪个标题区域     while(--index && window.scrollY + 150 < sections[index].offsetTop) {}          navLinks.forEach((link) => link.classList.remove('active'));     // 确保 index 不越界     if(navLinks[index]) {       navLinks[index].classList.add('active');     }   }    changeActiveLink();   window.addEventListener('scroll', changeActiveLink); }); </script>
 
 
 
-## 👋 About Me
+## 👋 About Me {#about}
 
 I am currently a Phd student (from fall, 2023) at the [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [East China Normal University](https://www.ecnu.edu.cn/) and a member of the [Decision Intelligence Lab](https://decisionintelligence.github.io/index), advised by Prof. [Jilin Hu](https://hujilin1229.github.io/) and Prof. [Bin Yang](https://binyangdk.github.io/). 
 
@@ -20,7 +20,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 
 
-## 🔥 News
+## 🔥 News {#news}
 
 - **[Dec. 2025]** I have been selected for the **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology).
 - **[Dec. 2025]** Time series model ([DUET](https://arxiv.org/pdf/2412.10859)) was selected as [most influential papers](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/) by Paper Digest.
@@ -58,7 +58,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 
 
-## 💻 Applications
+## 💻 Applications {#applications}
 
 - [OpenTS](https://decisionintelligence.github.io/OpenTS/): A comprehensive and fair benchmarking of time series analytics.
 - EasyTime: Time Series Forecasting Made Easy.
@@ -66,7 +66,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 
 
-## 📖 Services
+## 📖 Services {#services}
 
 #### Conference PC member:
 
@@ -91,7 +91,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 
 
-## 🎖 Honors & Awards
+## 🎖 Honors & Awards {#honors}
 
 - **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology), 2025
 - **National Scholarship**, 2025
