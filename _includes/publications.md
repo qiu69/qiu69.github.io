@@ -231,7 +231,7 @@
 
 
 
-### ✨ Others
+### 💡 Others
 
 <div class="publications">
 <ol class="bibliography">
