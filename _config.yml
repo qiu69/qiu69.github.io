@@ -1,3 +1,18 @@
+# 在 _config.yml 中
+navbar:
+  - title: Homepage
+    url: /
+  - title: About Me
+    url: /#about-me
+  - title: News
+    url: /#news
+  - title: Educations
+    url: /#educations
+  - title: Publications
+    url: /#publications
+  - title: Honors and Awards
+    url: /#honors--awards
+    
 # Basic Information 
 title: Xiangfei Qiu
 position: Phd Student
