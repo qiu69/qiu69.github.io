@@ -1,6 +1,6 @@
 ## 📝 Publications & Preprints
 
-### Time Series Benchmark
+### 📊 Time Series Benchmark
 
 <div class="publications">
 <ol class="bibliography">
@@ -77,9 +77,7 @@
 
 
 
-## 
-
-### Time Series Forecasting
+### 📈 Time Series Forecasting
 
 <div class="publications">
 <ol class="bibliography">
@@ -154,9 +152,9 @@
 
 
 
-## 
 
-### Time Series Anomaly Detection
+
+### 🔍 Time Series Anomaly Detection
 
 
 
@@ -233,9 +231,7 @@
 
 
 
-## 
-
-### Others
+### ✨ Others
 
 <div class="publications">
 <ol class="bibliography">
@@ -309,8 +305,6 @@
 
 </ol>
 </div>
-
-## 
 
 
 
