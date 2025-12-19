@@ -48,15 +48,14 @@ For more information, you may take a look at my [Google Scholar](https://schola
 </details>
 
 
+<br>
+
 ## 📝 Publications & Preprints
 
 ### 📊 Time Series Benchmark
 
 <div class="publications">
 <ol class="bibliography">
-
-
-
 
 
 {% for link in site.data.publications.benchmark %}
@@ -363,8 +362,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 </ol>
 </div>
-
-
 
 **Equal* *Contribution*, *#* *Corresponding* *Author*
 
