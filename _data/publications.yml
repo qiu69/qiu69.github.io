@@ -1,201 +1,230 @@
-main:
+# 领域 1: Time Series Forecasting
+forecasting:
   - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
-    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
-    conference_short: AAAI
+    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, ...
+    conference_short: AAAI 2026
     conference: AAAI Conference on Artificial Intelligence, 2026.
     pdf: https://arxiv.org/pdf/2505.11250
-#    code: https://github.com/decisionintelligence/CS4TS
-#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/APN.png
-    notes: AAAI, CCF A, Accepted (Oral, Top 4%)
-    
-  - title: "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data"
-    authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
-    conference_short: ICDE
-    conference: IEEE International Conference on Data Engineering, 2026.
-    pdf: https://arxiv.org/pdf/2510.18998
-#    code: https://github.com/decisionintelligence/TAB
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/EDAD.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: ICDE, CCF A, Accepted
-    
-  - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
-    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
-    conference_short: NeurIPS
-#    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2510.14510
-    code: https://github.com/decisionintelligence/SRSNet
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/SRSNet.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: NeurIPS, CCF A, Accepted (Spotlight, Top 3.2%)
-    
-  - title: "DBLoss: Decomposition-based Loss Function for Time Series Forecasting"
-    authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Hanyin Cheng, Xvyuan Liu, Chenjuan Guo, Jilin Hu#, Bin Yang
-    conference_short: NeurIPS
-    conference: Neural Information Processing Systems Conference, 2025.
-    pdf: https://arxiv.org/pdf/2510.23672
-    code: https://github.com/decisionintelligence/DBLoss
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/DBLoss.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: NeurIPS, CCF A, Accepted
-    
-
-  - title: "TAB: Unified Benchmarking of Time Series Anomaly Detection Methods"
-    authors: <strong>Xiangfei Qiu</strong>, Zhe Li, Wanghui Qiu, Shiyan Hu, Lekui Zhou, Xingjian Wu, Zhengyu Li Chenjuan Guo, Aoying Zhou, Zhenli Sheng, Jilin Hu, Christian S. Jensen, Bin Yang
-    conference_short: PVLDB
-    conference: International Conference on Very Large Databases, 2025.
-    pdf: https://arxiv.org/pdf/2506.18046
-    code: https://github.com/decisionintelligence/TAB
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/TAB.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: PVLDB, CCF A, Accepted
-        
-  - title: "K2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting"
-    authors: Xingjian Wu*, <strong>Xiangfei Qiu*</strong>, Hongfan Gao, Jilin Hu, Chenjuan Guo, Bin Yang#
-    conference_short: ICML
-    conference: International Conference on Machine Learning, 2025.
-    pdf: https://arxiv.org/pdf/2505.23017
-    code: https://github.com/decisionintelligence/K2VAE
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/k2vae.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: ICML, CCF A, Accepted (Spotlight, Top 2.6%)
-    
-  - title: "CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching"
-    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
-    conference_short: ICLR
-    conference: International Conference on Learning Representations, 2025.
-    pdf: https://arxiv.org/pdf/2410.12261
-    image: ./assets/img/CATCH.png
-    code: https://github.com/decisionintelligence/CATCH
-    blog: https://mp.weixin.qq.com/s/zhAp-texiJFnUFduJx8fgQ
-    notes: ICLR, Core A*, Accepted
-    
-  - title: "EasyTime: Time Series Forecasting Made Easy"
-    authors: <strong>Xiangfei Qiu*</strong>, Xiuwen Li*, Ruiyang Pang*, Zhicheng Pan*, Xingjian Wu*, Liu Yang*, Jilin Hu, Yang Shu, Xuesong Lu, Chengcheng Yang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen and Bin Yang.
-    conference_short: ICDE
-    conference: IEEE International Conference on Data Engineering, 2025.
-    image: ./assets/img/EasyTime.png
-    pdf: https://arxiv.org/pdf/2412.17603
-    notes: ICDE, CCF A, Accepted
+    notes: Oral, Top 4%
     
   - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
-    authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Yan Lin, Chenjuan Guo, Jilin Hu#, Bin Yang
-    conference_short: SIGKDD
-    conference: ACM Knowledge Discovery and Data Mining, 2025.
-    image: ./assets/img/duet.png
+    authors: <strong>Xiangfei Qiu</strong>, ...
+    conference_short: SIGKDD 2025
     pdf: https://arxiv.org/pdf/2412.10859
-    code: https://github.com/decisionintelligence/DUET
-    bibtex: https://dblp.org/rec/conf/kdd/QiuW0GH025.html?view=bibtex
-    blog: https://mp.weixin.qq.com/s/Yx9UJGFbU54QUwmYBbhr7w
-    notes: SIGKDD, CCF A, Accepted (PaperDigest Most Influential Paper)
-    
-  - title: "TSFM-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting"
-    authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S. Jensen, Bin Yang
-    conference_short: SIGKDD
-    conference: ACM Knowledge Discovery and Data Mining, 2025.
-    pdf: https://arxiv.org/pdf/2410.11802
-    code: https://github.com/decisionintelligence/TSFM-Bench
-    blog: https://mp.weixin.qq.com/s/VhF9Xyt6e-XS5ervaA7tkA
-    image: ./assets/img/FoundTS.png
-    notes: SIGKDD, CCF A, Accepted
-    
-  - title: "SSD-TS: Exploring the potential of linear state space models for diffusion models in time series imputation"
-    authors: Hongfan Gao, Wangmeng Shen, <strong>Xiangfei Qiu</strong>, Ronghui Xu, Jilin Hu#, Bin Yang
-    conference_short: SIGKDD
-    conference: ACM Knowledge Discovery and Data Mining, 2025.
-    pdf: https://arxiv.org/pdf/2410.13338
-    code: https://github.com/decisionintelligence/SSD-TS
-#    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FHf5dj7CBUYJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UI2Ng:AFWwaeYAAAAAZxUOwNjD9zgPCZrdbAjv7RZeJk8&scisig=AFWwaeYAAAAAZxUOwJjJItMlSyJSMA2TgXj8fkw&scisf=4&ct=citation&cd=-1
-    image: ./assets/img/DiffImp.png
-    notes: SIGKDD, CCF A, Accepted
-    
+    notes: PaperDigest Most Influential Paper
+
+# 领域 2: Anomaly Detection & Imputation
+anomaly_imputation:
+  - title: "TAB: Unified Benchmarking of Time Series Anomaly Detection Methods"
+    authors: <strong>Xiangfei Qiu</strong>, ...
+    conference_short: PVLDB 2025
+    pdf: https://arxiv.org/pdf/2506.18046
+
+# 领域 3: Benchmarks & Surveys
+benchmarks_surveys:
   - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
-    authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
-    conference_short: PVLDB
-    conference: International Conference on Very Large Databases, 2024.
-    pdf: https://arxiv.org/pdf/2403.20150
-    code: https://github.com/decisionintelligence/TFB
-    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/TFB.png
-    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: PVLDB, CCF A, Accepted (Best Paper Award Nomination)
-
-  - title: "AutoCTS++: zero-shot joint neural architecture and hyperparameter search for correlated time series forecasting"
-    authors: Xinle Wu, Xingjian Wu, Bin Yang#, Lekui Zhou, Chenjuan Guo, <strong>Xiangfei Qiu</strong>, Jilin Hu, Zhenli Sheng, Christian S. Jensen
-    conference_short: VLDBJ
-    conference: VLDB Journal, 2024.
-    pdf: https://vbn.aau.dk/ws/portalfiles/portal/730426496/AutoCTS_.pdf
-    code: https://github.com/decisionintelligence/AutoCTS_plusplus
-    blog: https://mp.weixin.qq.com/s/bh_gjodiXlwvF7DBi_itZw
-    bibtex: https://dblp.org/rec/journals/vldb/WuWYZGQHSJ24.html?view=bibtex
-    notes: VLDBJ, CCF A, Accepted
-    image: ./assets/img/AutoCTS++.png
-    
-
-  - title: "DAG: A Dual Causal Network for Time Series Forecasting with Exogenous Variables"
-    authors: <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Zhengyu Li, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
-    pdf: https://arxiv.org/pdf/2509.14933
-    code: https://github.com/decisionintelligence/DAG
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/DAG.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    authors: <strong>Xiangfei Qiu</strong>, ...
+    conference_short: PVLDB 2024
+    notes: Best Paper Award Nomination
+#main:
+#  - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
+#    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
+#    conference_short: AAAI
+#    conference: AAAI Conference on Artificial Intelligence, 2026.
+#    pdf: https://arxiv.org/pdf/2505.11250
+##    code: https://github.com/decisionintelligence/CS4TS
+##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+#    image: ./assets/img/APN.png
+#    notes: AAAI, CCF A, Accepted (Oral, Top 4%)
+#    
+#  - title: "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data"
+#    authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
+#    conference_short: ICDE
+#    conference: IEEE International Conference on Data Engineering, 2026.
+#    pdf: https://arxiv.org/pdf/2510.18998
+##    code: https://github.com/decisionintelligence/TAB
+##    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+#    image: ./assets/img/EDAD.png
+##    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: ICDE, CCF A, Accepted
+#    
+#  - title: "Enhancing Time Series Forecasting through Selective Representation Spaces: A Patch Perspective"
+#    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
+#    conference_short: NeurIPS
+##    conference: arXiv preprint, 2025.
+#    pdf: https://arxiv.org/pdf/2510.14510
+#    code: https://github.com/decisionintelligence/SRSNet
+##    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+#    image: ./assets/img/SRSNet.png
+##    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: NeurIPS, CCF A, Accepted (Spotlight, Top 3.2%)
+#    
+#  - title: "DBLoss: Decomposition-based Loss Function for Time Series Forecasting"
+#    authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Hanyin Cheng, Xvyuan Liu, Chenjuan Guo, Jilin Hu#, Bin Yang
+#    conference_short: NeurIPS
+#    conference: Neural Information Processing Systems Conference, 2025.
+#    pdf: https://arxiv.org/pdf/2510.23672
+#    code: https://github.com/decisionintelligence/DBLoss
+##    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+#    image: ./assets/img/DBLoss.png
+##    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: NeurIPS, CCF A, Accepted
+#    
+#
+#  - title: "TAB: Unified Benchmarking of Time Series Anomaly Detection Methods"
+#    authors: <strong>Xiangfei Qiu</strong>, Zhe Li, Wanghui Qiu, Shiyan Hu, Lekui Zhou, Xingjian Wu, Zhengyu Li Chenjuan Guo, Aoying Zhou, Zhenli Sheng, Jilin Hu, Christian S. Jensen, Bin Yang
+#    conference_short: PVLDB
+#    conference: International Conference on Very Large Databases, 2025.
+#    pdf: https://arxiv.org/pdf/2506.18046
+#    code: https://github.com/decisionintelligence/TAB
+##    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+#    image: ./assets/img/TAB.png
+##    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
 #    notes: PVLDB, CCF A, Accepted
-    
-    
-  - title: "Multi-Scale Spatial-Temporal Hypergraph Network with Lead-Lag Structures for Stock Time Series Forecasting"
-    authors: <strong>Xiangfei Qiu</strong>, Liu Yang, Hanyin Cheng, Xingjian Wu, Rongjia Wu, Zhigang Zhang, Ding Tu, Chenjuan Guo, Bin Yang, Christian S. Jensen, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2509.23668
+#        
+#  - title: "K2VAE: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting"
+#    authors: Xingjian Wu*, <strong>Xiangfei Qiu*</strong>, Hongfan Gao, Jilin Hu, Chenjuan Guo, Bin Yang#
+#    conference_short: ICML
+#    conference: International Conference on Machine Learning, 2025.
+#    pdf: https://arxiv.org/pdf/2505.23017
+#    code: https://github.com/decisionintelligence/K2VAE
+##    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+#    image: ./assets/img/k2vae.png
+##    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: ICML, CCF A, Accepted (Spotlight, Top 2.6%)
+#    
+#  - title: "CATCH: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching"
+#    authors: Xingjian Wu, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Yihang Wang, Jilin Hu, Chenjuan Guo, Hui Xiong, Bin Yang#
+#    conference_short: ICLR
+#    conference: International Conference on Learning Representations, 2025.
+#    pdf: https://arxiv.org/pdf/2410.12261
+#    image: ./assets/img/CATCH.png
+#    code: https://github.com/decisionintelligence/CATCH
+#    blog: https://mp.weixin.qq.com/s/zhAp-texiJFnUFduJx8fgQ
+#    notes: ICLR, Core A*, Accepted
+#    
+#  - title: "EasyTime: Time Series Forecasting Made Easy"
+#    authors: <strong>Xiangfei Qiu*</strong>, Xiuwen Li*, Ruiyang Pang*, Zhicheng Pan*, Xingjian Wu*, Liu Yang*, Jilin Hu, Yang Shu, Xuesong Lu, Chengcheng Yang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen and Bin Yang.
+#    conference_short: ICDE
+#    conference: IEEE International Conference on Data Engineering, 2025.
+#    image: ./assets/img/EasyTime.png
+#    pdf: https://arxiv.org/pdf/2412.17603
+#    notes: ICDE, CCF A, Accepted
+#    
+#  - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
+#    authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Yan Lin, Chenjuan Guo, Jilin Hu#, Bin Yang
+#    conference_short: SIGKDD
+#    conference: ACM Knowledge Discovery and Data Mining, 2025.
+#    image: ./assets/img/duet.png
+#    pdf: https://arxiv.org/pdf/2412.10859
+#    code: https://github.com/decisionintelligence/DUET
+#    bibtex: https://dblp.org/rec/conf/kdd/QiuW0GH025.html?view=bibtex
+#    blog: https://mp.weixin.qq.com/s/Yx9UJGFbU54QUwmYBbhr7w
+#    notes: SIGKDD, CCF A, Accepted (PaperDigest Most Influential Paper)
+#    
+#  - title: "TSFM-Bench: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting"
+#    authors: Zhe Li, <strong>Xiangfei Qiu</strong>, Peng Chen, Yihang Wang, Hanyin Cheng, Yang Shu, Jilin Hu, Chenjuan Guo, Aoying Zhou, Qingsong Wen, Christian S. Jensen, Bin Yang
+#    conference_short: SIGKDD
+#    conference: ACM Knowledge Discovery and Data Mining, 2025.
+#    pdf: https://arxiv.org/pdf/2410.11802
+#    code: https://github.com/decisionintelligence/TSFM-Bench
+#    blog: https://mp.weixin.qq.com/s/VhF9Xyt6e-XS5ervaA7tkA
+#    image: ./assets/img/FoundTS.png
+#    notes: SIGKDD, CCF A, Accepted
+#    
+#  - title: "SSD-TS: Exploring the potential of linear state space models for diffusion models in time series imputation"
+#    authors: Hongfan Gao, Wangmeng Shen, <strong>Xiangfei Qiu</strong>, Ronghui Xu, Jilin Hu#, Bin Yang
+#    conference_short: SIGKDD
+#    conference: ACM Knowledge Discovery and Data Mining, 2025.
+#    pdf: https://arxiv.org/pdf/2410.13338
+#    code: https://github.com/decisionintelligence/SSD-TS
+##    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FHf5dj7CBUYJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UI2Ng:AFWwaeYAAAAAZxUOwNjD9zgPCZrdbAjv7RZeJk8&scisig=AFWwaeYAAAAAZxUOwJjJItMlSyJSMA2TgXj8fkw&scisf=4&ct=citation&cd=-1
+#    image: ./assets/img/DiffImp.png
+#    notes: SIGKDD, CCF A, Accepted
+#    
+#  - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
+#    authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
+#    conference_short: PVLDB
+#    conference: International Conference on Very Large Databases, 2024.
+#    pdf: https://arxiv.org/pdf/2403.20150
+#    code: https://github.com/decisionintelligence/TFB
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+#    image: ./assets/img/TFB.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: PVLDB, CCF A, Accepted (Best Paper Award Nomination)
+#
+#  - title: "AutoCTS++: zero-shot joint neural architecture and hyperparameter search for correlated time series forecasting"
+#    authors: Xinle Wu, Xingjian Wu, Bin Yang#, Lekui Zhou, Chenjuan Guo, <strong>Xiangfei Qiu</strong>, Jilin Hu, Zhenli Sheng, Christian S. Jensen
+#    conference_short: VLDBJ
+#    conference: VLDB Journal, 2024.
+#    pdf: https://vbn.aau.dk/ws/portalfiles/portal/730426496/AutoCTS_.pdf
+#    code: https://github.com/decisionintelligence/AutoCTS_plusplus
+#    blog: https://mp.weixin.qq.com/s/bh_gjodiXlwvF7DBi_itZw
+#    bibtex: https://dblp.org/rec/journals/vldb/WuWYZGQHSJ24.html?view=bibtex
+#    notes: VLDBJ, CCF A, Accepted
+#    image: ./assets/img/AutoCTS++.png
+#    
+#
+#  - title: "DAG: A Dual Causal Network for Time Series Forecasting with Exogenous Variables"
+#    authors: <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Zhengyu Li, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
+#    conference_short: arXiv
+#    conference: arXiv preprint, 2026.
+#    pdf: https://arxiv.org/pdf/2509.14933
+#    code: https://github.com/decisionintelligence/DAG
+##    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+#    image: ./assets/img/DAG.png
+##    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+##    notes: PVLDB, CCF A, Accepted
+#    
+#    
+#  - title: "Multi-Scale Spatial-Temporal Hypergraph Network with Lead-Lag Structures for Stock Time Series Forecasting"
+#    authors: <strong>Xiangfei Qiu</strong>, Liu Yang, Hanyin Cheng, Xingjian Wu, Rongjia Wu, Zhigang Zhang, Ding Tu, Chenjuan Guo, Bin Yang, Christian S. Jensen, Jilin Hu#
+#    conference_short: arXiv
+#    conference: arXiv preprint, 2025.
+#    pdf: https://arxiv.org/pdf/2509.23668
+##    code: https://github.com/decisionintelligence/CS4TS
+##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+#    image: ./assets/img/Hermes.png
+##    notes: Accepted
+#
+#  - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
+#    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
+#    conference_short: arXiv
+#    conference: arXiv preprint, 2025.
+#    pdf: https://arxiv.org/pdf/2502.10721
 #    code: https://github.com/decisionintelligence/CS4TS
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-    image: ./assets/img/Hermes.png
-#    notes: Accepted
-
-  - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
-    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2502.10721
-    code: https://github.com/decisionintelligence/CS4TS
-    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-    image: ./assets/img/CS4TS.png
-#    notes: Accepted
-
-    
-  - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
-    authors: Xvyuan Liu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2509.23313
-#    code: https://github.com/decisionintelligence/CS4TS
-#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-    image: ./assets/img/ASTGI.png
-#    notes: Accepted
-
-
-  - title: "Unlocking the Power of Mixture-of-Experts for Task-Aware Time Series Analytics"
-    authors: Xingjian Wu, Zhengyu Li, Hanyin Cheng, <strong>Xiangfei Qiu</strong>, Jilin Hu, Chenjuan Guo, Bin Yang#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2509.22279
-#    code: https://github.com/decisionintelligence/CS4TS
-#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-    image: ./assets/img/PatchMOE.png
-#    notes: Accepted
-
-    
-  - title: "MultiRC: Joint Learning for Time Series Anomaly Prediction and Detection with Multi-scale Reconstructive Contrast"
-    authors: Shiyan Hu, Kai Zhao, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Bin Yang, Chenjuan Guo#
-    conference_short: arXiv
-    conference: arXiv preprint, 2024.
-    pdf: https://arxiv.org/abs/2410.15997
-    blog: https://mp.weixin.qq.com/s/u-0mqxrm6EqlGkNx5thTPQ
-    image: ./assets/img/MultiRC.png
+#    image: ./assets/img/CS4TS.png
+##    notes: Accepted
+#
+#    
+#  - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
+#    authors: Xvyuan Liu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
+#    conference_short: arXiv
+#    conference: arXiv preprint, 2025.
+#    pdf: https://arxiv.org/pdf/2509.23313
+##    code: https://github.com/decisionintelligence/CS4TS
+##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+#    image: ./assets/img/ASTGI.png
+##    notes: Accepted
+#
+#
+#  - title: "Unlocking the Power of Mixture-of-Experts for Task-Aware Time Series Analytics"
+#    authors: Xingjian Wu, Zhengyu Li, Hanyin Cheng, <strong>Xiangfei Qiu</strong>, Jilin Hu, Chenjuan Guo, Bin Yang#
+#    conference_short: arXiv
+#    conference: arXiv preprint, 2025.
+#    pdf: https://arxiv.org/pdf/2509.22279
+##    code: https://github.com/decisionintelligence/CS4TS
+##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+#    image: ./assets/img/PatchMOE.png
+##    notes: Accepted
+#
+#    
+#  - title: "MultiRC: Joint Learning for Time Series Anomaly Prediction and Detection with Multi-scale Reconstructive Contrast"
+#    authors: Shiyan Hu, Kai Zhao, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Bin Yang, Chenjuan Guo#
+#    conference_short: arXiv
+#    conference: arXiv preprint, 2024.
+#    pdf: https://arxiv.org/abs/2410.15997
+#    blog: https://mp.weixin.qq.com/s/u-0mqxrm6EqlGkNx5thTPQ
+#    image: ./assets/img/MultiRC.png
