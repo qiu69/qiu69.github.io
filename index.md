@@ -109,6 +109,5 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 ## 👀 Visitors
 
-<div style="width: 300px; margin: 0 auto;">
-  <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=_UnR_BWZblPRwNeJPyRss9VHoFGGqw7QXdJIndRV49Q"></script>
-</div>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=_UnR_BWZblPRwNeJPyRss9VHoFGGqw7QXdJIndRV49Q"></script>
+
