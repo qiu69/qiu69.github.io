@@ -1,4 +1,15 @@
 benchmark:
+  - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
+    authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
+    conference_short: PVLDB
+    conference: International Conference on Very Large Databases, 2024.
+    pdf: https://arxiv.org/pdf/2403.20150
+    code: https://github.com/decisionintelligence/TFB
+    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/TFB.png
+    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    notes: 🏆 PVLDB, CCF A, Accepted (Best Paper Award Nomination)
+    
   - title: "TAB: Unified Benchmarking of Time Series Anomaly Detection Methods"
     authors: <strong>Xiangfei Qiu</strong>, Zhe Li, Wanghui Qiu, Shiyan Hu, Lekui Zhou, Xingjian Wu, Zhengyu Li Chenjuan Guo, Aoying Zhou, Zhenli Sheng, Jilin Hu, Christian S. Jensen, Bin Yang
     conference_short: PVLDB
@@ -20,16 +31,7 @@ benchmark:
     image: ./assets/img/FoundTS.png
     notes: SIGKDD, CCF A, Accepted
   
-  - title: "TFB: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods"
-    authors: <strong>Xiangfei Qiu</strong>, Jilin Hu#, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
-    conference_short: PVLDB
-    conference: International Conference on Very Large Databases, 2024.
-    pdf: https://arxiv.org/pdf/2403.20150
-    code: https://github.com/decisionintelligence/TFB
-    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
-    image: ./assets/img/TFB.png
-    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-    notes: 🏆 PVLDB, CCF A, Accepted (Best Paper Award Nomination)
+
 
     
 forecast:
