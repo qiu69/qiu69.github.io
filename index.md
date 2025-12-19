@@ -12,7 +12,7 @@ layout: homepage
 
 I am currently a Phd student (from fall, 2023) at the [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [East China Normal University](https://www.ecnu.edu.cn/) and a member of the [Decision Intelligence Lab](https://decisionintelligence.github.io/index), advised by Prof. [Jilin Hu](https://hujilin1229.github.io/) and Prof. [Bin Yang](https://binyangdk.github.io/). 
 
-### 🔍 Research Topics
+#### 🔍 Research Topics
 
 My research interests cover Time Series Analysis and Deep Learning. I am currently working on foundation time series models, and time series benchmarking. I have published several relevant papers in top conferences with total <a href='https://scholar.google.com/citations?user=Hal0V_AAAAAJ'>google scholar citations 644</a>. In addition to pure research, I also dedicate myself to promoting research on valuable real-world applications. My research aims to contribute to the advancement of intelligent systems capable of handling massive and complicated temporal data across domains, including finance, industry, and environment.
 
