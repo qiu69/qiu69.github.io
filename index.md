@@ -28,10 +28,10 @@ For more information, you may take a look at my [Google Scholar](https://schola
 - **[May. 2025]** I have been awarded **the first place** in Master Group of 2025 **[CCF Academic Show](https://mp.weixin.qq.com/s/EGGc0RsM-JgD9ecNBAHjIA)**.
 
 <details>
-  <summary style="cursor: pointer;">▶️ Click to expand/collapse</summary>
+  <summary style="cursor: pointer;">▶️ Click to Expand/Collapse</summary>
   <ul dir="auto">
     <li><strong>[May. 2025]</strong> My paper "<strong><a href="https://arxiv.org/pdf/2506.18046">TAB</a></strong>: Unified Benchmarking of Time Series Anomaly Detection Methods" has been accepted by <strong>PVLDB 2025</strong>.</li>
-    <li><strong>[May. 2025]</strong> Our paper "<strong><a href="https://arxiv.org/pdf/2410.11802"><em>TSFM-Bench</em></a></strong>: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting" has been accepted by <strong>SIGKDD 2025</strong>.</li>
+    <li><strong>[May. 2025]</strong> Our paper "<strong><a href="https://arxiv.org/pdf/2410.11802">TSFM-Bench</a></strong>: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting" has been accepted by <strong>SIGKDD 2025</strong>.</li>
     <li><strong>[May. 2025]</strong> Our paper "<strong><a href="https://arxiv.org/pdf/2410.13338">SSD-TS</a></strong>: Exploring the potential of linear state space models for diffusion models in time series imputation" has been accepted by <strong>SIGKDD 2025</strong>.</li>
     <li><strong>[May. 2025]</strong> My paper "<strong><a href="https://arxiv.org/pdf/2505.23017">K2VAE</a></strong>: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting" has been accepted as <strong>ICML 2025 Spotlight</strong>.</li>
     <li><strong>[Jan. 2025]</strong> Our paper "<strong><a href="https://arxiv.org/pdf/2410.12261">CATCH</a></strong>: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching" has been accepted by <strong>ICLR 2025</strong>.</li>
@@ -45,6 +45,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 
 
+<br>
 
 
 {% include_relative _includes/publications.md %}
