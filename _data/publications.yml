@@ -40,7 +40,7 @@ forecast:
     conference_short: AAAI
     conference: AAAI Conference on Artificial Intelligence, 2026.
     pdf: https://arxiv.org/pdf/2505.11250
-#    code: https://github.com/decisionintelligence/CS4TS
+    code: https://github.com/decisionintelligence/APN
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/APN.png
     notes: ✨ AAAI, CCF A, Accepted (Oral, Top 4%)
