@@ -199,3 +199,13 @@ main:
     pdf: https://arxiv.org/abs/2410.15997
     blog: https://mp.weixin.qq.com/s/u-0mqxrm6EqlGkNx5thTPQ
     image: ./assets/img/MultiRC.png
+forecasting:
+  - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
+    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
+    conference_short: AAAI
+    conference: AAAI Conference on Artificial Intelligence, 2026.
+    pdf: https://arxiv.org/pdf/2505.11250
+#    code: https://github.com/decisionintelligence/CS4TS
+#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/APN.png
+    notes: AAAI, CCF A, Accepted (Oral, Top 4%)
