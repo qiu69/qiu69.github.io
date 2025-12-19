@@ -4,7 +4,7 @@ layout: homepage
 
 
 
-<nav class="custom-navbar">   <div class="nav-container">     <a href="#" class="nav-link active">Homepage</a>     <a href="#-about-me" class="nav-link">About Me</a>     <a href="#-research-topics" class="nav-link">Research</a>     <a href="#-news" class="nav-link">News</a>     <a href="#-publications" class="nav-link">Publications</a>     <a href="#-system-and-applications" class="nav-link">Systems</a>     <a href="#-services" class="nav-link">Services</a>     <a href="#-honors--awards" class="nav-link">Honors</a>   </div> </nav>  <style>   html { scroll-behavior: smooth; scroll-padding-top: 80px; }   .custom-navbar {     position: sticky;     top: 0;     background-color: rgba(255, 255, 255, 0.95);     backdrop-filter: blur(10px);     z-index: 9999;     border-bottom: 1px solid #f0f0f0;     margin: -20px -20px 30px -20px;     padding: 15px 0;   }   .nav-container {     max-width: 1000px; /* 增加宽度以容纳更多导航项 */     margin: 0 auto;     display: flex;     justify-content: flex-start;     gap: 20px; /* 缩小间距以防在一行内排不下 */     padding: 0 20px;   }   .nav-link {     text-decoration: none !important;     color: #757575 !important;     font-weight: 600;     font-size: 15px; /* 略微缩小字号确保横向排布 */     transition: color 0.3s;     position: relative;     padding-bottom: 5px;     white-space: nowrap; /* 禁止文字换行 */   }   .nav-link:hover { color: #333 !important; }   .nav-link.active::after {     content: '';     position: absolute;     bottom: 0;     left: 40%;     width: 20%;     height: 3px;     background-color: #999;     border-radius: 2px;   }   @media (max-width: 768px) {     .nav-container {        gap: 15px;        overflow-x: auto;        white-space: nowrap;       justify-content: flex-start;     }     .nav-link { font-size: 14px; }   } </style>
+<nav class="custom-navbar">   <div class="nav-container">     <a href="#" class="nav-link active">Homepage</a>     <a href="#-about-me" class="nav-link">About Me</a>     <a href="#-news" class="nav-link">News</a>     <a href="#-publications" class="nav-link">Publications</a>     <a href="#-applications" class="nav-link">Applications</a>     <a href="#-services" class="nav-link">Services</a>     <a href="#-honors--awards" class="nav-link">Honors</a>   </div> </nav>  <style>   html { scroll-behavior: smooth; scroll-padding-top: 80px; }   .custom-navbar {     position: sticky;     top: 0;     background-color: rgba(255, 255, 255, 0.95);     backdrop-filter: blur(10px);     z-index: 9999;     border-bottom: 1px solid #f0f0f0;     margin: -20px -20px 30px -20px;     padding: 15px 0;   }   .nav-container {     max-width: 1000px; /* 增加宽度以容纳更多导航项 */     margin: 0 auto;     display: flex;     justify-content: flex-start;     gap: 20px; /* 缩小间距以防在一行内排不下 */     padding: 0 20px;   }   .nav-link {     text-decoration: none !important;     color: #757575 !important;     font-weight: 600;     font-size: 15px; /* 略微缩小字号确保横向排布 */     transition: color 0.3s;     position: relative;     padding-bottom: 5px;     white-space: nowrap; /* 禁止文字换行 */   }   .nav-link:hover { color: #333 !important; }   .nav-link.active::after {     content: '';     position: absolute;     bottom: 0;     left: 40%;     width: 20%;     height: 3px;     background-color: #999;     border-radius: 2px;   }   @media (max-width: 768px) {     .nav-container {        gap: 15px;        overflow-x: auto;        white-space: nowrap;       justify-content: flex-start;     }     .nav-link { font-size: 14px; }   } </style>
 
 
 
@@ -12,9 +12,7 @@ layout: homepage
 
 I am currently a Phd student (from fall, 2023) at the [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [East China Normal University](https://www.ecnu.edu.cn/) and a member of the [Decision Intelligence Lab](https://decisionintelligence.github.io/index), advised by Prof. [Jilin Hu](https://hujilin1229.github.io/) and Prof. [Bin Yang](https://binyangdk.github.io/). 
 
-
-
-## 🔍 Research Topics
+### 🔍 Research Topics
 
 My research interests cover Time Series Analysis and Deep Learning. I am currently working on foundation time series models, and time series benchmarking. I have published several relevant papers in top conferences with total <a href='https://scholar.google.com/citations?user=Hal0V_AAAAAJ'>google scholar citations 644</a>. In addition to pure research, I also dedicate myself to promoting research on valuable real-world applications. My research aims to contribute to the advancement of intelligent systems capable of handling massive and complicated temporal data across domains, including finance, industry, and environment.
 
@@ -60,7 +58,7 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 
 
-## 💻 System and Applications
+## 💻 Applications
 
 - [OpenTS](https://decisionintelligence.github.io/OpenTS/): A comprehensive and fair benchmarking of time series analytics.
 - EasyTime: Time Series Forecasting Made Easy.
