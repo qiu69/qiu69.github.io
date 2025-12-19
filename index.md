@@ -4,7 +4,7 @@ layout: homepage
 
 
 
-<nav class="custom-navbar">      <div class="nav-container">          <a href="#" class="nav-link">Homepage</a>          <a href="#-about-me" class="nav-link">About Me</a>          <a href="#-news" class="nav-link">News</a>          <a href="#-publications" class="nav-link">Publications</a>          <a href="#-applications" class="nav-link">Applications</a>          <a href="#-services" class="nav-link">Services</a>          <a href="#-honors--awards" class="nav-link">Honors and Awards</a>      </div>  </nav>    <style>      html { scroll-behavior: smooth; scroll-padding-top: 80px; }      .custom-navbar {          position: sticky;          top: 0;          background-color: rgba(255, 255, 255, 0.95);          backdrop-filter: blur(10px);          z-index: 9999;          border-bottom: 1px solid #f0f0f0;          margin: -20px -20px 30px -20px;          padding: 15px 0;      }      .nav-container {          max-width: 1000px;          margin: 0 auto;          display: flex;          justify-content: flex-start;          gap: 20px;          padding: 0 20px;      }      .nav-link {          text-decoration: none !important;          color: #757575 !important; /* 保持默认灰色 */         font-weight: 600;          font-size: 15px;          transition: color 0.3s;          position: relative;          padding-bottom: 5px;          white-space: nowrap;      }      /* 仅保留悬停时的颜色变化，不添加任何底部横杠 */   .nav-link:hover { color: #333 !important; }       /* 移除或注释掉了原本的 .nav-link.active::after 样式 */    @media (max-width: 768px) {          .nav-container {                gap: 15px;                overflow-x: auto;                white-space: nowrap;               justify-content: flex-start;          }          .nav-link { font-size: 14px; }      }  </style>
+<nav class="custom-navbar">   <div class="nav-container">     <a href="#" class="nav-link active">Homepage</a>     <a href="#-about-me" class="nav-link">About Me</a>     <a href="#-news" class="nav-link">News</a>     <a href="#-publications--preprints" class="nav-link">Publications</a>     <a href="#-applications" class="nav-link">Applications</a>     <a href="#-services" class="nav-link">Services</a>     <a href="#-honors--awards" class="nav-link">Honors and Awards</a>   </div> </nav>  <style>   html { scroll-behavior: smooth; scroll-padding-top: 80px; }   .custom-navbar {     position: sticky;     top: 0;     background-color: rgba(255, 255, 255, 0.95);     backdrop-filter: blur(10px);     z-index: 9999;     border-bottom: 1px solid #f0f0f0;     margin: -20px -20px 30px -20px;     padding: 15px 0;   }   .nav-container {     max-width: 1000px; /* 增加宽度以容纳更多导航项 */     margin: 0 auto;     display: flex;     justify-content: flex-start;     gap: 20px; /* 缩小间距以防在一行内排不下 */     padding: 0 20px;   }   .nav-link {     text-decoration: none !important;     color: #757575 !important;     font-weight: 600;     font-size: 15px; /* 略微缩小字号确保横向排布 */     transition: color 0.3s;     position: relative;     padding-bottom: 5px;     white-space: nowrap; /* 禁止文字换行 */   }   .nav-link:hover { color: #333 !important; }   .nav-link.active::after {     content: '';     position: absolute;     bottom: 0;     left: 40%;     width: 20%;     height: 3px;     background-color: #999;     border-radius: 2px;   }   @media (max-width: 768px) {     .nav-container {        gap: 15px;        overflow-x: auto;        white-space: nowrap;       justify-content: flex-start;     }     .nav-link { font-size: 14px; }   } </style>
 
 
 
@@ -48,11 +48,323 @@ For more information, you may take a look at my [Google Scholar](https://schola
 </details>
 
 
+## 📝 Publications & Preprints
 
+### 📊 Time Series Benchmark
+
+<div class="publications">
+<ol class="bibliography">
+
+
+
+
+
+{% for link in site.data.publications.benchmark %}
+
+<li>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.page %} 
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      {% endif %}
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      {% endif %}
+      {% if link.poster %} 
+      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      {% endif %}
+      {% if link.slides %} 
+      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
+      {% endif %}
+      {% if link.blog %} 
+      <a href="{{ link.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Blog</a>
+      {% endif %}
+      {% if link.video %} 
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+      {% endif %}
+      {% if link.dataset %} 
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      {% endif %}
+      {% if link.model %} 
+      <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Model</a>
+      {% endif %}
+      {% if link.notes %} 
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
+</li>
 <br>
 
+{% endfor %}
 
-{% include_relative _includes/publications.md %}
+</ol>
+</div>
+
+
+
+### 📈 Time Series Forecasting
+
+<div class="publications">
+<ol class="bibliography">
+
+
+
+
+{% for link in site.data.publications.forecast %}
+
+<li>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.page %} 
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      {% endif %}
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      {% endif %}
+      {% if link.poster %} 
+      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      {% endif %}
+      {% if link.slides %} 
+      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
+      {% endif %}
+      {% if link.blog %} 
+      <a href="{{ link.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Blog</a>
+      {% endif %}
+      {% if link.video %} 
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+      {% endif %}
+      {% if link.dataset %} 
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      {% endif %}
+      {% if link.model %} 
+      <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Model</a>
+      {% endif %}
+      {% if link.notes %} 
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+</li>
+<br>
+
+{% endfor %}
+
+</ol>
+</div>
+
+
+
+
+
+### 🔍 Time Series Anomaly Detection
+
+
+
+<div class="publications">
+<ol class="bibliography">
+
+
+
+{% for link in site.data.publications.anomaly %}
+
+<li>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.page %} 
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      {% endif %}
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      {% endif %}
+      {% if link.poster %} 
+      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      {% endif %}
+      {% if link.slides %} 
+      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
+      {% endif %}
+      {% if link.blog %} 
+      <a href="{{ link.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Blog</a>
+      {% endif %}
+      {% if link.video %} 
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+      {% endif %}
+      {% if link.dataset %} 
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      {% endif %}
+      {% if link.model %} 
+      <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Model</a>
+      {% endif %}
+      {% if link.notes %} 
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
+</li>
+<br>
+
+{% endfor %}
+
+</ol>
+</div>
+
+
+
+### 💡 Others
+
+<div class="publications">
+<ol class="bibliography">
+
+
+
+
+
+{% for link in site.data.publications.others %}
+
+<li>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% endif %}
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %} 
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.page %} 
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      {% endif %}
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      {% endif %}
+      {% if link.poster %} 
+      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+      {% endif %}
+      {% if link.slides %} 
+      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
+      {% endif %}
+      {% if link.blog %} 
+      <a href="{{ link.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Blog</a>
+      {% endif %}
+      {% if link.video %} 
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+      {% endif %}
+      {% if link.dataset %} 
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      {% endif %}
+      {% if link.model %} 
+      <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Model</a>
+      {% endif %}
+      {% if link.notes %} 
+      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
+</li>
+<br>
+
+{% endfor %}
+
+</ol>
+</div>
+
+
 
 **Equal* *Contribution*, *#* *Corresponding* *Author*
 
