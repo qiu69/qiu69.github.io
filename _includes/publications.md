@@ -69,7 +69,8 @@
 </ol>
 </div>
 
-
+<div class="publications">
+<ol class="bibliography">
 
 {% for link in site.data.publications.forecasting %}
 
