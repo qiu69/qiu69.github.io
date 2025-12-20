@@ -203,3 +203,13 @@ others:
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/PatchMOE.png
 #    notes: Accepted
+
+  - title: "FLAME: Flow Enhanced Legendre Memory Models for General Time Series Forecasting"
+    authors: Xingjian Wu, Hanyin Cheng, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
+    conference_short: arXiv
+    conference: arXiv preprint, 2025.
+    pdf: https://arxiv.org/pdf/2512.14253
+#    code: https://github.com/decisionintelligence/CS4TS
+#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/flame.png
+#    notes: Accepted
