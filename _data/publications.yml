@@ -86,7 +86,7 @@ forecast:
     conference: IEEE International Conference on Data Engineering, 2025.
     image: ./assets/img/EasyTime.png
     pdf: https://arxiv.org/pdf/2412.17603
-    notes: ICDE, CCF A, Accepted
+    notes: 🏆 ICDE, CCF A, Accepted (PaperDigest Most Influential Paper)
     
   - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Xingjian Wu, Yan Lin, Chenjuan Guo, Jilin Hu#, Bin Yang
