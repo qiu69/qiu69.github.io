@@ -22,6 +22,8 @@ For more information, you may take a look at my [Google Scholar](https://schola
 
 ## 🔥 News
 
+- **[Jan. 2026]** Our papers "GCGNet & ASTGI" have been accepted to **ICLR 2026**.
+
 - **[Dec. 2025]** I have been selected for the **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology).
 - **[Dec. 2025]** Time series model ([DUET](https://arxiv.org/pdf/2412.10859)) was selected as [most influential papers](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/) by Paper Digest.
 - **[Nov. 2025]** Our paper "[Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline](https://arxiv.org/pdf/2505.11250)" has been accepted for an **oral presentation at AAAI 2026**.

@@ -35,6 +35,26 @@ benchmark:
 
     
 forecast:
+#  - title: "GCGNet: Graph-Consistent Generative Network for Time Series Forecasting with Exogenous Variables"
+#    authors: Zhengyu Li, Xiangfei Qiu, Yuhan Zhu, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
+#    conference_short: ICLR
+#    conference: International Conference on Learning Representations, 2026.
+##    pdf: https://arxiv.org/pdf/2505.11250
+##    code: https://github.com/decisionintelligence/APN
+##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+#    image: ./assets/img/GCGNet.png
+#    notes: ICLR, Core A*, Accepted
+#    
+#  - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
+#    authors: Xvyuan Liu, Xiangfei Qiu, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu
+#    conference_short: ICLR
+#    conference: International Conference on Learning Representations, 2026.
+##    pdf: https://arxiv.org/pdf/2505.11250
+##    code: https://github.com/decisionintelligence/APN
+##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+#    image: ./assets/img/ASTGI.png
+#    notes: ICLR, Core A*, Accepted
+    
   - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
     authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
     conference_short: AAAI
@@ -131,16 +151,6 @@ forecast:
 #    code: https://github.com/decisionintelligence/CS4TS
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/Hermes.png
-#    notes: Accepted
-    
-  - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
-    authors: Xvyuan Liu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2509.23313
-#    code: https://github.com/decisionintelligence/CS4TS
-#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-    image: ./assets/img/ASTGI.png
 #    notes: Accepted
 
 anomaly:
