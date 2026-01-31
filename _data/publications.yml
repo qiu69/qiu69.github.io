@@ -165,7 +165,7 @@ forecast:
 #    notes: PVLDB, CCF A, Accepted
 
   - title: "Hermes: A Multi-Scale Spatial-Temporal Hypergraph Network for Stock Time Series Forecasting"
-    authors: <strong>Xiangfei Qiu</strong>, Liu Yang, Hanyin Cheng, Xingjian Wu, Rongjia Wu, Zhigang Zhang, Ding Tu, Chenjuan Guo, Bin Yang, Christian S. Jensen, Jilin Hu#
+    authors: <strong>Xiangfei Qiu</strong>, Liu Yang, Xiangyu Xu, Hanyin Cheng, Xingjian Wu, Rongjia Wu, Zhigang Zhang, Ding Tu, Chenjuan Guo, Bin Yang, Christian S. Jensen, Jilin Hu#
     conference_short: arXiv
     conference: arXiv preprint, 2025.
     pdf: https://arxiv.org/pdf/2509.23668
