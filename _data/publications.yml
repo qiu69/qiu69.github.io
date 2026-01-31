@@ -131,7 +131,7 @@ forecast:
     image: ./assets/img/AutoCTS++.png
     
 
-  - title: "DAG: A Dual Causal Network for Time Series Forecasting with Exogenous Variables"
+  - title: "DAG: A Dual Correlation Network for Time Series Forecasting with Exogenous Variables"
     authors: <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Zhengyu Li, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
     conference_short: arXiv
     conference: arXiv preprint, 2026.
