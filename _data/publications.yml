@@ -44,16 +44,16 @@ forecast:
 ##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
 #    image: ./assets/img/GCGNet.png
 #    notes: ICLR, Core A*, Accepted
-#    
-#  - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
-#    authors: Xvyuan Liu, Xiangfei Qiu, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu
-#    conference_short: ICLR
-#    conference: International Conference on Learning Representations, 2026.
-##    pdf: https://arxiv.org/pdf/2505.11250
-##    code: https://github.com/decisionintelligence/APN
-##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-#    image: ./assets/img/ASTGI.png
-#    notes: ICLR, Core A*, Accepted
+    
+  - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
+    authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu
+    conference_short: ICLR
+    conference: International Conference on Learning Representations, 2026.
+    pdf: https://arxiv.org/pdf/2509.23313
+#    code: https://github.com/decisionintelligence/APN
+#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/ASTGI.png
+    notes: ICLR, Core A*, Accepted
     
   - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
     authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
@@ -61,7 +61,7 @@ forecast:
     conference: AAAI Conference on Artificial Intelligence, 2026.
     pdf: https://arxiv.org/pdf/2505.11250
     code: https://github.com/decisionintelligence/APN
-#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    blog: https://mp.weixin.qq.com/s/3gt4KR6Tb4ERZvS3a1H36Q
     image: ./assets/img/APN.png
     notes: ✨ AAAI, CCF A, Accepted (Oral, Top 4%)
     
@@ -73,7 +73,7 @@ forecast:
     code: https://github.com/decisionintelligence/SRSNet
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/SRSNet.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    blog: https://mp.weixin.qq.com/s/HKsO2ehRhHnz56i3dNf87A
     notes: ✨ NeurIPS, CCF A, Accepted (Spotlight, Top 3.2%)
     
   - title: "DBLoss: Decomposition-based Loss Function for Time Series Forecasting"
@@ -84,7 +84,7 @@ forecast:
     code: https://github.com/decisionintelligence/DBLoss
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/DBLoss.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    blog: https://mp.weixin.qq.com/s/Vwyei--9lzBmRzxUYjrpsg
     notes: NeurIPS, CCF A, Accepted
     
 
@@ -96,7 +96,7 @@ forecast:
     code: https://github.com/decisionintelligence/K2VAE
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/k2vae.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+    blog: https://mp.weixin.qq.com/s/YebZ8_LGY8-PDEhfApjSMg
     notes: ✨ ICML, CCF A, Accepted (Spotlight, Top 2.6%)
     
     
@@ -142,8 +142,29 @@ forecast:
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
 #    notes: PVLDB, CCF A, Accepted
     
-    
-  - title: "Multi-Scale Spatial-Temporal Hypergraph Network with Lead-Lag Structures for Stock Time Series Forecasting"
+  - title: "Bridging Time and Frequency: A Joint Modeling Framework for Irregular Multivariate Time Series Forecasting"
+    authors: <strong>Xiangfei Qiu</strong>, Kangjia Yan, Xvyuan Liu, Xingjian Wu, Jilin Hu#
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+#    pdf: https://arxiv.org/pdf/2509.14933
+#    code: https://github.com/decisionintelligence/DAG
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/TFMixer.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: PVLDB, CCF A, Accepted
+
+  - title: "SEER: Transformer-based Robust Time Series Forecasting via Automated Patch Enhancement and Replacement"
+    authors: <strong>Xiangfei Qiu</strong>, Xvyuan Liu, Tianen Shen, Xingjian Wu, Hanyin Cheng, Bin Yang, Jilin Hu#
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+#    pdf: https://arxiv.org/pdf/2509.14933
+#    code: https://github.com/decisionintelligence/DAG
+#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    image: ./assets/img/SEER.png
+#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
+#    notes: PVLDB, CCF A, Accepted
+
+  - title: "Hermes: A Multi-Scale Spatial-Temporal Hypergraph Network for Stock Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Liu Yang, Hanyin Cheng, Xingjian Wu, Rongjia Wu, Zhigang Zhang, Ding Tu, Chenjuan Guo, Bin Yang, Christian S. Jensen, Jilin Hu#
     conference_short: arXiv
     conference: arXiv preprint, 2025.
@@ -195,7 +216,7 @@ others:
     notes: SIGKDD, CCF A, Accepted
 
   - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
-    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
+    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Junkai Lu, Jilin Hu, Chenjuan Guo, Bin Yang
     conference_short: arXiv
     conference: arXiv preprint, 2025.
     pdf: https://arxiv.org/pdf/2502.10721
@@ -204,7 +225,17 @@ others:
     image: ./assets/img/CS4TS.png
 #    notes: Accepted
 
-  - title: "Unlocking the Power of Mixture-of-Experts for Task-Aware Time Series Analytics"
+  - title: "TimeART: Towards Agentic Time Series Reasoning via Tool-Augmentation"
+    authors: Xingjian Wu, Junkai Lu, Zhengyu Li, <strong>Xiangfei Qiu</strong>, Jilin Hu, Chenjuan Guo, Christian S. Jensen, Bin Yang, Bin Yang#
+    conference_short: arXiv
+    conference: arXiv preprint, 2025.
+    pdf: https://arxiv.org/pdf/2601.13653
+#    code: https://github.com/decisionintelligence/CS4TS
+#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/TimeART.png
+#    notes: Accepted
+
+  - title: "Task-Aware Mixture-of-Experts for Time Series Analysis"
     authors: Xingjian Wu, Zhengyu Li, Hanyin Cheng, <strong>Xiangfei Qiu</strong>, Jilin Hu, Chenjuan Guo, Bin Yang#
     conference_short: arXiv
     conference: arXiv preprint, 2025.
