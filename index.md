@@ -72,7 +72,6 @@ For more information, you may take a look at my [Google Scholar](https://schola
 #### Conference PC member:
 
 - International Conference on Machine Learning ([ICML](https://icml.cc/Conferences/2026)) 2026.
-
 - International World Wide Web Conference ([WWW](https://www2026.thewebconf.org/)) industry track 2026.
 - AAAI Conference on Artificial Intelligence ([AAAI](https://aaai.org/conference/aaai/aaai-26/)) 2026.
 - European Conference on Artificial Intelligence ([ECAI](https://ecai2025.org/)) 2025.
