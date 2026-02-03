@@ -146,7 +146,7 @@ forecast:
     authors: <strong>Xiangfei Qiu</strong>, Kangjia Yan, Xvyuan Liu, Xingjian Wu, Jilin Hu#
     conference_short: arXiv
     conference: arXiv preprint, 2026.
-#    pdf: https://arxiv.org/pdf/2509.14933
+    pdf: https://arxiv.org/pdf/2602.00582
 #    code: https://github.com/decisionintelligence/DAG
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/TFMixer.png
@@ -157,7 +157,7 @@ forecast:
     authors: <strong>Xiangfei Qiu</strong>, Xvyuan Liu, Tianen Shen, Xingjian Wu, Hanyin Cheng, Bin Yang, Jilin Hu#
     conference_short: arXiv
     conference: arXiv preprint, 2026.
-#    pdf: https://arxiv.org/pdf/2509.14933
+    pdf: https://arxiv.org/pdf/2602.00589
 #    code: https://github.com/decisionintelligence/DAG
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/SEER.png
