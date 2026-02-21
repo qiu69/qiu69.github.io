@@ -16,7 +16,7 @@ I am currently a Phd student (from fall, 2023) at the [School of Data Science an
 
 My research interests cover Time Series Analysis and Deep Learning. I am currently working on foundation time series models, and time series benchmarking. I have published several relevant papers in top conferences with total <a href='https://scholar.google.com/citations?user=Hal0V_AAAAAJ'>google scholar citations 873</a>. In addition to pure research, I also dedicate myself to promoting research on valuable real-world applications. My research aims to contribute to the advancement of intelligent systems capable of handling massive and complicated temporal data across domains, including finance, industry, and environment.
 
-For more information, you may take a look at my [Google Scholar](https://scholar.google.com.hk/citations?user=Hal0V_AAAAAJ) and [GitHub](https://github.com/qiu69).
+For more information, you may take a look at my [![Google Scholar Citations](https://img.shields.io/endpoint?url=https://super-rice-feba.1793410861.workers.dev/&logo=google-scholar&style=flat&labelColor=f0f0f0&color=8fb9ef)](https://scholar.google.com/citations?user=Hal0V_AAAAAJ&hl) and [![GitHub Stars](https://img.shields.io/github/stars/qiu69?affiliations=OWNER%2CCOLLABORATOR&style=flat&logo=github&logoColor=000000&label=GitHub%20Stars&labelColor=f0f0f0&color=8fb9ef)](https://github.com/ccloud0525).
 
 
 
