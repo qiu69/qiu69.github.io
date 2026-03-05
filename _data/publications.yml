@@ -53,7 +53,7 @@ forecast:
 #    code: https://github.com/decisionintelligence/APN
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/ASTGI.png
-    notes: ICLR, Core A*, Accepted
+    notes: ICLR, CCF A, Accepted
     
   - title: "Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline"
     authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Xingjian Wu*, Zhengyu Li, Chenjuan Guo, Jilin Hu, Bin Yang
@@ -194,7 +194,7 @@ anomaly:
     image: ./assets/img/CATCH.png
     code: https://github.com/decisionintelligence/CATCH
     blog: https://mp.weixin.qq.com/s/zhAp-texiJFnUFduJx8fgQ
-    notes: ICLR, Core A*, Accepted
+    notes: ICLR, CCF A, Accepted
     
   - title: "MultiRC: Joint Learning for Time Series Anomaly Prediction and Detection with Multi-scale Reconstructive Contrast"
     authors: Shiyan Hu, Kai Zhao, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Bin Yang, Chenjuan Guo#
