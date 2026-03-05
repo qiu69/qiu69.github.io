@@ -35,15 +35,15 @@ benchmark:
 
     
 forecast:
-#  - title: "GCGNet: Graph-Consistent Generative Network for Time Series Forecasting with Exogenous Variables"
-#    authors: Zhengyu Li, Xiangfei Qiu, Yuhan Zhu, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
-#    conference_short: ICLR
-#    conference: International Conference on Learning Representations, 2026.
-##    pdf: https://arxiv.org/pdf/2505.11250
-##    code: https://github.com/decisionintelligence/APN
-##    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-#    image: ./assets/img/GCGNet.png
-#    notes: ICLR, Core A*, Accepted
+  - title: "GCGNet: Graph-Consistent Generative Network for Time Series Forecasting with Exogenous Variables"
+    authors: Zhengyu Li, Xiangfei Qiu, Yuhan Zhu, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
+    conference_short: ICLR
+    conference: International Conference on Learning Representations, 2026.
+    pdf: https://openreview.net/pdf?id=EO5jwQ5NCw
+#    code: https://github.com/decisionintelligence/APN
+#    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/GCGNet.png
+    notes: ICLR, CCF A, Accepted
     
   - title: "ASTGI: Adaptive Spatio-Temporal Graph Interactions for Irregular Multivariate Time Series Forecasting"
     authors: Xvyuan Liu*, <strong>Xiangfei Qiu*</strong>, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu
