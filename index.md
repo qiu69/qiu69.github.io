@@ -82,7 +82,6 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 #### Journal Reviewers
 
 - IEEE Transactions on Pattern Analysis and Machine Intelligence ([TPAMI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34))
-
 - IEEE Transactions on Neural Networks and learning systems ([TNNLS](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems))
 - Expert Systems With Applications ([Expert Syst. Appl.](https://www.sciencedirect.com/journal/expert-systems-with-applications))
 - Knowledge-based Systems ([KBS](https://www.sciencedirect.com/journal/knowledge-based-systems))
