@@ -20,7 +20,7 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 ## 🔥 News
 
-- **[Apr. 2026]** Time series application platform ([EasyTime, ICDE25](https://arxiv.org/pdf/2412.17603)) was selected as [most influential papers](https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/) by Paper Digest.
+- **[Apr. 2026]** Time series application platform ([EasyTime, ICDE25](https://arxiv.org/pdf/2412.17603)) was selected as [most influential papers](https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/) by Paper Digest (Rank 1st / 397 Accepted Papers).
 - **[Jan. 2026]** Our papers "GCGNet & ASTGI" have been accepted to **ICLR 2026**.
 - **[Dec. 2025]** I have been selected for the **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology).
 - **[Dec. 2025]** Time series model ([DUET, KDD25](https://arxiv.org/pdf/2412.10859)) was selected as [most influential papers](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/) by Paper Digest.
