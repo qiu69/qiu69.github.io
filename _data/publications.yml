@@ -175,7 +175,7 @@ forecast:
 #    notes: Accepted
 
   - title: "MEMTS: Internalizing Domain Knowledge via Parameterized Memory for Retrieval-Free Domain Adaptation of Time Series Foundation Models"
-    authors: Xiaoyun Yu*, Li Fan*, <strong>Xiangfei Qiu</strong>, Nanqing Dong, Yonggui Huang, Honggang Qi, Geguang Pu, Wanli Ouyang, Xi Chen†, Jilin Hu†
+    authors: Xiaoyun Yu*, Li Fan*, <strong>Xiangfei Qiu</strong>, Nanqing Dong, Yonggui Huang, Honggang Qi, Geguang Pu, Wanli Ouyang, Xi Chen#, Jilin Hu#
     conference_short: arXiv
     conference: arXiv preprint, 2026.
     pdf: https://arxiv.org/pdf/2602.13783
