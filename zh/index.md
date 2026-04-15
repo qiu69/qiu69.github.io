@@ -14,7 +14,7 @@ profile_affiliation: 华东师范大学
 
 ## 👋 关于我
 
-我目前是 [华东师范大学](https://www.ecnu.edu.cn/) [数据科学与工程学院](https://dase.ecnu.edu.cn/) 的博士研究生（2023 年秋季入学），隶属于 [Decision Intelligence Lab](https://decisionintelligence.github.io/index)，导师为 [胡吉林教授](https://hujilin1229.github.io/) 和 [杨彬教授](https://binyangdk.github.io/)。同时，我也与 [Christian S. Jensen 教授](https://csj.cs.aau.dk/) 保持密切合作。
+我目前是 [华东师范大学](https://www.ecnu.edu.cn/) [数据科学与工程学院](https://dase.ecnu.edu.cn/) 的博士研究生（2023 年秋季入学），隶属于 [决策智能实验室](https://decisionintelligence.github.io/index)，导师为 [胡吉林教授](https://hujilin1229.github.io/) 和 [杨彬教授](https://binyangdk.github.io/)。同时，我也与 [Christian S. Jensen 教授](https://csj.cs.aau.dk/) 保持密切合作。
 
 #### 🔍 研究方向
 
