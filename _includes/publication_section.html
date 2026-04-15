@@ -23,11 +23,73 @@
   {% assign label_model = "Model" %}
 {% endif %}
 
+{% unless include.hide_title %}
 ### {{ include.title }}
+{% endunless %}
 
 <div class="publications">
 <ol class="bibliography">
 {% for link in entries %}
+{% assign author_text = link.authors | strip %}
+{% assign is_first_or_cofirst = false %}
+{% if author_text contains "<strong>Xiangfei Qiu*</strong>" or author_text contains "<strong>Xiangfei Qiu#</strong>" %}
+  {% assign is_first_or_cofirst = true %}
+{% elsif author_text contains "<strong>Xiangfei Qiu</strong>" %}
+  {% assign first_author_segment = author_text | split: "," | first | strip %}
+  {% if first_author_segment contains "<strong>Xiangfei Qiu</strong>" %}
+    {% assign is_first_or_cofirst = true %}
+  {% endif %}
+{% endif %}
+
+{% assign note_suffix = "" %}
+{% if link.notes and link.notes contains "Accepted (" %}
+  {% assign note_suffix = link.notes | split: "(" | last | split: "," | first | remove: ")" | strip %}
+{% endif %}
+
+{% capture tag_ids %}{% if is_first_or_cofirst %}first-author|{% endif %}{% if include.collection == "benchmark" %}benchmark|{% elsif include.collection == "forecast" %}forecasting|{% elsif include.collection == "anomaly" %}anomaly-detection|{% endif %}{% if link.notes and link.notes contains "CCF A" %}ccf-a|{% endif %}{% if link.conference_short == "arXiv" %}preprint|{% endif %}{% if note_suffix == "Spotlight" %}spotlight|{% endif %}{% if note_suffix == "Oral" %}oral|{% endif %}{% if note_suffix == "Best Paper Award Nomination" %}best-paper|{% endif %}{% if note_suffix == "PaperDigest Most Influential Paper" %}most-influential-paper|{% endif %}{% endcapture %}
+{% assign tag_ids = tag_ids | split: "|" %}
+
+{% capture tag_chips %}
+{% for tag_id in tag_ids %}
+  {% assign tag_id = tag_id | strip %}
+  {% if tag_id != "" %}
+    {% assign tag_label = "" %}
+    {% case tag_id %}
+      {% when "first-author" %}
+        {% assign tag_label = "第一/共同一作" %}
+        {% unless is_zh %}{% assign tag_label = "First/Co-First Author" %}{% endunless %}
+      {% when "benchmark" %}
+        {% assign tag_label = "基准评测" %}
+        {% unless is_zh %}{% assign tag_label = "Benchmark" %}{% endunless %}
+      {% when "forecasting" %}
+        {% assign tag_label = "时间序列预测" %}
+        {% unless is_zh %}{% assign tag_label = "Forecasting" %}{% endunless %}
+      {% when "anomaly-detection" %}
+        {% assign tag_label = "异常检测" %}
+        {% unless is_zh %}{% assign tag_label = "Anomaly Detection" %}{% endunless %}
+      {% when "ccf-a" %}
+        {% assign tag_label = "CCF-A" %}
+      {% when "preprint" %}
+        {% assign tag_label = "预印本" %}
+        {% unless is_zh %}{% assign tag_label = "Preprint" %}{% endunless %}
+      {% when "spotlight" %}
+        {% assign tag_label = "Spotlight" %}
+      {% when "oral" %}
+        {% assign tag_label = "Oral" %}
+      {% when "best-paper" %}
+        {% assign tag_label = "最佳论文提名" %}
+        {% unless is_zh %}{% assign tag_label = "Best Paper Nomination" %}{% endunless %}
+      {% when "most-influential-paper" %}
+        {% assign tag_label = "最具影响力论文" %}
+        {% unless is_zh %}{% assign tag_label = "Most Influential Paper" %}{% endunless %}
+    {% endcase %}
+    {% if tag_label != "" %}
+      <button type="button" class="pub-chip" data-tag-id="{{ tag_id }}">{{ tag_label }}</button>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% endcapture %}
+{% assign tag_chips = tag_chips | strip %}
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
@@ -42,6 +104,9 @@
     <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
     <div class="author">{{ link.authors }}</div>
     <div class="periodical"><em>{{ link.conference }}</em></div>
+    {% if tag_chips != "" %}
+    <div class="pub-tags">{{ tag_chips }}</div>
+    {% endif %}
     <div class="links">
       {% if link.pdf %}
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -83,7 +148,6 @@
   </div>
 </div>
 </li>
-<br>
 {% endfor %}
 </ol>
 </div>

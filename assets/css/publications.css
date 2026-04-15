@@ -26,6 +26,91 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 @media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
 
+.publication-tag-board {
+    display: block;
+    margin: 0.9rem 0 1.6rem;
+    padding: 1.1rem 1.25rem 1.25rem;
+    border: 1px solid #d9e4fb;
+    border-radius: 14px;
+    background: #fbfdff;
+    box-shadow: 0 10px 24px rgba(0, 45, 114, 0.04);
+}
+
+.publication-tag-board[hidden] {
+    display: none;
+}
+
+.publication-filter-title {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    font-size: 0.98rem;
+    margin-bottom: 0.75rem;
+}
+
+.publication-filter-description {
+    color: #3f4b63;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin-bottom: 0.75rem;
+}
+
+.publication-filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.62rem;
+}
+
+.publication-tag-board .tag-filter {
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    border: 1px solid #d2def4;
+    background: #ffffff;
+    color: #243b63;
+    border-radius: 999px;
+    padding: 0.34rem 0.7rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.1;
+    cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.publication-tag-board .tag-filter .tag-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.12rem;
+    height: 1.12rem;
+    padding: 0 0.2rem;
+    border-radius: 999px;
+    background: #eef3fb;
+    color: #41516d;
+    font-size: 0.64rem;
+    font-weight: 700;
+}
+
+.publication-tag-board .tag-filter:hover,
+.publication-tag-board .tag-filter.is-active {
+    color: #ffffff;
+    border-color: var(--global-theme-color);
+    background: var(--global-theme-color);
+    box-shadow: 0 8px 18px rgba(0, 45, 114, 0.18);
+}
+
+.publication-tag-board .tag-filter:hover .tag-count,
+.publication-tag-board .tag-filter.is-active .tag-count {
+    background: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+.publication-filter-summary {
+    color: #526078;
+    font-size: 0.93rem;
+    margin-top: 0.65rem;
+}
+
 .publications { margin-top: 2rem; }
 
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
@@ -38,7 +123,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
-.publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
+.publications ol.bibliography li { min-height: 110px; margin-bottom: 1.35rem; }
 
 .publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }
 
@@ -58,10 +143,67 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
+.publications ol.bibliography li .author,
+.publications ol.bibliography li .periodical {
+    font-size: 0.94rem;
+}
+
+.publications ol.bibliography li .pub-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0.45rem 0 0.7rem;
+}
+
+.publications ol.bibliography li .pub-chip {
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.18rem 0.62rem;
+    border: 1px solid #d5dceb;
+    border-radius: 999px;
+    background: #ffffff;
+    color: var(--global-theme-color);
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.publications ol.bibliography li .pub-chip:hover {
+    border-color: var(--global-theme-color);
+}
+
+.publications ol.bibliography li .pub-chip.is-active {
+    border-color: var(--global-theme-color);
+    background: var(--global-theme-color);
+    color: #ffffff;
+}
+
 .publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
 
 @media (prefers-color-scheme: dark) {
 .publications ol.bibliography li .links a.btn { color: #FFFFFF; border: 1px solid #FFFFFF; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
+
+.publication-tag-board { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.14); box-shadow: none; }
+
+.publication-filter-description,
+.publication-filter-summary { color: #c4ccd8; }
+
+.publication-tag-board .tag-filter { color: #d7dce3; background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.14); }
+
+.publication-tag-board .tag-filter .tag-count { background: rgba(255,255,255,0.08); color: #d7dce3; }
+
+.publication-tag-board .tag-filter:hover,
+.publication-tag-board .tag-filter.is-active { color: #ffffff; background: rgba(36,150,203,0.18); border-color: rgba(36,150,203,0.32); }
+
+.publication-tag-board .tag-filter:hover .tag-count,
+.publication-tag-board .tag-filter.is-active .tag-count { background: rgba(255,255,255,0.16); color: #ffffff; }
+
+.publications ol.bibliography li .pub-chip { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.14); color: #d6ebff; }
+
+.publications ol.bibliography li .pub-chip.is-active { border-color: rgba(36,150,203,0.32); background: rgba(36,150,203,0.28); color: #ffffff; }
 
   }
 
