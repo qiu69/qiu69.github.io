@@ -19,32 +19,30 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 ## 🔥 News
 
-- **[Apr. 2026]** Time series application platform ([EasyTime, ICDE25](https://arxiv.org/pdf/2412.17603)) was selected as [most influential papers](https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/) by Paper Digest (Rank 1st / 397 Accepted Papers).
-- **[Jan. 2026]** Our papers "GCGNet & ASTGI" have been accepted to **ICLR 2026**.
-- **[Dec. 2025]** I have been selected for the **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology).
-- **[Dec. 2025]** Time series model ([DUET, KDD25](https://arxiv.org/pdf/2412.10859)) was selected as [most influential papers](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/) by Paper Digest.
-- **[Nov. 2025]** Our paper "[Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline](https://arxiv.org/pdf/2505.11250)" has been accepted for an **oral presentation at AAAI 2026**.
-- **[Oct. 2025]** Our paper "[EDAD](https://arxiv.org/pdf/2510.18998): An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data" has been accepted by **ICDE 2026**.
-- **[Oct. 2025]** I have been awarded the **National Scholarship!**
-- **[Sep. 2025]** Our papers "[SRSNet](https://arxiv.org/pdf/2510.14510) & [DBLoss](https://arxiv.org/pdf/2510.23672)" have been accepted to **NeurIPS 2025**, with one Spotlight and one Poster.
-- **[Jun. 2025]** I am honored to receive recognition as an **Outstanding Reviewer** for the SIGKDD 2025 Research Track and an **Excellent Reviewer** for the Applied Data Science (ADS) Track.
-- **[May. 2025]** I have been awarded **the first place** in Master Group of 2025 **[CCF Academic Show](https://mp.weixin.qq.com/s/EGGc0RsM-JgD9ecNBAHjIA)**.
-
-<details>
-  <summary style="cursor: pointer;">▶️ Click to Expand/Collapse</summary>
-  <ul dir="auto">
-    <li><strong>[May. 2025]</strong> My paper "<strong><a href="https://arxiv.org/pdf/2506.18046">TAB</a></strong>: Unified Benchmarking of Time Series Anomaly Detection Methods" has been accepted by <strong>PVLDB 2025</strong>.</li>
-    <li><strong>[May. 2025]</strong> Our paper "<strong><a href="https://arxiv.org/pdf/2410.11802">TSFM-Bench</a></strong>: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting" has been accepted by <strong>SIGKDD 2025</strong>.</li>
-    <li><strong>[May. 2025]</strong> Our paper "<strong><a href="https://arxiv.org/pdf/2410.13338">SSD-TS</a></strong>: Exploring the potential of linear state space models for diffusion models in time series imputation" has been accepted by <strong>SIGKDD 2025</strong>.</li>
-    <li><strong>[May. 2025]</strong> My paper "<strong><a href="https://arxiv.org/pdf/2505.23017">K2VAE</a></strong>: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting" has been accepted as <strong>ICML 2025 Spotlight</strong>.</li>
-    <li><strong>[Jan. 2025]</strong> Our paper "<strong><a href="https://arxiv.org/pdf/2410.12261">CATCH</a></strong>: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching" has been accepted by <strong>ICLR 2025</strong>.</li>
-    <li><strong>[Dec. 2024]</strong> My paper "<strong><a href="https://arxiv.org/pdf/2412.17603">EasyTime</a></strong>: Time Series Forecasting Made Easy" has been accepted by <strong>ICDE 2025</strong>.</li>
-    <li><strong>[Nov. 2024]</strong> My paper "<strong><a href="https://arxiv.org/pdf/2412.10859">DUET</a></strong>: Dual Clustering Enhanced Multivariate Time Series Forecasting" has been accepted by <strong>SIGKDD 2025</strong>.</li>
-    <li><strong>[Oct. 2024]</strong> I have been awarded the <strong>National Scholarship!</strong></li>
-    <li><strong>[Aug. 2024]</strong> My paper "<strong><a href="https://www.vldb.org/pvldb/vol17/p2363-hu.pdf">TFB</a></strong>: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods" receives <strong>VLDB 2024 Best Research Paper Award Nomination!</strong></li>
-    <li><strong>[Aug. 2024]</strong> We have created a leaderboard for time series analytics, called <strong><a href="https://decisionintelligence.github.io/OpenTS/">OpenTS</a></strong>.</li>
+<div class="news-scrollbox">
+  <ul class="news-list" dir="auto">
+    <li><strong>[Apr. 2026]</strong> Time series application platform (<a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE25</a>) was selected as <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">most influential papers</a> by Paper Digest (Rank 1st / 397 Accepted Papers).</li>
+    <li><strong>[Jan. 2026]</strong> Our papers "GCGNet &amp; ASTGI" have been accepted to <strong>ICLR 2026</strong>.</li>
+    <li><strong>[Dec. 2025]</strong> I have been selected for the <strong>Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program</strong> (China Association for Science and Technology).</li>
+    <li><strong>[Dec. 2025]</strong> Time series model (<a href="https://arxiv.org/pdf/2412.10859">DUET, KDD25</a>) was selected as <a href="https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/">most influential papers</a> by Paper Digest.</li>
+    <li><strong>[Nov. 2025]</strong> Our paper "<a href="https://arxiv.org/pdf/2505.11250">Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline</a>" has been accepted for an <strong>oral presentation at AAAI 2026</strong>.</li>
+    <li><strong>[Oct. 2025]</strong> Our paper "<a href="https://arxiv.org/pdf/2510.18998">EDAD</a>: An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data" has been accepted by <strong>ICDE 2026</strong>.</li>
+    <li><strong>[Oct. 2025]</strong> I have been awarded the <strong>National Scholarship</strong>.</li>
+    <li><strong>[Sep. 2025]</strong> Our papers "<a href="https://arxiv.org/pdf/2510.14510">SRSNet</a>" and "<a href="https://arxiv.org/pdf/2510.23672">DBLoss</a>" have been accepted to <strong>NeurIPS 2025</strong>, with one Spotlight and one Poster.</li>
+    <li><strong>[Jun. 2025]</strong> I am honored to receive recognition as an <strong>Outstanding Reviewer</strong> for the SIGKDD 2025 Research Track and an <strong>Excellent Reviewer</strong> for the Applied Data Science (ADS) Track.</li>
+    <li><strong>[May. 2025]</strong> I have been awarded <strong>the first place</strong> in Master Group of 2025 <a href="https://mp.weixin.qq.com/s/EGGc0RsM-JgD9ecNBAHjIA"><strong>CCF Academic Show</strong></a>.</li>
+    <li><strong>[May. 2025]</strong> My paper "<a href="https://arxiv.org/pdf/2506.18046">TAB</a>: Unified Benchmarking of Time Series Anomaly Detection Methods" has been accepted by <strong>PVLDB 2025</strong>.</li>
+    <li><strong>[May. 2025]</strong> Our paper "<a href="https://arxiv.org/pdf/2410.11802">TSFM-Bench</a>: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting" has been accepted by <strong>SIGKDD 2025</strong>.</li>
+    <li><strong>[May. 2025]</strong> Our paper "<a href="https://arxiv.org/pdf/2410.13338">SSD-TS</a>: Exploring the potential of linear state space models for diffusion models in time series imputation" has been accepted by <strong>SIGKDD 2025</strong>.</li>
+    <li><strong>[May. 2025]</strong> My paper "<a href="https://arxiv.org/pdf/2505.23017">K2VAE</a>: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting" has been accepted as <strong>ICML 2025 Spotlight</strong>.</li>
+    <li><strong>[Jan. 2025]</strong> Our paper "<a href="https://arxiv.org/pdf/2410.12261">CATCH</a>: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching" has been accepted by <strong>ICLR 2025</strong>.</li>
+    <li><strong>[Dec. 2024]</strong> My paper "<a href="https://arxiv.org/pdf/2412.17603">EasyTime</a>: Time Series Forecasting Made Easy" has been accepted by <strong>ICDE 2025</strong>.</li>
+    <li><strong>[Nov. 2024]</strong> My paper "<a href="https://arxiv.org/pdf/2412.10859">DUET</a>: Dual Clustering Enhanced Multivariate Time Series Forecasting" has been accepted by <strong>SIGKDD 2025</strong>.</li>
+    <li><strong>[Oct. 2024]</strong> I have been awarded the <strong>National Scholarship</strong>.</li>
+    <li><strong>[Aug. 2024]</strong> My paper "<a href="https://www.vldb.org/pvldb/vol17/p2363-hu.pdf">TFB</a>: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods" receives <strong>VLDB 2024 Best Research Paper Award Nomination</strong>.</li>
+    <li><strong>[Aug. 2024]</strong> We have created a leaderboard for time series analytics, called <a href="https://decisionintelligence.github.io/OpenTS/"><strong>OpenTS</strong></a>.</li>
   </ul>
-</details>
+</div>
 
 
 <br>

@@ -24,32 +24,30 @@ profile_affiliation: 华东师范大学
 
 ## 🔥 最新动态
 
-- **[2026 年 4 月]** 时间序列应用平台 [EasyTime, ICDE 2025](https://arxiv.org/pdf/2412.17603) 被 Paper Digest 评为 [最具影响力论文](https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/)（397 篇接收论文中排名第 1）。
-- **[2026 年 1 月]** 我们的论文 “GCGNet” 和 “ASTGI” 被 **ICLR 2026** 接收。
-- **[2025 年 12 月]** 我入选 **中国科协青年人才培育工程博士生专项计划**。
-- **[2025 年 12 月]** 时间序列模型 [DUET, KDD 2025](https://arxiv.org/pdf/2412.10859) 被 Paper Digest 评为 [最具影响力论文](https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/)。
-- **[2025 年 11 月]** 我们的论文 “[Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline](https://arxiv.org/pdf/2505.11250)” 被 **AAAI 2026** 接收，并获 oral presentation。
-- **[2025 年 10 月]** 我们的论文 “[EDAD](https://arxiv.org/pdf/2510.18998): An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data” 被 **ICDE 2026** 接收。
-- **[2025 年 10 月]** 我获得 **国家奖学金**。
-- **[2025 年 9 月]** 我们的论文 “[SRSNet](https://arxiv.org/pdf/2510.14510)” 和 “[DBLoss](https://arxiv.org/pdf/2510.23672)” 被 **NeurIPS 2025** 接收，其中一篇为 Spotlight，一篇为 Poster。
-- **[2025 年 6 月]** 我获得 **SIGKDD 2025 Research Track Outstanding Reviewer** 和 **Applied Data Science Track Excellent Reviewer**。
-- **[2025 年 5 月]** 我获得 **[CCF优秀大学生学术秀](https://mp.weixin.qq.com/s/EGGc0RsM-JgD9ecNBAHjIA) 硕士组冠军**。
-
-<details>
-  <summary style="cursor: pointer;">▶️ 点击展开 / 收起</summary>
-  <ul dir="auto">
-    <li><strong>[2025 年 5 月]</strong> 我的论文 "<strong><a href="https://arxiv.org/pdf/2506.18046">TAB</a></strong>: Unified Benchmarking of Time Series Anomaly Detection Methods" 被 <strong>PVLDB 2025</strong> 接收。</li>
-    <li><strong>[2025 年 5 月]</strong> 我们的论文 "<strong><a href="https://arxiv.org/pdf/2410.11802">TSFM-Bench</a></strong>: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting" 被 <strong>SIGKDD 2025</strong> 接收。</li>
-    <li><strong>[2025 年 5 月]</strong> 我们的论文 "<strong><a href="https://arxiv.org/pdf/2410.13338">SSD-TS</a></strong>: Exploring the potential of linear state space models for diffusion models in time series imputation" 被 <strong>SIGKDD 2025</strong> 接收。</li>
-    <li><strong>[2025 年 5 月]</strong> 我的论文 "<strong><a href="https://arxiv.org/pdf/2505.23017">K2VAE</a></strong>: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting" 被接收为 <strong>ICML 2025 Spotlight</strong>。</li>
-    <li><strong>[2025 年 1 月]</strong> 我们的论文 "<strong><a href="https://arxiv.org/pdf/2410.12261">CATCH</a></strong>: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching" 被 <strong>ICLR 2025</strong> 接收。</li>
-    <li><strong>[2024 年 12 月]</strong> 我的论文 "<strong><a href="https://arxiv.org/pdf/2412.17603">EasyTime</a></strong>: Time Series Forecasting Made Easy" 被 <strong>ICDE 2025</strong> 接收。</li>
-    <li><strong>[2024 年 11 月]</strong> 我的论文 "<strong><a href="https://arxiv.org/pdf/2412.10859">DUET</a></strong>: Dual Clustering Enhanced Multivariate Time Series Forecasting" 被 <strong>SIGKDD 2025</strong> 接收。</li>
+<div class="news-scrollbox">
+  <ul class="news-list" dir="auto">
+    <li><strong>[2026 年 4 月]</strong> 时间序列应用平台 <a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE 2025</a> 被 Paper Digest 评为 <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">最具影响力论文</a>（397 篇接收论文中排名第 1）。</li>
+    <li><strong>[2026 年 1 月]</strong> 我们的论文 “GCGNet” 和 “ASTGI” 被 <strong>ICLR 2026</strong> 接收。</li>
+    <li><strong>[2025 年 12 月]</strong> 我入选 <strong>中国科协青年人才培育工程博士生专项计划</strong>。</li>
+    <li><strong>[2025 年 12 月]</strong> 时间序列模型 <a href="https://arxiv.org/pdf/2412.10859">DUET, KDD 2025</a> 被 Paper Digest 评为 <a href="https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/">最具影响力论文</a>。</li>
+    <li><strong>[2025 年 11 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2505.11250">Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline</a>” 被 <strong>AAAI 2026</strong> 接收，并获 oral presentation。</li>
+    <li><strong>[2025 年 10 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2510.18998">EDAD</a>: An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data” 被 <strong>ICDE 2026</strong> 接收。</li>
+    <li><strong>[2025 年 10 月]</strong> 我获得 <strong>国家奖学金</strong>。</li>
+    <li><strong>[2025 年 9 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2510.14510">SRSNet</a>” 和 “<a href="https://arxiv.org/pdf/2510.23672">DBLoss</a>” 被 <strong>NeurIPS 2025</strong> 接收，其中一篇为 Spotlight，一篇为 Poster。</li>
+    <li><strong>[2025 年 6 月]</strong> 我获得 <strong>SIGKDD 2025 Research Track Outstanding Reviewer</strong> 和 <strong>Applied Data Science Track Excellent Reviewer</strong>。</li>
+    <li><strong>[2025 年 5 月]</strong> 我获得 <a href="https://mp.weixin.qq.com/s/EGGc0RsM-JgD9ecNBAHjIA"><strong>CCF优秀大学生学术秀硕士组冠军</strong></a>。</li>
+    <li><strong>[2025 年 5 月]</strong> 我的论文 “<a href="https://arxiv.org/pdf/2506.18046">TAB</a>: Unified Benchmarking of Time Series Anomaly Detection Methods” 被 <strong>PVLDB 2025</strong> 接收。</li>
+    <li><strong>[2025 年 5 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2410.11802">TSFM-Bench</a>: A Comprehensive and Unified Benchmark of Foundation Models for Time Series Forecasting” 被 <strong>SIGKDD 2025</strong> 接收。</li>
+    <li><strong>[2025 年 5 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2410.13338">SSD-TS</a>: Exploring the potential of linear state space models for diffusion models in time series imputation” 被 <strong>SIGKDD 2025</strong> 接收。</li>
+    <li><strong>[2025 年 5 月]</strong> 我的论文 “<a href="https://arxiv.org/pdf/2505.23017">K2VAE</a>: A Koopman-Kalman Enhanced Variational AutoEncoder for Probabilistic Time Series Forecasting” 被接收为 <strong>ICML 2025 Spotlight</strong>。</li>
+    <li><strong>[2025 年 1 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2410.12261">CATCH</a>: Channel-Aware Multivariate Time Series Anomaly Detection via Frequency Patching” 被 <strong>ICLR 2025</strong> 接收。</li>
+    <li><strong>[2024 年 12 月]</strong> 我的论文 “<a href="https://arxiv.org/pdf/2412.17603">EasyTime</a>: Time Series Forecasting Made Easy” 被 <strong>ICDE 2025</strong> 接收。</li>
+    <li><strong>[2024 年 11 月]</strong> 我的论文 “<a href="https://arxiv.org/pdf/2412.10859">DUET</a>: Dual Clustering Enhanced Multivariate Time Series Forecasting” 被 <strong>SIGKDD 2025</strong> 接收。</li>
     <li><strong>[2024 年 10 月]</strong> 我获得 <strong>国家奖学金</strong>。</li>
-    <li><strong>[2024 年 8 月]</strong> 我的论文 "<strong><a href="https://www.vldb.org/pvldb/vol17/p2363-hu.pdf">TFB</a></strong>: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods" 获得 <strong>VLDB 2024 最佳论文奖提名</strong>。</li>
-    <li><strong>[2024 年 8 月]</strong> 我们发布了时间序列分析排行榜项目 <strong><a href="https://decisionintelligence.github.io/OpenTS/">OpenTS</a></strong>。</li>
+    <li><strong>[2024 年 8 月]</strong> 我的论文 “<a href="https://www.vldb.org/pvldb/vol17/p2363-hu.pdf">TFB</a>: Towards Comprehensive and Fair Benchmarking of Time Series Forecasting Methods” 获得 <strong>VLDB 2024 最佳论文奖提名</strong>。</li>
+    <li><strong>[2024 年 8 月]</strong> 我们发布了时间序列分析排行榜项目 <a href="https://decisionintelligence.github.io/OpenTS/"><strong>OpenTS</strong></a>。</li>
   </ul>
-</details>
+</div>
 
 <br>
 
