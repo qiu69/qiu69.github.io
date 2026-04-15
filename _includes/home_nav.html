@@ -1,0 +1,137 @@
+{% assign is_zh = false %}
+{% if page.lang and page.lang contains 'zh' %}
+  {% assign is_zh = true %}
+{% endif %}
+
+{% if is_zh %}
+  {% assign home_label = "首页" %}
+  {% assign about_label = "关于我" %}
+  {% assign news_label = "最新动态" %}
+  {% assign publications_label = "论文发表" %}
+  {% assign applications_label = "应用项目" %}
+  {% assign services_label = "学术服务" %}
+  {% assign honors_label = "荣誉奖项" %}
+  {% assign switch_label = "English" %}
+  {% assign switch_url = "/" %}
+{% else %}
+  {% assign home_label = "Homepage" %}
+  {% assign about_label = "About Me" %}
+  {% assign news_label = "News" %}
+  {% assign publications_label = "Publications" %}
+  {% assign applications_label = "Applications" %}
+  {% assign services_label = "Services" %}
+  {% assign honors_label = "Awards" %}
+  {% assign switch_label = "中文" %}
+  {% assign switch_url = "/zh/" %}
+{% endif %}
+
+<nav class="custom-navbar">
+  <div class="nav-shell">
+    <div class="nav-container">
+      <a href="{{ page.url | relative_url }}" class="nav-link">{{ home_label }}</a>
+      <a href="#about-me" class="nav-link">{{ about_label }}</a>
+      <a href="#news" class="nav-link">{{ news_label }}</a>
+      <a href="#publications" class="nav-link">{{ publications_label }}</a>
+      <a href="#applications" class="nav-link">{{ applications_label }}</a>
+      <a href="#services" class="nav-link">{{ services_label }}</a>
+      <a href="#honors-awards" class="nav-link">{{ honors_label }}</a>
+    </div>
+    <a href="{{ switch_url | relative_url }}" class="lang-switch">{{ switch_label }}</a>
+  </div>
+</nav>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+
+  .custom-navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    border-bottom: 1px solid #f0f0f0;
+    margin: -20px -20px 30px -20px;
+    padding: 15px 0;
+  }
+
+  .nav-shell {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+
+  .nav-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    text-decoration: none !important;
+    color: #757575 !important;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s;
+    position: relative;
+    padding-bottom: 5px;
+    white-space: nowrap;
+  }
+
+  .nav-link:hover,
+  .lang-switch:hover {
+    color: #333 !important;
+  }
+
+  .lang-switch {
+    flex-shrink: 0;
+    text-decoration: none !important;
+    color: #757575 !important;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    padding: 8px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 999px;
+    background-color: #ffffff;
+    transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+  }
+
+  .lang-switch:hover {
+    border-color: #bdbdbd;
+    background-color: #fafafa;
+  }
+
+  @media (max-width: 768px) {
+    .nav-shell {
+      padding: 0 16px;
+      gap: 12px;
+    }
+
+    .nav-container {
+      gap: 15px;
+    }
+
+    .nav-link {
+      font-size: 14px;
+    }
+
+    .lang-switch {
+      font-size: 13px;
+      padding: 7px 10px;
+    }
+  }
+</style>

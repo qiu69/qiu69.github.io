@@ -1,12 +1,11 @@
 ---
 layout: homepage
+lang: en
 ---
 
+{% include home_nav.html %}
 
-
-<nav class="custom-navbar">   <div class="nav-container">     <a href="#" class="nav-link">Homepage</a>     <a href="#-about-me" class="nav-link">About Me</a>     <a href="#-news" class="nav-link">News</a>     <a href="#-publications--preprints" class="nav-link">Publications</a>     <a href="#-applications" class="nav-link">Applications</a>     <a href="#-services" class="nav-link">Services</a>     <a href="#-honors--awards" class="nav-link">Honors and Awards</a>   </div> </nav>  <style>   html { scroll-behavior: smooth; scroll-padding-top: 80px; }   .custom-navbar {     position: sticky;     top: 0;     background-color: rgba(255, 255, 255, 0.95);     backdrop-filter: blur(10px);     z-index: 9999;     border-bottom: 1px solid #f0f0f0;     margin: -20px -20px 30px -20px;     padding: 15px 0;   }   .nav-container {     max-width: 1000px; /* 增加宽度以容纳更多导航项 */     margin: 0 auto;     display: flex;     justify-content: flex-start;     gap: 20px; /* 缩小间距以防在一行内排不下 */     padding: 0 20px;   }   .nav-link {     text-decoration: none !important;     color: #757575 !important;     font-weight: 600;     font-size: 15px; /* 略微缩小字号确保横向排布 */     transition: color 0.3s;     position: relative;     padding-bottom: 5px;     white-space: nowrap; /* 禁止文字换行 */   }   .nav-link:hover { color: #333 !important; }   .nav-link.active::after {     content: '';     position: absolute;     bottom: 0;     left: 40%;     width: 20%;     height: 3px;     background-color: #999;     border-radius: 2px;   }   @media (max-width: 768px) {     .nav-container {        gap: 15px;        overflow-x: auto;        white-space: nowrap;       justify-content: flex-start;     }     .nav-link { font-size: 14px; }   } </style>
-
-
+<div id="about-me"></div>
 
 ## 👋 About Me
 
@@ -16,7 +15,7 @@ I am currently a Phd student (from fall, 2023) at the [School of Data Science an
 
 My research interests cover Time Series Analysis and Deep Learning. I am currently working on foundation time series models, and time series benchmarking. In addition to pure research, I also dedicate myself to promoting research on valuable real-world applications. My research aims to contribute to the advancement of intelligent systems capable of handling massive and complicated temporal data across domains, including finance, industry, and environment. For more information, you may take a look at my  [Google Scholar](https://scholar.google.com.hk/citations?user=Hal0V_AAAAAJ&hl=zh-CN) [![Google Scholar Citations](https://img.shields.io/endpoint?url=https://super-rice-feba.1793410861.workers.dev/&logo=google-scholar&style=flat&labelColor=f0f0f0&color=8fb9ef)](https://scholar.google.com/citations?user=Hal0V_AAAAAJ&hl) and [GitHub](https://github.com/qiu69) [![GitHub Stars](https://img.shields.io/github/stars/qiu69?affiliations=OWNER%2CCOLLABORATOR&style=flat&logo=github&logoColor=000000&label=GitHub%20Stars&labelColor=f0f0f0&color=8fb9ef)](https://github.com/qiu69).
 
-
+<div id="news"></div>
 
 ## 🔥 News
 
@@ -50,13 +49,15 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 <br>
 
+<div id="publications"></div>
+
 ## 📝 Publications & Preprints
 
-{% include_relative _includes/publications.md %}
+{% include publications.md %}
 
-**Equal* *Contribution*, *#* *Corresponding* *Author*
+**\* Equal Contribution, # Corresponding Author**
 
-
+<div id="applications"></div>
 
 ## 💻 Applications
 
@@ -64,7 +65,7 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 - EasyTime: Time Series Forecasting Made Easy.
 - [TFB](https://github.com/decisionintelligence/TFB): Time Series Forecasting Benchmark.  ![](https://img.shields.io/github/stars/decisionintelligence/TFB)
 
-
+<div id="services"></div>
 
 ## 📖 Services
 
@@ -92,9 +93,9 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 - Teaching Assistant, Introduction to Data Science, Fall 2024、2025, Prof. [Jilin Hu](https://hujilin1229.github.io/).
 
+<div id="honors-awards"></div>
 
-
-## 🎖 Honors & Awards
+## 🎖 Awards
 
 - **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology), 2025
 - **National Scholarship**, 2025
@@ -113,4 +114,3 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 ## 👀 Visitors
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=_UnR_BWZblPRwNeJPyRss9VHoFGGqw7QXdJIndRV49Q"></script>
-

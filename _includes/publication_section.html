@@ -1,0 +1,89 @@
+{% assign is_zh = false %}
+{% if include.lang and include.lang contains 'zh' %}
+  {% assign is_zh = true %}
+{% endif %}
+
+{% assign entries = site.data.publications[include.collection] %}
+
+{% if is_zh %}
+  {% assign label_project_page = "项目页" %}
+  {% assign label_poster = "海报" %}
+  {% assign label_slides = "幻灯片" %}
+  {% assign label_blog = "博客" %}
+  {% assign label_video = "视频" %}
+  {% assign label_dataset = "数据集" %}
+  {% assign label_model = "模型" %}
+{% else %}
+  {% assign label_project_page = "Project Page" %}
+  {% assign label_poster = "Poster" %}
+  {% assign label_slides = "Slides" %}
+  {% assign label_blog = "Blog" %}
+  {% assign label_video = "Video" %}
+  {% assign label_dataset = "Dataset" %}
+  {% assign label_model = "Model" %}
+{% endif %}
+
+### {{ include.title }}
+
+<div class="publications">
+<ol class="bibliography">
+{% for link in entries %}
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+    {% if link.image %}
+    <img src="{{ link.image | remove_first: './' | relative_url }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }}">
+    {% endif %}
+    {% if link.conference_short %}
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+    <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+    <div class="author">{{ link.authors }}</div>
+    <div class="periodical"><em>{{ link.conference }}</em></div>
+    <div class="links">
+      {% if link.pdf %}
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %}
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.page %}
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_project_page }}</a>
+      {% endif %}
+      {% if link.bibtex %}
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTeX</a>
+      {% endif %}
+      {% if link.poster %}
+      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_poster }}</a>
+      {% endif %}
+      {% if link.slides %}
+      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_slides }}</a>
+      {% endif %}
+      {% if link.blog %}
+      <a href="{{ link.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_blog }}</a>
+      {% endif %}
+      {% if link.video %}
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_video }}</a>
+      {% endif %}
+      {% if link.dataset %}
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_dataset }}</a>
+      {% endif %}
+      {% if link.model %}
+      <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_model }}</a>
+      {% endif %}
+      {% if link.notes %}
+      <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %}
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+<br>
+{% endfor %}
+</ol>
+</div>
