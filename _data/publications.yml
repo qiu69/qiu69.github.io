@@ -174,6 +174,20 @@ forecast:
     image: ./assets/img/Hermes.png
 #    notes: Accepted
 
+  - title: "MEMTS: Internalizing Domain Knowledge via Parameterized Memory for Retrieval-Free Domain Adaptation of Time Series Foundation Models"
+    authors: Xiaoyun Yu*, Li Fan*, <strong>Xiangfei Qiu</strong>, Nanqing Dong, Yonggui Huang, Honggang Qi, Geguang Pu, Wanli Ouyang, Xi Chen†, Jilin Hu†
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2602.13783
+    image: ./assets/img/MEMTS.png
+
+  - title: "LightGTS-Cov: Covariate-Enhanced Time Series Forecasting"
+    authors: Yong Shang, Zhipeng Yao, Ning Jin, <strong>Xiangfei Qiu</strong>, Hui Zhang, Bin Yang
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2602.10412
+    image: ./assets/img/LightGTS-Cov.png
+
 anomaly:
   - title: "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data"
     authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
@@ -254,3 +268,10 @@ others:
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/flame.png
 #    notes: Accepted
+
+  - title: "ST-EVO: Towards Generative Spatio-Temporal Evolution of Multi-Agent Communication Topologies"
+    authors: Xingjian Wu, Xvyuan Liu, Junkai Lu, Siyuan Wang, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Chenjuan Guo, Bin Yang
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2602.14681
+    image: ./assets/img/ST-EVO.png
