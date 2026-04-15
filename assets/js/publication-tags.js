@@ -66,8 +66,8 @@
     var allLabel = isZh ? "全部论文" : "All Papers";
     var title = isZh ? "按主题筛选" : "Filter by topic";
     var description = isZh
-      ? "默认视图显示全部论文。点击主题标签可快速定位相关方向。"
-      : "Default view shows all papers. Click a topic tag to jump straight to one theme.";
+      ? "默认视图显示全部论文。点击主题标签可快速定位相关方向；选择多个标签时取并集。"
+      : "Default view shows all papers. Click a topic tag to jump straight to one theme; selecting multiple tags uses union matching.";
 
     board.hidden = false;
     board.innerHTML = "";
