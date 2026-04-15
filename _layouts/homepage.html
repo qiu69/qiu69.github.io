@@ -3,9 +3,13 @@
 {% if page.lang and page.lang contains 'zh' %}
   {% assign is_zh = true %}
 {% endif %}
+{% assign display_name = page.profile_name | default: site.title %}
+{% assign display_position = page.profile_position | default: site.position %}
+{% assign display_affiliation = page.profile_affiliation | default: site.affiliation %}
+{% assign display_affiliation_link = page.profile_affiliation_link | default: site.affiliation_link %}
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <title>{{ display_name }} | {{ display_affiliation }}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,17 +52,17 @@
         <a class="image avatar"><img src="{{ site.avatar | remove_first: './' | relative_url }}" alt="avatar" /></a>
         {% endif %}
 
-        <h1>{{ site.title }}</h1>
+        <h1>{{ display_name }}</h1>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        {% if display_position %}
+        <position style="font-size:1.10rem;">{{ display_position }}</position>
         <br>
         {% endif %}
-        {% if site.affiliation %}
-        {% if site.affiliation_link %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        {% if display_affiliation %}
+        {% if display_affiliation_link %}
+        <a href="{{ display_affiliation_link }}" rel="noopener"><autocolor>{{ display_affiliation }}</autocolor></a>
         {% else %}
-        <autocolor>{{ site.affiliation }}</autocolor>
+        <autocolor>{{ display_affiliation }}</autocolor>
         {% endif %}
         <br>
         {% endif %}
