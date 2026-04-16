@@ -36,7 +36,7 @@
       <a href="#services" class="nav-link" data-nav-link>{{ services_label }}</a>
       <a href="#honors-awards" class="nav-link" data-nav-link>{{ honors_label }}</a>
     </div>
-    <a href="{{ switch_url | relative_url }}" class="lang-switch">{{ switch_label }}</a>
+    <a href="{{ switch_url | relative_url }}" class="nav-link lang-switch">{{ switch_label }}</a>
   </div>
 </nav>
 
@@ -104,18 +104,7 @@
 
   .lang-switch {
     flex-shrink: 0;
-    text-decoration: none !important;
-    color: #757575 !important;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 1;
-    padding: 0 0 5px;
-    border-bottom: 2px solid transparent;
-    transition: color 0.3s;
-  }
-
-  .lang-switch:hover {
-    border-bottom-color: #666666;
+    line-height: inherit;
   }
 
   @media (max-width: 768px) {
@@ -132,10 +121,6 @@
       font-size: 14px;
     }
 
-    .lang-switch {
-      font-size: 14px;
-      padding-bottom: 5px;
-    }
   }
 </style>
 
