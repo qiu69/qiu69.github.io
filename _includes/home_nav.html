@@ -28,13 +28,13 @@
 <nav class="custom-navbar">
   <div class="nav-shell">
     <div class="nav-container">
-      <a href="{{ page.url | relative_url }}" class="nav-link">{{ home_label }}</a>
-      <a href="#about-me" class="nav-link">{{ about_label }}</a>
-      <a href="#news" class="nav-link">{{ news_label }}</a>
-      <a href="#publications" class="nav-link">{{ publications_label }}</a>
-      <a href="#applications" class="nav-link">{{ applications_label }}</a>
-      <a href="#services" class="nav-link">{{ services_label }}</a>
-      <a href="#honors-awards" class="nav-link">{{ honors_label }}</a>
+      <a href="{{ page.url | relative_url }}" class="nav-link" data-nav-link>{{ home_label }}</a>
+      <a href="#about-me" class="nav-link" data-nav-link>{{ about_label }}</a>
+      <a href="#news" class="nav-link" data-nav-link>{{ news_label }}</a>
+      <a href="#publications" class="nav-link" data-nav-link>{{ publications_label }}</a>
+      <a href="#applications" class="nav-link" data-nav-link>{{ applications_label }}</a>
+      <a href="#services" class="nav-link" data-nav-link>{{ services_label }}</a>
+      <a href="#honors-awards" class="nav-link" data-nav-link>{{ honors_label }}</a>
     </div>
     <a href="{{ switch_url | relative_url }}" class="lang-switch">{{ switch_label }}</a>
   </div>
@@ -88,7 +88,13 @@
     transition: color 0.3s;
     position: relative;
     padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
     white-space: nowrap;
+  }
+
+  .nav-link.is-active {
+    color: #333333 !important;
+    border-bottom-color: #666666;
   }
 
   .nav-link:hover,
@@ -101,18 +107,15 @@
     text-decoration: none !important;
     color: #757575 !important;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1;
-    padding: 8px 12px;
-    border: 1px solid #d9d9d9;
-    border-radius: 999px;
-    background-color: #ffffff;
-    transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+    padding: 0 0 5px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s;
   }
 
   .lang-switch:hover {
-    border-color: #bdbdbd;
-    background-color: #fafafa;
+    border-bottom-color: #666666;
   }
 
   @media (max-width: 768px) {
@@ -130,8 +133,75 @@
     }
 
     .lang-switch {
-      font-size: 13px;
-      padding: 7px 10px;
+      font-size: 14px;
+      padding-bottom: 5px;
     }
   }
 </style>
+
+<script>
+  (function () {
+    var links = Array.prototype.slice.call(document.querySelectorAll("[data-nav-link]"));
+    if (!links.length) {
+      return;
+    }
+
+    function setActive(link) {
+      links.forEach(function (item) {
+        item.classList.toggle("is-active", item === link);
+      });
+    }
+
+    var sections = links
+      .map(function (link) {
+        var href = link.getAttribute("href");
+        if (!href || href.charAt(0) !== "#") {
+          return null;
+        }
+        return {
+          link: link,
+          section: document.querySelector(href)
+        };
+      })
+      .filter(function (item) {
+        return item && item.section;
+      });
+
+    function syncFromHash() {
+      var hash = window.location.hash;
+      if (hash) {
+        var matched = links.find(function (link) {
+          return link.getAttribute("href") === hash;
+        });
+        if (matched) {
+          setActive(matched);
+          return;
+        }
+      }
+      setActive(links[0]);
+    }
+
+    function syncFromScroll() {
+      if (window.location.hash) {
+        return;
+      }
+      var offset = 110;
+      var current = sections.find(function (item) {
+        var rect = item.section.getBoundingClientRect();
+        return rect.top <= offset && rect.bottom > offset;
+      });
+      setActive(current ? current.link : links[0]);
+    }
+
+    links.forEach(function (link) {
+      link.addEventListener("click", function () {
+        setActive(link);
+      });
+    });
+
+    window.addEventListener("hashchange", syncFromHash);
+    window.addEventListener("scroll", syncFromScroll, { passive: true });
+    syncFromHash();
+    syncFromScroll();
+  })();
+</script>
