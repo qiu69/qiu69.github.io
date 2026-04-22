@@ -207,12 +207,12 @@ email {
   .profile-link-label-mobile {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 4rem;
   }
 
   .profile-link-label {
-    text-align: center;
+    text-align: left;
     line-height: 1.2;
     word-break: normal;
     overflow-wrap: normal;
