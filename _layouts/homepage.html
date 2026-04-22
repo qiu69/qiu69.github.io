@@ -7,6 +7,12 @@
 {% assign display_position = page.profile_position | default: site.position %}
 {% assign display_affiliation = page.profile_affiliation | default: site.affiliation %}
 {% assign display_affiliation_link = page.profile_affiliation_link | default: site.affiliation_link %}
+{% assign profile_links = site.data.profile_links %}
+{% assign orcid_url = site["orcid"] | default: site["ORCID"] %}
+{% assign semantic_scholar_url = profile_links.semantic_scholar | default: site["semantic_scholar"] | default: site["semantic_scholar_link"] %}
+{% assign dblp_url = profile_links.dblp | default: site["dblp"] | default: site["dblp_link"] %}
+{% assign csdn_url = site["csdn"] | default: site["csdn_link"] %}
+{% assign xiaohongshu_url = profile_links.xiaohongshu | default: site["xiaohongshu"] %}
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
   <head>
     <title>{{ display_name }} | {{ display_affiliation }}</title>
@@ -120,58 +126,93 @@
         {% else %}
         <autocolor>{{ display_affiliation }}</autocolor>
         {% endif %}
-        <br>
-        {% endif %}
-        {% if site.email %}
-        {% if is_zh %}
-        <email>邮箱: {{ site.email }}</email>
-        {% else %}
-        <email>Email: {{ site.email }}</email>
-        {% endif %}
-        {% endif %}
-        {% if site.wechat %}
-        <br>
-        {% if is_zh %}
-        <email>微信: {{ site.wechat }}</email>
-        {% else %}
-        <email>WeChat: {{ site.wechat }}</email>
-        {% endif %}
         {% endif %}
 
-        <br>
-        <br>
-        <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
+        <div class="profile-links">
+          {% if site.email %}
+          <a class="profile-link" href="mailto:{{ site.email }}" aria-label="{% if is_zh %}邮箱{% else %}Email{% endif %}">
+            <i class="fas fa-envelope profile-link-icon"></i>
+            <span class="profile-link-label">{{ site.email }}</span>
+          </a>
+          {% endif %}
 
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link | remove_first: './' | relative_url }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        {% endif %}
+          {% if site.wechat %}
+          <div class="profile-link profile-link-static" aria-label="{% if is_zh %}微信{% else %}WeChat{% endif %}">
+            <i class="fab fa-weixin profile-link-icon"></i>
+            <span class="profile-link-label">{{ site.wechat }}</span>
+          </div>
+          {% endif %}
 
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
+          {% if site.google_scholar %}
+          <a class="profile-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar profile-link-icon"></i>
+            <span class="profile-link-label">Google Scholar</span>
+          </a>
+          {% endif %}
 
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
+          {% if semantic_scholar_url %}
+          <a class="profile-link" href="{{ semantic_scholar_url }}" target="_blank" rel="noopener">
+            <i class="fas fa-book-open profile-link-icon"></i>
+            <span class="profile-link-label">Semantic Scholar</span>
+          </a>
+          {% endif %}
 
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
-        </a>
-        {% endif %}
+          {% if dblp_url %}
+          <a class="profile-link" href="{{ dblp_url }}" target="_blank" rel="noopener">
+            <i class="fas fa-database profile-link-icon"></i>
+            <span class="profile-link-label">DBLP</span>
+          </a>
+          {% endif %}
+
+          {% if site.github_link %}
+          <a class="profile-link" href="{{ site.github_link }}" target="_blank" rel="noopener">
+            <i class="fab fa-github profile-link-icon"></i>
+            <span class="profile-link-label">GitHub</span>
+          </a>
+          {% endif %}
+
+          {% if site.linkedin %}
+          <a class="profile-link" href="{{ site.linkedin }}" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin profile-link-icon"></i>
+            <span class="profile-link-label">LinkedIn</span>
+          </a>
+          {% endif %}
+
+          {% if xiaohongshu_url %}
+          <a class="profile-link" href="{{ xiaohongshu_url }}" target="_blank" rel="noopener">
+            <span class="profile-link-icon profile-link-emoji" aria-hidden="true">🍠</span>
+            <span class="profile-link-label">Xiaohongshu</span>
+          </a>
+          {% endif %}
+
+          {% if orcid_url %}
+          <a class="profile-link" href="{{ orcid_url }}" target="_blank" rel="noopener">
+            <i class="ai ai-orcid profile-link-icon"></i>
+            <span class="profile-link-label">ORCID</span>
+          </a>
+          {% endif %}
+
+          {% if csdn_url %}
+          <a class="profile-link" href="{{ csdn_url }}" target="_blank" rel="noopener">
+            <i class="fas fa-blog profile-link-icon"></i>
+            <span class="profile-link-label">CSDN</span>
+          </a>
+          {% endif %}
+
+          {% if site.cv_link %}
+          <a class="profile-link" href="{{ site.cv_link | remove_first: './' | relative_url }}" target="_blank" rel="noopener">
+            <i class="ai ai-cv profile-link-icon"></i>
+            <span class="profile-link-label">{% if is_zh %}简历{% else %}CV{% endif %}</span>
+          </a>
+          {% endif %}
+
+          {% if site.twitter %}
+          <a class="profile-link" href="{{ site.twitter }}" target="_blank" rel="noopener">
+            <i class="fab fa-x-twitter profile-link-icon"></i>
+            <span class="profile-link-label">X / Twitter</span>
+          </a>
+          {% endif %}
         </div>
-        <br>
 
       </header>
       <section>

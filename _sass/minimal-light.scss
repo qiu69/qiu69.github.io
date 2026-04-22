@@ -108,6 +108,61 @@ email {
     font-family: "Ubuntu Mono";
 }
 
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.34rem;
+  width: min(100%, 12.6rem);
+  margin: 0.78rem auto 0.9rem;
+  text-align: left;
+}
+
+.profile-link,
+.profile-link-static {
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+  width: 100%;
+  padding: 0.42rem 0.56rem;
+  border: 1px solid #e6e8ee;
+  border-radius: 0.56rem;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+  color: #043361 !important;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.profile-link {
+  transition: color 0.2s ease, transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-link:hover {
+  color: #39c !important;
+  transform: translateX(3px);
+  border-color: #cddbf7;
+  box-shadow: 0 4px 12px rgba(57, 153, 204, 0.12);
+}
+
+.profile-link-icon {
+  width: 1.05rem;
+  min-width: 1.05rem;
+  text-align: center;
+  font-size: 0.96rem;
+}
+
+.profile-link-emoji {
+  line-height: 1;
+  filter: grayscale(1) saturate(0) contrast(1.5);
+}
+
+.profile-link-label {
+  word-break: break-word;
+}
+
 .icon-button i{
   background:none;
   color:white;
@@ -180,6 +235,20 @@ papertitle {
     color:#eeeff0;
     }
 
+    .profile-link,
+    .profile-link-static {
+      border-color: rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.04);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
+      color: #3eb7f0 !important;
+    }
+
+    .profile-link:hover {
+      color: #8fd8ff !important;
+      border-color: rgba(143, 216, 255, 0.3);
+      box-shadow: 0 6px 16px rgba(62, 183, 240, 0.16);
+    }
+
 }
 
 
@@ -216,8 +285,8 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
-        padding: 20px;
+        width: 58%;
+        padding: 14px;
         // border: 1px solid #ddd;
         // padding: 3px;
         // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);

@@ -18,6 +18,11 @@ cv_link: assets/files/resume-xfqiu.pdf
 github_link: https://github.com/qiu69
 ORCID: https://orcid.org/0009-0000-4318-3925
 linkedin: https://www.linkedin.com/in/xiangfei-qiu-2a34a4343/
+xiaohongshu: https://www.xiaohongshu.com/user/profile/649ab573000000000b016a05
+dblp: https://dblp.org/pid/372/6609
+# Optional profile links
+semantic_scholar: https://www.semanticscholar.org/author/Xiangfei-Qiu/2294602367
+# csdn: https://blog.csdn.net/...
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
