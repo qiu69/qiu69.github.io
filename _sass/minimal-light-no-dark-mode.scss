@@ -164,11 +164,11 @@ email {
 
   .profile-link,
   .profile-link-static {
-    justify-content: flex-start;
+    justify-content: center;
     gap: 0.38rem;
-    padding: 0.42rem 0.5rem;
+    padding: 0.42rem 0.36rem;
     font-size: 0.71rem;
-    text-align: left;
+    text-align: center;
   }
 
   .profile-link-icon {
@@ -183,11 +183,14 @@ email {
   }
 
   .profile-link-label-mobile {
-    display: inline;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
   }
 
   .profile-link-label {
-    text-align: left;
+    text-align: center;
     line-height: 1.2;
     word-break: normal;
     overflow-wrap: normal;
