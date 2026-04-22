@@ -143,12 +143,16 @@ email {
   word-break: break-word;
 }
 
+.profile-link-label-mobile {
+  display: none;
+}
+
 @media print, screen and (max-width: 640px) {
   .profile-links {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.38rem;
-    width: min(100%, 19rem);
+    width: min(100%, 100%);
     margin: 0.85rem auto 0.95rem;
   }
 
@@ -157,20 +161,29 @@ email {
     justify-content: center;
     gap: 0.38rem;
     padding: 0.42rem 0.42rem;
-    font-size: 0.74rem;
+    font-size: 0.71rem;
     text-align: center;
   }
 
   .profile-link-icon {
-    width: 0.92rem;
-    min-width: 0.92rem;
-    font-size: 0.82rem;
+    width: 0.88rem;
+    min-width: 0.88rem;
+    font-size: 0.8rem;
+  }
+
+  .profile-link-label-desktop {
+    display: none;
+  }
+
+  .profile-link-label-mobile {
+    display: inline;
   }
 
   .profile-link-label {
     text-align: center;
     line-height: 1.2;
-    overflow-wrap: anywhere;
+    word-break: normal;
+    overflow-wrap: normal;
   }
 }
 

@@ -9,7 +9,6 @@
 {% assign display_affiliation_link = page.profile_affiliation_link | default: site.affiliation_link %}
 {% assign profile_links = site.data.profile_links %}
 {% assign orcid_url = site["orcid"] | default: site["ORCID"] %}
-{% assign semantic_scholar_url = profile_links.semantic_scholar | default: site["semantic_scholar"] | default: site["semantic_scholar_link"] %}
 {% assign dblp_url = profile_links.dblp | default: site["dblp"] | default: site["dblp_link"] %}
 {% assign csdn_url = site["csdn"] | default: site["csdn_link"] %}
 {% assign xiaohongshu_url = profile_links.xiaohongshu | default: site["xiaohongshu"] %}
@@ -132,77 +131,80 @@
           {% if site.email %}
           <a class="profile-link" href="mailto:{{ site.email }}" aria-label="{% if is_zh %}邮箱{% else %}Email{% endif %}">
             <i class="fas fa-envelope profile-link-icon"></i>
-            <span class="profile-link-label">{{ site.email }}</span>
+            <span class="profile-link-label profile-link-label-desktop">{{ site.email }}</span>
+            <span class="profile-link-label profile-link-label-mobile">{% if is_zh %}邮箱{% else %}Email{% endif %}</span>
           </a>
           {% endif %}
 
           {% if site.wechat %}
           <div class="profile-link profile-link-static" aria-label="{% if is_zh %}微信{% else %}WeChat{% endif %}">
             <i class="fab fa-weixin profile-link-icon"></i>
-            <span class="profile-link-label">{{ site.wechat }}</span>
+            <span class="profile-link-label profile-link-label-desktop">{{ site.wechat }}</span>
+            <span class="profile-link-label profile-link-label-mobile">{% if is_zh %}微信{% else %}WeChat{% endif %}</span>
           </div>
           {% endif %}
 
           {% if site.google_scholar %}
           <a class="profile-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">
             <i class="ai ai-google-scholar profile-link-icon"></i>
-            <span class="profile-link-label">Google Scholar</span>
-          </a>
-          {% endif %}
-
-          {% if semantic_scholar_url %}
-          <a class="profile-link" href="{{ semantic_scholar_url }}" target="_blank" rel="noopener">
-            <i class="fas fa-book-open profile-link-icon"></i>
-            <span class="profile-link-label">Semantic Scholar</span>
+            <span class="profile-link-label profile-link-label-desktop">Google Scholar</span>
+            <span class="profile-link-label profile-link-label-mobile">Scholar</span>
           </a>
           {% endif %}
 
           {% if dblp_url %}
           <a class="profile-link" href="{{ dblp_url }}" target="_blank" rel="noopener">
             <i class="fas fa-database profile-link-icon"></i>
-            <span class="profile-link-label">DBLP</span>
+            <span class="profile-link-label profile-link-label-desktop">DBLP</span>
+            <span class="profile-link-label profile-link-label-mobile">DBLP</span>
           </a>
           {% endif %}
 
           {% if site.github_link %}
           <a class="profile-link" href="{{ site.github_link }}" target="_blank" rel="noopener">
             <i class="fab fa-github profile-link-icon"></i>
-            <span class="profile-link-label">GitHub</span>
+            <span class="profile-link-label profile-link-label-desktop">GitHub</span>
+            <span class="profile-link-label profile-link-label-mobile">GitHub</span>
           </a>
           {% endif %}
 
           {% if site.linkedin %}
           <a class="profile-link" href="{{ site.linkedin }}" target="_blank" rel="noopener">
             <i class="fab fa-linkedin profile-link-icon"></i>
-            <span class="profile-link-label">LinkedIn</span>
+            <span class="profile-link-label profile-link-label-desktop">LinkedIn</span>
+            <span class="profile-link-label profile-link-label-mobile">LinkedIn</span>
           </a>
           {% endif %}
 
           {% if xiaohongshu_url %}
           <a class="profile-link" href="{{ xiaohongshu_url }}" target="_blank" rel="noopener">
             <span class="profile-link-icon profile-link-emoji" aria-hidden="true">🍠</span>
-            <span class="profile-link-label">Xiaohongshu</span>
+            <span class="profile-link-label profile-link-label-desktop">Xiaohongshu</span>
+            <span class="profile-link-label profile-link-label-mobile">XHS</span>
           </a>
           {% endif %}
 
           {% if orcid_url %}
           <a class="profile-link" href="{{ orcid_url }}" target="_blank" rel="noopener">
             <i class="ai ai-orcid profile-link-icon"></i>
-            <span class="profile-link-label">ORCID</span>
+            <span class="profile-link-label profile-link-label-desktop">ORCID</span>
+            <span class="profile-link-label profile-link-label-mobile">ORCID</span>
           </a>
           {% endif %}
 
           {% if csdn_url %}
           <a class="profile-link" href="{{ csdn_url }}" target="_blank" rel="noopener">
             <i class="fas fa-blog profile-link-icon"></i>
-            <span class="profile-link-label">CSDN</span>
+            <span class="profile-link-label profile-link-label-desktop">CSDN</span>
+            <span class="profile-link-label profile-link-label-mobile">CSDN</span>
           </a>
           {% endif %}
 
           {% if site.cv_link %}
           <a class="profile-link" href="{{ site.cv_link | remove_first: './' | relative_url }}" target="_blank" rel="noopener">
             <i class="ai ai-cv profile-link-icon"></i>
-            <span class="profile-link-label">{% if is_zh %}简历{% else %}CV{% endif %}</span>
+            <span class="profile-link-label profile-link-label-desktop">{% if is_zh %}简历{% else %}CV{% endif %}</span>
+            <span class="profile-link-label profile-link-label-mobile">{% if is_zh %}简历{% else %}CV{% endif %}</span>
           </a>
           {% endif %}
 
