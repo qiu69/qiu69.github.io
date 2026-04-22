@@ -127,10 +127,16 @@ email {
 }
 
 .profile-link-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 1.05rem;
+  height: 1.05rem;
   min-width: 1.05rem;
   text-align: center;
   font-size: 0.96rem;
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 .profile-link-emoji {
@@ -158,15 +164,16 @@ email {
 
   .profile-link,
   .profile-link-static {
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.38rem;
-    padding: 0.42rem 0.42rem;
+    padding: 0.42rem 0.5rem;
     font-size: 0.71rem;
-    text-align: center;
+    text-align: left;
   }
 
   .profile-link-icon {
     width: 0.88rem;
+    height: 0.88rem;
     min-width: 0.88rem;
     font-size: 0.8rem;
   }
@@ -180,7 +187,7 @@ email {
   }
 
   .profile-link-label {
-    text-align: center;
+    text-align: left;
     line-height: 1.2;
     word-break: normal;
     overflow-wrap: normal;
