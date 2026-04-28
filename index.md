@@ -21,6 +21,7 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[Apr. 2026]</strong> Our time series anomaly prediction algorithm <a href="https://arxiv.org/abs/2410.15997">TAP</a> has been accepted by <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong>.</li>
     <li><strong>[Apr. 2026]</strong> Time series application platform (<a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE25</a>) was selected as <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">most influential papers</a> by Paper Digest (Rank 1st / 397 Accepted Papers).</li>
     <li><strong>[Jan. 2026]</strong> Our papers "GCGNet &amp; ASTGI" have been accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>[Dec. 2025]</strong> I have been selected for the <strong>Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program</strong> (China Association for Science and Technology).</li>

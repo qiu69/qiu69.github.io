@@ -26,6 +26,7 @@ profile_affiliation: 华东师范大学
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[2026 年 4 月]</strong> 我们的时间序列异常预测算法 <a href="https://arxiv.org/abs/2410.15997">TAP</a> 被 <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong> 接收。</li>
     <li><strong>[2026 年 4 月]</strong> 时间序列应用平台 <a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE 2025</a> 被 Paper Digest 评为 <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">最具影响力论文</a>（397 篇接收论文中排名第 1）。</li>
     <li><strong>[2026 年 1 月]</strong> 我们的论文 “GCGNet” 和 “ASTGI” 被 <strong>ICLR 2026</strong> 接收。</li>
     <li><strong>[2025 年 12 月]</strong> 我入选 <strong>中国科协青年人才培育工程博士生专项计划</strong>。</li>

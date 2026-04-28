@@ -210,13 +210,14 @@ anomaly:
     blog: https://mp.weixin.qq.com/s/zhAp-texiJFnUFduJx8fgQ
     notes: ICLR, CCF A, Accepted
     
-  - title: "MultiRC: Joint Learning for Time Series Anomaly Prediction and Detection with Multi-scale Reconstructive Contrast"
-    authors: Shiyan Hu, Kai Zhao, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Bin Yang, Chenjuan Guo#
-    conference_short: arXiv
-    conference: arXiv preprint, 2024.
+  - title: "TAP: Time Series Anomaly Prediction via Adaptive Period Modeling and Dual Representation Learning"
+    authors: Shiyan Hu, Kai Zhao, Chenjuan Guo, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Christian S. Jensen, Bin Yang
+    conference_short: TKDE
+    conference: IEEE Transactions on Knowledge and Data Engineering, 2026.
     pdf: https://arxiv.org/abs/2410.15997
     blog: https://mp.weixin.qq.com/s/u-0mqxrm6EqlGkNx5thTPQ
     image: ./assets/img/MultiRC.png
+    notes: TKDE, CCF A, Accepted
 
 others:
   - title: "SSD-TS: Exploring the potential of linear state space models for diffusion models in time series imputation"
