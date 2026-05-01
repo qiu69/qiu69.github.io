@@ -21,6 +21,8 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[May. 2026]</strong> Our survey paper "<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>" has been accepted by <strong>IJCAI 2026</strong>.</li>
+    <li><strong>[May. 2026]</strong> Our papers "<a href="https://arxiv.org/pdf/2509.14933">DAG</a>", "<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>", "<a href="https://arxiv.org/pdf/2602.00589">SEER</a>", and "TeamWork" have been accepted to <strong>ICML 2026</strong>.</li>
     <li><strong>[Apr. 2026]</strong> Our time series anomaly prediction algorithm <a href="https://arxiv.org/abs/2410.15997">TAP</a> has been accepted by <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong>.</li>
     <li><strong>[Apr. 2026]</strong> Time series application platform (<a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE25</a>) was selected as <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">most influential papers</a> by Paper Digest (Rank 1st / 397 Accepted Papers).</li>
     <li><strong>[Jan. 2026]</strong> Our papers "GCGNet &amp; ASTGI" have been accepted to <strong>ICLR 2026</strong>.</li>

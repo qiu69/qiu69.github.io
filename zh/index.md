@@ -26,6 +26,8 @@ profile_affiliation: 华东师范大学
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[2026 年 5 月]</strong> 我们的综述论文 “<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>” 被 <strong>IJCAI 2026</strong> 接收。</li>
+    <li><strong>[2026 年 5 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2509.14933">DAG</a>”、“<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>”、“<a href="https://arxiv.org/pdf/2602.00589">SEER</a>” 和 “TeamWork” 被 <strong>ICML 2026</strong> 接收。</li>
     <li><strong>[2026 年 4 月]</strong> 我们的时间序列异常预测算法 <a href="https://arxiv.org/abs/2410.15997">TAP</a> 被 <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong> 接收。</li>
     <li><strong>[2026 年 4 月]</strong> 时间序列应用平台 <a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE 2025</a> 被 Paper Digest 评为 <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">最具影响力论文</a>（397 篇接收论文中排名第 1）。</li>
     <li><strong>[2026 年 1 月]</strong> 我们的论文 “GCGNet” 和 “ASTGI” 被 <strong>ICLR 2026</strong> 接收。</li>

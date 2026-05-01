@@ -133,36 +133,46 @@ forecast:
 
   - title: "DAG: A Dual Correlation Network for Time Series Forecasting with Exogenous Variables"
     authors: <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Zhengyu Li, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
+    conference_short: ICML
+    conference: International Conference on Machine Learning, 2026.
     pdf: https://arxiv.org/pdf/2509.14933
     code: https://github.com/decisionintelligence/DAG
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/DAG.png
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-#    notes: PVLDB, CCF A, Accepted
+    notes: ICML, CCF A, Accepted
     
   - title: "Bridging Time and Frequency: A Joint Modeling Framework for Irregular Multivariate Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Kangjia Yan, Xvyuan Liu, Xingjian Wu, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
+    conference_short: ICML
+    conference: International Conference on Machine Learning, 2026.
     pdf: https://arxiv.org/pdf/2602.00582
 #    code: https://github.com/decisionintelligence/DAG
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/TFMixer.png
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-#    notes: PVLDB, CCF A, Accepted
+    notes: ICML, CCF A, Accepted
 
   - title: "SEER: Transformer-based Robust Time Series Forecasting via Automated Patch Enhancement and Replacement"
     authors: <strong>Xiangfei Qiu</strong>, Xvyuan Liu, Tianen Shen, Xingjian Wu, Hanyin Cheng, Bin Yang, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
+    conference_short: ICML
+    conference: International Conference on Machine Learning, 2026.
     pdf: https://arxiv.org/pdf/2602.00589
 #    code: https://github.com/decisionintelligence/DAG
 #    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/SEER.png
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
-#    notes: PVLDB, CCF A, Accepted
+    notes: ICML, CCF A, Accepted
+
+  - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
+    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Junkai Lu, Jilin Hu, Chenjuan Guo, Christian S. Jensen, Bin Yang
+    conference_short: IJCAI
+    conference: International Joint Conference on Artificial Intelligence, 2026.
+    pdf: https://arxiv.org/pdf/2502.10721
+    code: https://github.com/decisionintelligence/CS4TS
+    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
+    image: ./assets/img/CS4TS.png
+    notes: IJCAI, Core A*, Accepted
 
   - title: "Hermes: A Multi-Scale Spatial-Temporal Hypergraph Network for Stock Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Liu Yang, Xiangyu Xu, Hanyin Cheng, Xingjian Wu, Rongjia Wu, Zhigang Zhang, Ding Tu, Chenjuan Guo, Bin Yang, Christian S. Jensen, Jilin Hu#
@@ -189,6 +199,13 @@ forecast:
     image: ./assets/img/LightGTS-Cov.png
 
 anomaly:
+  - title: "TeamWork: Multivariate Time Series Anomaly Detection via Asymmetric Role-aware Channel Modeling"
+    authors: Shiyan Hu, Dingxue Zhang, Jianxin Jin, <strong>Xiangfei Qiu</strong>, Bin Yang, Chenjuan Guo
+    conference_short: ICML
+    conference: International Conference on Machine Learning, 2026.
+    image: ./assets/img/TeamWork.png
+    notes: ICML, CCF A, Accepted
+
   - title: "An Encode-then-Decompose Approach to Unsupervised Time Series Anomaly Detection on Contaminated Training Data"
     authors: Buang Zhang, Tung Kieu, <strong>Xiangfei Qiu</strong>, Chenjuan Guo, Jilin Hu, Aoying Zhou, Christian S. Jensen, Bin Yang
     conference_short: ICDE
@@ -229,16 +246,6 @@ others:
 #    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FHf5dj7CBUYJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UI2Ng:AFWwaeYAAAAAZxUOwNjD9zgPCZrdbAjv7RZeJk8&scisig=AFWwaeYAAAAAZxUOwJjJItMlSyJSMA2TgXj8fkw&scisf=4&ct=citation&cd=-1
     image: ./assets/img/DiffImp.png
     notes: SIGKDD, CCF A, Accepted
-
-  - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
-    authors: <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Xingjian Wu, Junkai Lu, Jilin Hu, Chenjuan Guo, Christian S. Jensen, Bin Yang
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    pdf: https://arxiv.org/pdf/2502.10721
-    code: https://github.com/decisionintelligence/CS4TS
-    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
-    image: ./assets/img/CS4TS.png
-#    notes: Accepted
 
   - title: "TimeART: Towards Agentic Time Series Reasoning via Tool-Augmentation"
     authors: Xingjian Wu, Junkai Lu, Zhengyu Li, <strong>Xiangfei Qiu</strong>, Jilin Hu, Chenjuan Guo, Christian S. Jensen, Bin Yang, Bin Yang#
