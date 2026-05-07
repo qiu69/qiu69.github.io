@@ -74,6 +74,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     font-weight: 700;
     line-height: 1.1;
     cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
@@ -169,6 +171,20 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     line-height: 1.2;
     cursor: pointer;
     font-family: inherit;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 640px) {
+    .publication-tag-board .tag-filter {
+        min-height: 2.3rem;
+        padding: 0.44rem 0.82rem;
+    }
+
+    .publications ol.bibliography li .pub-chip {
+        min-height: 1.9rem;
+        padding: 0.26rem 0.72rem;
+    }
 }
 
 .publications ol.bibliography li .pub-chip:hover {

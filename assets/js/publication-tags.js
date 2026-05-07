@@ -1,4 +1,15 @@
 (function () {
+  function getClosestTarget(event, selector) {
+    var target = event.target;
+    if (!target) {
+      return null;
+    }
+    if (target.nodeType !== 1) {
+      target = target.parentElement;
+    }
+    return target && target.closest ? target.closest(selector) : null;
+  }
+
   function initPublicationTags() {
     var board = document.querySelector("[data-publication-tag-board]");
     if (!board) {
@@ -108,6 +119,33 @@
     board.appendChild(summary);
 
     var activeTags = [];
+    var lastTouchInteraction = {
+      key: "",
+      timestamp: 0
+    };
+
+    function buildInteractionKey(prefix, tagId) {
+      return prefix + ":" + (tagId || "__all__");
+    }
+
+    function isTouchLikeInteraction(event) {
+      if (!event) {
+        return false;
+      }
+      if (event.type === "touchend") {
+        return true;
+      }
+      return event.type === "pointerup" && event.pointerType && event.pointerType !== "mouse";
+    }
+
+    function rememberTouchInteraction(key) {
+      lastTouchInteraction.key = key;
+      lastTouchInteraction.timestamp = Date.now();
+    }
+
+    function shouldIgnoreSyntheticClick(key) {
+      return lastTouchInteraction.key === key && (Date.now() - lastTouchInteraction.timestamp) < 700;
+    }
 
     function toggleTag(tagId) {
       var index = activeTags.indexOf(tagId);
@@ -154,10 +192,20 @@
         : "Showing " + visibleCount + " papers tagged with any of " + selectedLabels + ".";
     }
 
-    board.addEventListener("click", function (event) {
-      var button = event.target.closest(".tag-filter");
+    function handleFilterButtonInteraction(event) {
+      var button = getClosestTarget(event, ".tag-filter");
       if (!button) {
         return;
+      }
+      var interactionKey = buildInteractionKey("filter", button.dataset.tagId);
+      if (event.type === "click" && shouldIgnoreSyntheticClick(interactionKey)) {
+        return;
+      }
+      if (isTouchLikeInteraction(event)) {
+        rememberTouchInteraction(interactionKey);
+        if (event.cancelable) {
+          event.preventDefault();
+        }
       }
       if (!button.dataset.tagId) {
         activeTags = [];
@@ -165,17 +213,38 @@
         toggleTag(button.dataset.tagId);
       }
       applyFilter();
-    });
+    }
 
-    document.addEventListener("click", function (event) {
-      var chip = event.target.closest(".pub-chip[data-tag-id]");
+    function handleChipInteraction(event) {
+      var chip = getClosestTarget(event, ".pub-chip[data-tag-id]");
       if (!chip) {
         return;
+      }
+      var interactionKey = buildInteractionKey("chip", chip.dataset.tagId);
+      if (event.type === "click" && shouldIgnoreSyntheticClick(interactionKey)) {
+        return;
+      }
+      if (isTouchLikeInteraction(event)) {
+        rememberTouchInteraction(interactionKey);
+        if (event.cancelable) {
+          event.preventDefault();
+        }
       }
       toggleTag(chip.dataset.tagId);
       applyFilter();
       board.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    });
+    }
+
+    if (window.PointerEvent) {
+      board.addEventListener("pointerup", handleFilterButtonInteraction);
+      document.addEventListener("pointerup", handleChipInteraction);
+    } else {
+      board.addEventListener("touchend", handleFilterButtonInteraction, { passive: false });
+      document.addEventListener("touchend", handleChipInteraction, { passive: false });
+    }
+
+    board.addEventListener("click", handleFilterButtonInteraction);
+    document.addEventListener("click", handleChipInteraction);
 
     applyFilter();
   }
