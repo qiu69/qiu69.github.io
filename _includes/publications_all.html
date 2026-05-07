@@ -13,7 +13,11 @@
     {% assign author_text = link.authors | replace: " and ", ", " | strip %}
     {% assign first_author_segment = author_text | split: "," | first | strip %}
     {% assign is_regular_first_author = false %}
-    {% if first_author_segment contains "<strong>Xiangfei Qiu#</strong>" or first_author_segment contains "<strong>Xiangfei Qiu</strong>" %}
+    {% assign is_cofirst_author = false %}
+    {% if author_text contains "<strong>Xiangfei Qiu*</strong>" %}
+      {% assign is_cofirst_author = true %}
+    {% endif %}
+    {% if is_cofirst_author == false and first_author_segment contains "<strong>Xiangfei Qiu#</strong>" or is_cofirst_author == false and first_author_segment contains "<strong>Xiangfei Qiu</strong>" %}
       {% assign is_regular_first_author = true %}
     {% endif %}
     {% if is_regular_first_author %}
@@ -22,13 +26,30 @@
   {% endfor %}
 {% endfor %}
 
-{% for collection in collections %}
-  {% assign entries = site.data.publications[collection] %}
-  {% for link in entries %}
-    {% assign author_text = link.authors | replace: " and ", ", " | strip %}
-    {% if author_text contains "<strong>Xiangfei Qiu*</strong>" %}
-      {% include publication_item.html link=link is_zh=is_zh collection=collection %}
-    {% endif %}
+{% for author_rank in (1..24) %}
+  {% for collection in collections %}
+    {% assign entries = site.data.publications[collection] %}
+    {% for link in entries %}
+      {% assign author_text = link.authors | replace: " and ", ", " | strip %}
+      {% assign is_cofirst_author = false %}
+      {% assign author_position = 0 %}
+
+      {% if author_text contains "<strong>Xiangfei Qiu*</strong>" %}
+        {% assign is_cofirst_author = true %}
+      {% endif %}
+
+      {% assign author_segments = author_text | split: "," %}
+      {% for author_segment in author_segments %}
+        {% assign author_segment = author_segment | strip %}
+        {% if author_position == 0 and author_segment contains "<strong>Xiangfei Qiu" %}
+          {% assign author_position = forloop.index %}
+        {% endif %}
+      {% endfor %}
+
+      {% if is_cofirst_author and author_position == author_rank %}
+        {% include publication_item.html link=link is_zh=is_zh collection=collection %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 {% endfor %}
 
