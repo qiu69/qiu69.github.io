@@ -74,6 +74,10 @@ profile_affiliation: 华东师范大学
 
 ## 📖 学术服务
 
+#### 学术服务
+
+- [ST-FM](https://st-fm-26.github.io/STxFM-MDM2026/#) Workshop at [MDM 2026](https://mdm-2026.github.io/)，Technical Chair，2026。
+
 #### 会议程序委员会 / 审稿服务
 
 - International Conference on Machine Learning ([ICML](https://icml.cc/Conferences/2026)) 2026。

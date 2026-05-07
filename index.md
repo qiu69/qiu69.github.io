@@ -70,6 +70,10 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 ## 📖 Services
 
+#### Academic Services
+
+- Technical Chair, [ST-FM](https://st-fm-26.github.io/STxFM-MDM2026/#) Workshop at [MDM 2026](https://mdm-2026.github.io/), 2026.
+
 #### Conference PC member:
 
 - International Conference on Machine Learning ([ICML](https://icml.cc/Conferences/2026)) 2026.
