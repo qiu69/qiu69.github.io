@@ -193,6 +193,9 @@
     }
 
     function handleFilterButtonInteraction(event) {
+      if (event.type === "pointerup" && !isTouchLikeInteraction(event)) {
+        return;
+      }
       var button = getClosestTarget(event, ".tag-filter");
       if (!button) {
         return;
@@ -216,6 +219,9 @@
     }
 
     function handleChipInteraction(event) {
+      if (event.type === "pointerup" && !isTouchLikeInteraction(event)) {
+        return;
+      }
       var chip = getClosestTarget(event, ".pub-chip[data-tag-id]");
       if (!chip) {
         return;
