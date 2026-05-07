@@ -1,0 +1,145 @@
+{% assign link = include.link %}
+{% assign is_zh = include.is_zh %}
+{% assign collection = include.collection %}
+
+{% if is_zh %}
+  {% assign label_project_page = "项目页" %}
+  {% assign label_poster = "海报" %}
+  {% assign label_slides = "幻灯片" %}
+  {% assign label_blog = "博客" %}
+  {% assign label_video = "视频" %}
+  {% assign label_dataset = "数据集" %}
+  {% assign label_model = "模型" %}
+{% else %}
+  {% assign label_project_page = "Project Page" %}
+  {% assign label_poster = "Poster" %}
+  {% assign label_slides = "Slides" %}
+  {% assign label_blog = "Blog" %}
+  {% assign label_video = "Video" %}
+  {% assign label_dataset = "Dataset" %}
+  {% assign label_model = "Model" %}
+{% endif %}
+
+{% assign author_text = link.authors | strip %}
+{% assign is_first_or_cofirst = false %}
+{% assign first_author_segment = author_text | split: "," | first | strip %}
+{% if author_text contains "<strong>Xiangfei Qiu*</strong>" %}
+  {% assign is_first_or_cofirst = true %}
+{% elsif first_author_segment contains "<strong>Xiangfei Qiu#</strong>" or first_author_segment contains "<strong>Xiangfei Qiu</strong>" %}
+  {% assign is_first_or_cofirst = true %}
+{% endif %}
+
+{% assign note_suffix = "" %}
+{% if link.notes and link.notes contains "Accepted (" %}
+  {% assign note_suffix = link.notes | split: "(" | last | split: "," | first | remove: ")" | strip %}
+{% endif %}
+
+{% capture tag_ids %}{% if is_first_or_cofirst %}first-author|{% endif %}{% if collection == "benchmark" %}benchmark|{% elsif collection == "forecast" %}forecasting|{% elsif collection == "anomaly" %}anomaly-detection|{% endif %}{% if link.notes and link.notes contains "CCF A" %}ccf-a|{% endif %}{% if link.conference_short == "arXiv" %}preprint|{% endif %}{% if note_suffix == "Spotlight" %}spotlight|{% endif %}{% if note_suffix == "Oral" %}oral|{% endif %}{% if note_suffix == "Best Paper Award Nomination" %}best-paper|{% endif %}{% if note_suffix == "PaperDigest Most Influential Paper" %}most-influential-paper|{% endif %}{% endcapture %}
+{% assign tag_ids = tag_ids | split: "|" %}
+
+{% capture tag_chips %}
+{% for tag_id in tag_ids %}
+  {% assign tag_id = tag_id | strip %}
+  {% if tag_id != "" %}
+    {% assign tag_label = "" %}
+    {% case tag_id %}
+      {% when "first-author" %}
+        {% assign tag_label = "第一/共同一作" %}
+        {% unless is_zh %}{% assign tag_label = "First/Co-First Author" %}{% endunless %}
+      {% when "benchmark" %}
+        {% assign tag_label = "基准评测" %}
+        {% unless is_zh %}{% assign tag_label = "Benchmark" %}{% endunless %}
+      {% when "forecasting" %}
+        {% assign tag_label = "时间序列预测" %}
+        {% unless is_zh %}{% assign tag_label = "Forecasting" %}{% endunless %}
+      {% when "anomaly-detection" %}
+        {% assign tag_label = "异常检测" %}
+        {% unless is_zh %}{% assign tag_label = "Anomaly Detection" %}{% endunless %}
+      {% when "ccf-a" %}
+        {% assign tag_label = "CCF-A" %}
+      {% when "preprint" %}
+        {% assign tag_label = "预印本" %}
+        {% unless is_zh %}{% assign tag_label = "Preprint" %}{% endunless %}
+      {% when "spotlight" %}
+        {% assign tag_label = "Spotlight" %}
+      {% when "oral" %}
+        {% assign tag_label = "Oral" %}
+      {% when "best-paper" %}
+        {% assign tag_label = "最佳论文提名" %}
+        {% unless is_zh %}{% assign tag_label = "Best Paper Nomination" %}{% endunless %}
+      {% when "most-influential-paper" %}
+        {% assign tag_label = "最具影响力论文" %}
+        {% unless is_zh %}{% assign tag_label = "Most Influential Paper" %}{% endunless %}
+    {% endcase %}
+    {% if tag_label != "" %}
+      <button type="button" class="pub-chip" data-tag-id="{{ tag_id }}">{{ tag_label }}</button>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% endcapture %}
+{% assign tag_chips = tag_chips | strip %}
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+    {% if link.image %}
+    <img src="{{ link.image | remove_first: './' | relative_url }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }}">
+    {% endif %}
+    {% if link.conference_short %}
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
+    <div class="title">
+      {% if link.pdf %}
+      <a href="{{ link.pdf }}">{{ link.title }}</a>
+      {% else %}
+      {{ link.title }}
+      {% endif %}
+    </div>
+    <div class="author">{{ link.authors }}</div>
+    <div class="periodical"><em>{{ link.conference }}</em></div>
+    {% if tag_chips != "" %}
+    <div class="pub-tags">{{ tag_chips }}</div>
+    {% endif %}
+    <div class="links">
+      {% if link.pdf %}
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      {% endif %}
+      {% if link.code %}
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+      {% if link.page %}
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_project_page }}</a>
+      {% endif %}
+      {% if link.bibtex %}
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTeX</a>
+      {% endif %}
+      {% if link.poster %}
+      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_poster }}</a>
+      {% endif %}
+      {% if link.slides %}
+      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_slides }}</a>
+      {% endif %}
+      {% if link.blog %}
+      <a href="{{ link.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_blog }}</a>
+      {% endif %}
+      {% if link.video %}
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_video }}</a>
+      {% endif %}
+      {% if link.dataset %}
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_dataset }}</a>
+      {% endif %}
+      {% if link.model %}
+      <a href="{{ link.model }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ label_model }}</a>
+      {% endif %}
+      {% if link.notes %}
+      <strong><i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.others %}
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
