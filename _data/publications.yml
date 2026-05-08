@@ -36,7 +36,7 @@ benchmark:
     
 forecast:
   - title: "GCGNet: Graph-Consistent Generative Network for Time Series Forecasting with Exogenous Variables"
-    authors: Zhengyu Li, <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
+    authors: Zhengyu Li*, <strong>Xiangfei Qiu*</strong>, Yuhan Zhu, Xingjian Wu, Jilin Hu, Chenjuan Guo, Bin Yang
     conference_short: ICLR
     conference: International Conference on Learning Representations, 2026.
     pdf: https://openreview.net/pdf?id=EO5jwQ5NCw
@@ -132,7 +132,7 @@ forecast:
     
 
   - title: "DAG: A Dual Correlation Network for Time Series Forecasting with Exogenous Variables"
-    authors: <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Zhengyu Li, Hanyin Cheng, Xingjian Wu, Chenjuan Guo, Bin Yang, Jilin Hu#
+    authors: <strong>Xiangfei Qiu</strong>, Yuhan Zhu, Zhengyu Li, Xingjian Wu, Bin Yang, Jilin Hu#
     conference_short: ICML
     conference: International Conference on Machine Learning, 2026.
     pdf: https://arxiv.org/pdf/2509.14933
