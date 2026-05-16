@@ -21,6 +21,9 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[May. 2026]</strong> Our papers "CCD" and "<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>" have been accepted to <strong>KDD 2026</strong>.</li>
+    <li><strong>[May. 2026]</strong> I have received the <strong>ICML 2026 Silver Reviewer Award</strong>.</li>
+    <li><strong>[May. 2026]</strong> I have received the <strong>IJCAI 2026 Gold Tier Reviewer Award</strong>.</li>
     <li><strong>[May. 2026]</strong> Our survey paper "<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>" has been accepted by <strong>IJCAI 2026</strong>.</li>
     <li><strong>[May. 2026]</strong> Our papers "<a href="https://arxiv.org/pdf/2509.14933">DAG</a>", "<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>", "<a href="https://arxiv.org/pdf/2602.00589">SEER</a>", and "TeamWork" have been accepted to <strong>ICML 2026</strong>.</li>
     <li><strong>[Apr. 2026]</strong> Our time series anomaly prediction algorithm <a href="https://arxiv.org/abs/2410.15997">TAP</a> has been accepted by <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong>.</li>
@@ -102,6 +105,8 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 ## 🎖 Awards
 
+- **ICML 2026 Silver Reviewer Award**, 2026
+- **IJCAI 2026 Gold Tier Reviewer Award**, 2026
 - **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology), 2025
 - **National Scholarship**, 2025
 - SIGKDD 2025 Research Track **Outstanding Reviewer**, 2025, [Link](https://kdd2025.kdd.org/research-track-program-committee/)

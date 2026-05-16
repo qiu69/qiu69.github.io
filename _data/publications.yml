@@ -184,12 +184,20 @@ forecast:
     image: ./assets/img/Hermes.png
 #    notes: Accepted
 
+  - title: "CCD: Capturing Cross-Correlations with Deformable Convolutional Networks for Multivariate Time Series Forecasting"
+    authors: Hanyin Cheng, Xingjian Wu, <strong>Xiangfei Qiu</strong>, Yang Shu, Bin Yang, Chenjuan Guo
+    conference_short: SIGKDD
+    conference: ACM Knowledge Discovery and Data Mining, 2026.
+    image: ./assets/img/CCD.png
+    notes: SIGKDD, CCF A, Accepted
+
   - title: "MEMTS: Internalizing Domain Knowledge via Parameterized Memory for Retrieval-Free Domain Adaptation of Time Series Foundation Models"
     authors: Xiaoyun Yu*, Li Fan*, <strong>Xiangfei Qiu</strong>, Nanqing Dong, Yonggui Huang, Honggang Qi, Geguang Pu, Wanli Ouyang, Xi Chen#, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
+    conference_short: SIGKDD
+    conference: ACM Knowledge Discovery and Data Mining, 2026.
     pdf: https://arxiv.org/pdf/2602.13783
     image: ./assets/img/MEMTS.png
+    notes: SIGKDD, CCF A, Accepted
 
   - title: "LightGTS-Cov: Covariate-Enhanced Time Series Forecasting"
     authors: Yong Shang, Zhipeng Yao, Ning Jin, <strong>Xiangfei Qiu</strong>, Hui Zhang, Bin Yang

@@ -26,6 +26,9 @@ profile_affiliation: 华东师范大学
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[2026 年 5 月]</strong> 我的论文 “CCD” 和 “<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>” 被 <strong>KDD 2026</strong> 接收。</li>
+    <li><strong>[2026 年 5 月]</strong> 我获得 <strong>ICML 2026 Silver Reviewer Award</strong>。</li>
+    <li><strong>[2026 年 5 月]</strong> 我获得 <strong>IJCAI 2026 Gold Tier Reviewer Award</strong>。</li>
     <li><strong>[2026 年 5 月]</strong> 我们的综述论文 “<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>” 被 <strong>IJCAI 2026</strong> 接收。</li>
     <li><strong>[2026 年 5 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2509.14933">DAG</a>”、“<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>”、“<a href="https://arxiv.org/pdf/2602.00589">SEER</a>” 和 “TeamWork” 被 <strong>ICML 2026</strong> 接收。</li>
     <li><strong>[2026 年 4 月]</strong> 我们的时间序列异常预测算法 <a href="https://arxiv.org/abs/2410.15997">TAP</a> 被 <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong> 接收。</li>
@@ -106,6 +109,8 @@ profile_affiliation: 华东师范大学
 
 ## 🎖 荣誉奖项
 
+- **ICML 2026 Silver Reviewer Award**，2026
+- **IJCAI 2026 Gold Tier Reviewer Award**，2026
 - **中国科协青年人才培育工程博士生专项计划**，2025
 - **国家奖学金**，2025
 - SIGKDD 2025 Research Track **Outstanding Reviewer**，2025，[Link](https://kdd2025.kdd.org/research-track-program-committee/)
