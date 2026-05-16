@@ -26,7 +26,7 @@ profile_affiliation: 华东师范大学
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
-    <li><strong>[2026 年 5 月]</strong> 我的论文 “CCD” 和 “<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>” 被 <strong>KDD 2026</strong> 接收。</li>
+    <li><strong>[2026 年 5 月]</strong> 我的论文 “CCD” 和 “<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>” 被 <strong>SIGKDD 2026</strong> 接收。</li>
     <li><strong>[2026 年 5 月]</strong> 我获得 <strong>ICML 2026 Silver Reviewer Award</strong>。</li>
     <li><strong>[2026 年 5 月]</strong> 我获得 <strong>IJCAI 2026 Gold Tier Reviewer Award</strong>。</li>
     <li><strong>[2026 年 5 月]</strong> 我们的综述论文 “<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>” 被 <strong>IJCAI 2026</strong> 接收。</li>

@@ -21,7 +21,7 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
-    <li><strong>[May. 2026]</strong> Our papers "CCD" and "<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>" have been accepted to <strong>KDD 2026</strong>.</li>
+    <li><strong>[May. 2026]</strong> Our papers "CCD" and "<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>" have been accepted to <strong>SIGKDD 2026</strong>.</li>
     <li><strong>[May. 2026]</strong> I have received the <strong>ICML 2026 Silver Reviewer Award</strong>.</li>
     <li><strong>[May. 2026]</strong> I have received the <strong>IJCAI 2026 Gold Tier Reviewer Award</strong>.</li>
     <li><strong>[May. 2026]</strong> Our survey paper "<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>" has been accepted by <strong>IJCAI 2026</strong>.</li>
