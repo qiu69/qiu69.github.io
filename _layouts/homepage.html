@@ -31,6 +31,16 @@
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | remove_first: './' | relative_url }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | remove_first: './' | relative_url }}" type="image/png" />
     <script src="{{ "/assets/js/favicon-switcher.js" | relative_url }}" type="application/javascript"></script>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          if (stored === 'light' || stored === 'dark') {
+            document.documentElement.setAttribute('data-theme', stored);
+          }
+        } catch (e) {}
+      })();
+    </script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -102,6 +112,74 @@
           border-radius: 12px;
         }
       }
+
+      /* Manual theme override (data-theme on <html> beats prefers-color-scheme) */
+      html[data-theme="light"] body { background-color: #ffffff; color: #3f3f3f; }
+      html[data-theme="light"] autocolor { color: #595959; }
+      html[data-theme="light"] lightonly { visibility: visible; }
+      html[data-theme="light"] darkonly { visibility: hidden; }
+      html[data-theme="light"] h1,
+      html[data-theme="light"] h2,
+      html[data-theme="light"] h3,
+      html[data-theme="light"] h4,
+      html[data-theme="light"] h5,
+      html[data-theme="light"] h6 { color: #043361; }
+      html[data-theme="light"] a { color: #39c; }
+      html[data-theme="light"] a:hover { color: #069; }
+      html[data-theme="light"] strong { color: #222; }
+      html[data-theme="light"] th,
+      html[data-theme="light"] dt { color: #444; }
+      html[data-theme="light"] .social-icons a { color: #043361 !important; }
+      html[data-theme="light"] .news-scrollbox {
+        border-color: #d9e4fb;
+        background: #fbfdff;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+      }
+      html[data-theme="light"] .news-scrollbox::-webkit-scrollbar-thumb { background-color: #d2def4; }
+      html[data-theme="light"] .publications ol.bibliography li .links a.btn { color: #000000; border-color: #000000; }
+      html[data-theme="light"] .publication-tag-board { background: #fbfdff; border-color: #d9e4fb; box-shadow: 0 10px 24px rgba(0, 45, 114, 0.04); }
+      html[data-theme="light"] .publication-tag-board .tag-filter { color: #243b63; background: #ffffff; border-color: #d2def4; }
+      html[data-theme="light"] .publication-tag-board .tag-filter .tag-count { background: #eef3fb; color: #41516d; }
+      html[data-theme="light"] .publications ol.bibliography li .pub-chip { background: #ffffff; border-color: #d5dceb; color: var(--global-theme-color); }
+
+      html[data-theme="dark"] body { background-color: #20212b; color: #dadbdf; }
+      html[data-theme="dark"] autocolor { color: #dadbdf; }
+      html[data-theme="dark"] lightonly { visibility: hidden; }
+      html[data-theme="dark"] darkonly { visibility: visible; }
+      html[data-theme="dark"] papertitle { color: #eeeff0; }
+      html[data-theme="dark"] h1,
+      html[data-theme="dark"] h2,
+      html[data-theme="dark"] h3,
+      html[data-theme="dark"] h4,
+      html[data-theme="dark"] h5,
+      html[data-theme="dark"] h6 { color: rgb(62, 183, 240); }
+      html[data-theme="dark"] a { color: rgb(62, 183, 240); }
+      html[data-theme="dark"] strong { color: #eeeff0; }
+      html[data-theme="dark"] th,
+      html[data-theme="dark"] dt { color: rgb(62, 183, 240); }
+      html[data-theme="dark"] .social-icons a { color: #3eb7f0 !important; }
+      html[data-theme="dark"] .social-icons a:hover { background-color: #20212b; color: black; transform: scale(1.2); }
+      html[data-theme="dark"] .news-scrollbox {
+        border-color: rgba(255, 255, 255, 0.14);
+        background: linear-gradient(180deg, rgba(38, 38, 38, 0.92), rgba(24, 24, 24, 0.96));
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      }
+      html[data-theme="dark"] .news-scrollbox::-webkit-scrollbar-thumb { background-color: #6b6b6b; }
+      html[data-theme="dark"] .publications ol.bibliography li .links a.btn { color: #ffffff; border-color: #ffffff; }
+      html[data-theme="dark"] .publication-tag-board { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.14); box-shadow: none; }
+      html[data-theme="dark"] .publication-filter-description,
+      html[data-theme="dark"] .publication-filter-summary { color: #c4ccd8; }
+      html[data-theme="dark"] .publication-tag-board .tag-filter { color: #d7dce3; background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.14); }
+      html[data-theme="dark"] .publication-tag-board .tag-filter .tag-count { background: rgba(255,255,255,0.08); color: #d7dce3; }
+      html[data-theme="dark"] .publication-tag-board .tag-filter:hover,
+      html[data-theme="dark"] .publication-tag-board .tag-filter.is-active { color: #ffffff; background: rgba(36,150,203,0.18); border-color: rgba(36,150,203,0.32); }
+      html[data-theme="dark"] .publications ol.bibliography li .pub-chip { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.14); color: #d6ebff; }
+      html[data-theme="dark"] .publications ol.bibliography li .pub-chip.is-active { border-color: rgba(36,150,203,0.32); background: rgba(36,150,203,0.28); color: #ffffff; }
+      html[data-theme="dark"] .custom-navbar { background-color: rgba(32, 33, 43, 0.92); border-bottom-color: rgba(255, 255, 255, 0.08); }
+      html[data-theme="dark"] .nav-link { color: #b8bcc7 !important; }
+      html[data-theme="dark"] .nav-link.is-active { color: #f0f1f5 !important; border-bottom-color: rgba(62, 183, 240, 0.6); }
+      html[data-theme="dark"] .nav-link:hover,
+      html[data-theme="dark"] .lang-switch:hover { color: #f0f1f5 !important; }
     </style>
 
   </head>

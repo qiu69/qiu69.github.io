@@ -13,6 +13,9 @@
   {% assign honors_label = "荣誉奖项" %}
   {% assign switch_label = "English" %}
   {% assign switch_url = "/" %}
+  {% assign theme_light_label = "浅色" %}
+  {% assign theme_dark_label = "深色" %}
+  {% assign theme_aria_label = "切换浅色/深色主题" %}
 {% else %}
   {% assign home_label = "Homepage" %}
   {% assign about_label = "About Me" %}
@@ -23,6 +26,9 @@
   {% assign honors_label = "Awards" %}
   {% assign switch_label = "中文" %}
   {% assign switch_url = "/zh/" %}
+  {% assign theme_light_label = "Light" %}
+  {% assign theme_dark_label = "Dark" %}
+  {% assign theme_aria_label = "Toggle light/dark theme" %}
 {% endif %}
 
 <nav class="custom-navbar">
@@ -36,7 +42,13 @@
       <a href="#services" class="nav-link" data-nav-link>{{ services_label }}</a>
       <a href="#honors-awards" class="nav-link" data-nav-link>{{ honors_label }}</a>
     </div>
-    <a href="{{ switch_url | relative_url }}" class="nav-link lang-switch">{{ switch_label }}</a>
+    <div class="nav-actions">
+      <button type="button" class="nav-link theme-toggle" data-theme-toggle aria-label="{{ theme_aria_label }}" title="{{ theme_aria_label }}">
+        <span class="theme-toggle-icon" aria-hidden="true">🌙</span>
+        <span class="theme-toggle-label" data-theme-light-label="{{ theme_light_label }}" data-theme-dark-label="{{ theme_dark_label }}">{{ theme_dark_label }}</span>
+      </button>
+      <a href="{{ switch_url | relative_url }}" class="nav-link lang-switch">{{ switch_label }}</a>
+    </div>
   </div>
 </nav>
 
@@ -107,6 +119,43 @@
     line-height: inherit;
   }
 
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+  }
+
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px 6px;
+    border: 1px solid #e0e0e0;
+    border-radius: 999px;
+    background: transparent;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: 1;
+  }
+
+  .theme-toggle:hover {
+    border-color: #b8b8b8;
+  }
+
+  .theme-toggle .theme-toggle-icon {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  html[data-theme="dark"] .theme-toggle {
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+
+  html[data-theme="dark"] .theme-toggle:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
   @media (max-width: 768px) {
     .nav-shell {
       padding: 0 16px;
@@ -119,6 +168,18 @@
 
     .nav-link {
       font-size: 14px;
+    }
+
+    .nav-actions {
+      gap: 10px;
+    }
+
+    .theme-toggle {
+      padding: 3px 8px 5px;
+    }
+
+    .theme-toggle .theme-toggle-label {
+      display: none;
     }
 
   }
@@ -188,5 +249,55 @@
     window.addEventListener("scroll", syncFromScroll, { passive: true });
     syncFromHash();
     syncFromScroll();
+  })();
+
+  (function () {
+    var toggle = document.querySelector("[data-theme-toggle]");
+    if (!toggle) {
+      return;
+    }
+    var iconEl = toggle.querySelector(".theme-toggle-icon");
+    var labelEl = toggle.querySelector(".theme-toggle-label");
+    var lightLabel = labelEl ? labelEl.getAttribute("data-theme-light-label") : "Light";
+    var darkLabel = labelEl ? labelEl.getAttribute("data-theme-dark-label") : "Dark";
+
+    function currentTheme() {
+      var stored = null;
+      try { stored = localStorage.getItem("theme"); } catch (e) {}
+      if (stored === "light" || stored === "dark") {
+        return stored;
+      }
+      var attr = document.documentElement.getAttribute("data-theme");
+      if (attr === "light" || attr === "dark") {
+        return attr;
+      }
+      if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        return "dark";
+      }
+      return "light";
+    }
+
+    function render(theme) {
+      if (iconEl) {
+        iconEl.textContent = theme === "dark" ? "☀️" : "🌙";
+      }
+      if (labelEl) {
+        labelEl.textContent = theme === "dark" ? lightLabel : darkLabel;
+      }
+      toggle.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+    }
+
+    function apply(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      try { localStorage.setItem("theme", theme); } catch (e) {}
+      render(theme);
+    }
+
+    render(currentTheme());
+
+    toggle.addEventListener("click", function () {
+      var next = currentTheme() === "dark" ? "light" : "dark";
+      apply(next);
+    });
   })();
 </script>
