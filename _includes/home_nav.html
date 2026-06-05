@@ -99,14 +99,30 @@
     font-size: 15px;
     transition: color 0.3s;
     position: relative;
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
     white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
   }
 
-  .nav-link.is-active {
+  a.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 2px;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+  }
+
+  a.nav-link.is-active::after {
+    background-color: #666666;
+  }
+
+  a.nav-link.is-active {
     color: #333333 !important;
-    border-bottom-color: #666666;
   }
 
   .nav-link:hover,
