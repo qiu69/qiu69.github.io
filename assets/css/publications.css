@@ -93,7 +93,6 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     font-weight: 700;
 }
 
-.publication-tag-board .tag-filter:hover,
 .publication-tag-board .tag-filter.is-active {
     color: #ffffff;
     border-color: var(--global-theme-color);
@@ -101,7 +100,20 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     box-shadow: 0 8px 18px rgba(0, 45, 114, 0.18);
 }
 
-.publication-tag-board .tag-filter:hover .tag-count,
+@media (hover: hover) {
+    .publication-tag-board .tag-filter:hover {
+        color: #ffffff;
+        border-color: var(--global-theme-color);
+        background: var(--global-theme-color);
+        box-shadow: 0 8px 18px rgba(0, 45, 114, 0.18);
+    }
+
+    .publication-tag-board .tag-filter:hover .tag-count {
+        background: rgba(255, 255, 255, 0.18);
+        color: #ffffff;
+    }
+}
+
 .publication-tag-board .tag-filter.is-active .tag-count {
     background: rgba(255, 255, 255, 0.18);
     color: #ffffff;
@@ -187,14 +199,16 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     }
 }
 
-.publications ol.bibliography li .pub-chip:hover {
-    border-color: var(--global-theme-color);
-}
-
 .publications ol.bibliography li .pub-chip.is-active {
     border-color: var(--global-theme-color);
     background: var(--global-theme-color);
     color: #ffffff;
+}
+
+@media (hover: hover) {
+    .publications ol.bibliography li .pub-chip:hover {
+        border-color: var(--global-theme-color);
+    }
 }
 
 .publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
@@ -211,11 +225,15 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publication-tag-board .tag-filter .tag-count { background: rgba(255,255,255,0.08); color: #d7dce3; }
 
-.publication-tag-board .tag-filter:hover,
 .publication-tag-board .tag-filter.is-active { color: #ffffff; background: rgba(36,150,203,0.18); border-color: rgba(36,150,203,0.32); }
 
-.publication-tag-board .tag-filter:hover .tag-count,
 .publication-tag-board .tag-filter.is-active .tag-count { background: rgba(255,255,255,0.16); color: #ffffff; }
+
+@media (hover: hover) {
+    .publication-tag-board .tag-filter:hover { color: #ffffff; background: rgba(36,150,203,0.18); border-color: rgba(36,150,203,0.32); }
+
+    .publication-tag-board .tag-filter:hover .tag-count { background: rgba(255,255,255,0.16); color: #ffffff; }
+}
 
 .publications ol.bibliography li .pub-chip { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.14); color: #d6ebff; }
 

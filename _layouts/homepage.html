@@ -171,15 +171,19 @@
       html[data-theme="dark"] .publication-filter-summary { color: #c4ccd8; }
       html[data-theme="dark"] .publication-tag-board .tag-filter { color: #d7dce3; background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.14); }
       html[data-theme="dark"] .publication-tag-board .tag-filter .tag-count { background: rgba(255,255,255,0.08); color: #d7dce3; }
-      html[data-theme="dark"] .publication-tag-board .tag-filter:hover,
       html[data-theme="dark"] .publication-tag-board .tag-filter.is-active { color: #ffffff; background: rgba(36,150,203,0.18); border-color: rgba(36,150,203,0.32); }
+      @media (hover: hover) {
+        html[data-theme="dark"] .publication-tag-board .tag-filter:hover { color: #ffffff; background: rgba(36,150,203,0.18); border-color: rgba(36,150,203,0.32); }
+      }
       html[data-theme="dark"] .publications ol.bibliography li .pub-chip { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.14); color: #d6ebff; }
       html[data-theme="dark"] .publications ol.bibliography li .pub-chip.is-active { border-color: rgba(36,150,203,0.32); background: rgba(36,150,203,0.28); color: #ffffff; }
       html[data-theme="dark"] .custom-navbar { background-color: rgba(32, 33, 43, 0.92); border-bottom-color: rgba(255, 255, 255, 0.08); }
       html[data-theme="dark"] .nav-link { color: #b8bcc7 !important; }
       html[data-theme="dark"] .nav-link.is-active { color: #f0f1f5 !important; border-bottom-color: rgba(62, 183, 240, 0.6); }
-      html[data-theme="dark"] .nav-link:hover,
-      html[data-theme="dark"] .lang-switch:hover { color: #f0f1f5 !important; }
+      @media (hover: hover) {
+        html[data-theme="dark"] .nav-link:hover,
+        html[data-theme="dark"] .lang-switch:hover { color: #f0f1f5 !important; }
+      }
     </style>
 
   </head>
