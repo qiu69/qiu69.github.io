@@ -194,111 +194,135 @@
 
 <script>
   (function () {
-    var links = Array.prototype.slice.call(document.querySelectorAll("[data-nav-link]"));
-    if (!links.length) {
-      return;
-    }
-
-    function setActive(link) {
-      links.forEach(function (item) {
-        item.classList.toggle("is-active", item === link);
-      });
-    }
-
-    var sections = links
-      .map(function (link) {
-        var href = link.getAttribute("href");
-        if (!href || href.charAt(0) !== "#") {
-          return null;
-        }
-        return {
-          link: link,
-          section: document.querySelector(href)
-        };
-      })
-      .filter(function (item) {
-        return item && item.section;
-      });
-
-    function syncFromHash() {
-      var hash = window.location.hash;
-      if (hash) {
-        var matched = links.find(function (link) {
-          return link.getAttribute("href") === hash;
-        });
-        if (matched) {
-          setActive(matched);
-          return;
-        }
-      }
-      setActive(links[0]);
-    }
-
-    function syncFromScroll() {
-      if (window.location.hash) {
+    function initNav() {
+      var links = Array.prototype.slice.call(document.querySelectorAll("[data-nav-link]"));
+      if (!links.length) {
         return;
       }
-      var offset = 110;
-      var current = sections.find(function (item) {
-        var rect = item.section.getBoundingClientRect();
-        return rect.top <= offset && rect.bottom > offset;
+
+      if (window.__navCleanup) {
+        window.__navCleanup();
+        window.__navCleanup = null;
+      }
+
+      function setActive(link) {
+        links.forEach(function (item) {
+          item.classList.toggle("is-active", item === link);
+        });
+      }
+
+      var sections = links
+        .map(function (link) {
+          var href = link.getAttribute("href");
+          if (!href || href.charAt(0) !== "#") {
+            return null;
+          }
+          return {
+            link: link,
+            section: document.querySelector(href)
+          };
+        })
+        .filter(function (item) {
+          return item && item.section;
+        });
+
+      function syncFromHash() {
+        var hash = window.location.hash;
+        if (hash) {
+          var matched = links.find(function (link) {
+            return link.getAttribute("href") === hash;
+          });
+          if (matched) {
+            setActive(matched);
+            return;
+          }
+        }
+        setActive(links[0]);
+      }
+
+      function syncFromScroll() {
+        if (window.location.hash) {
+          return;
+        }
+        var offset = 110;
+        var current = sections.find(function (item) {
+          var rect = item.section.getBoundingClientRect();
+          return rect.top <= offset && rect.bottom > offset;
+        });
+        setActive(current ? current.link : links[0]);
+      }
+
+      links.forEach(function (link) {
+        link.addEventListener("click", function () {
+          setActive(link);
+        });
       });
-      setActive(current ? current.link : links[0]);
+
+      window.addEventListener("hashchange", syncFromHash);
+      window.addEventListener("scroll", syncFromScroll, { passive: true });
+      syncFromHash();
+      syncFromScroll();
+
+      window.__navCleanup = function () {
+        window.removeEventListener("hashchange", syncFromHash);
+        window.removeEventListener("scroll", syncFromScroll);
+      };
     }
 
-    links.forEach(function (link) {
-      link.addEventListener("click", function () {
-        setActive(link);
-      });
-    });
-
-    window.addEventListener("hashchange", syncFromHash);
-    window.addEventListener("scroll", syncFromScroll, { passive: true });
-    syncFromHash();
-    syncFromScroll();
+    window.initHomeNav = initNav;
+    initNav();
   })();
 
   (function () {
-    var toggle = document.querySelector("[data-theme-toggle]");
-    if (!toggle) {
-      return;
-    }
-    var iconEl = toggle.querySelector(".theme-toggle-icon");
-
-    function currentTheme() {
-      var stored = null;
-      try { stored = localStorage.getItem("theme"); } catch (e) {}
-      if (stored === "light" || stored === "dark") {
-        return stored;
+    function initThemeToggle() {
+      var toggle = document.querySelector("[data-theme-toggle]");
+      if (!toggle) {
+        return;
       }
-      var attr = document.documentElement.getAttribute("data-theme");
-      if (attr === "light" || attr === "dark") {
-        return attr;
+      if (toggle.__bound) {
+        return;
       }
-      if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        return "dark";
+      toggle.__bound = true;
+      var iconEl = toggle.querySelector(".theme-toggle-icon");
+
+      function currentTheme() {
+        var stored = null;
+        try { stored = localStorage.getItem("theme"); } catch (e) {}
+        if (stored === "light" || stored === "dark") {
+          return stored;
+        }
+        var attr = document.documentElement.getAttribute("data-theme");
+        if (attr === "light" || attr === "dark") {
+          return attr;
+        }
+        if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          return "dark";
+        }
+        return "light";
       }
-      return "light";
+
+      function render(theme) {
+        if (iconEl) {
+          iconEl.textContent = theme === "dark" ? "☀️" : "🌙";
+        }
+        toggle.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+      }
+
+      function apply(theme) {
+        document.documentElement.setAttribute("data-theme", theme);
+        try { localStorage.setItem("theme", theme); } catch (e) {}
+        render(theme);
+      }
+
+      render(currentTheme());
+
+      toggle.addEventListener("click", function () {
+        var next = currentTheme() === "dark" ? "light" : "dark";
+        apply(next);
+      });
     }
 
-    function render(theme) {
-      if (iconEl) {
-        iconEl.textContent = theme === "dark" ? "☀️" : "🌙";
-      }
-      toggle.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
-    }
-
-    function apply(theme) {
-      document.documentElement.setAttribute("data-theme", theme);
-      try { localStorage.setItem("theme", theme); } catch (e) {}
-      render(theme);
-    }
-
-    render(currentTheme());
-
-    toggle.addEventListener("click", function () {
-      var next = currentTheme() === "dark" ? "light" : "dark";
-      apply(next);
-    });
+    window.initThemeToggle = initThemeToggle;
+    initThemeToggle();
   })();
 </script>
