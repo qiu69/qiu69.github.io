@@ -140,7 +140,14 @@
       html[data-theme="light"] .publication-tag-board { background: #fbfdff; border-color: #d9e4fb; box-shadow: 0 10px 24px rgba(0, 45, 114, 0.04); }
       html[data-theme="light"] .publication-tag-board .tag-filter { color: #243b63; background: #ffffff; border-color: #d2def4; }
       html[data-theme="light"] .publication-tag-board .tag-filter .tag-count { background: #eef3fb; color: #41516d; }
+      html[data-theme="light"] .publication-tag-board .tag-filter.is-active { color: #ffffff; border-color: var(--global-theme-color); background: var(--global-theme-color); box-shadow: 0 8px 18px rgba(0, 45, 114, 0.18); }
+      html[data-theme="light"] .publication-tag-board .tag-filter.is-active .tag-count { background: rgba(255, 255, 255, 0.18); color: #ffffff; }
+      @media (hover: hover) {
+        html[data-theme="light"] .publication-tag-board .tag-filter:hover { color: #ffffff; border-color: var(--global-theme-color); background: var(--global-theme-color); box-shadow: 0 8px 18px rgba(0, 45, 114, 0.18); }
+        html[data-theme="light"] .publication-tag-board .tag-filter:hover .tag-count { background: rgba(255, 255, 255, 0.18); color: #ffffff; }
+      }
       html[data-theme="light"] .publications ol.bibliography li .pub-chip { background: #ffffff; border-color: #d5dceb; color: var(--global-theme-color); }
+      html[data-theme="light"] .publications ol.bibliography li .pub-chip.is-active { border-color: var(--global-theme-color); background: var(--global-theme-color); color: #ffffff; }
 
       html[data-theme="dark"] body { background-color: #20212b; color: #dadbdf; }
       html[data-theme="dark"] autocolor { color: #dadbdf; }
@@ -179,7 +186,8 @@
       html[data-theme="dark"] .publications ol.bibliography li .pub-chip.is-active { border-color: rgba(36,150,203,0.32); background: rgba(36,150,203,0.28); color: #ffffff; }
       html[data-theme="dark"] .custom-navbar { background-color: rgba(32, 33, 43, 0.92); border-bottom-color: rgba(255, 255, 255, 0.08); }
       html[data-theme="dark"] .nav-link { color: #b8bcc7 !important; }
-      html[data-theme="dark"] .nav-link.is-active { color: #f0f1f5 !important; border-bottom-color: rgba(62, 183, 240, 0.6); }
+      html[data-theme="dark"] a.nav-link.is-active { color: #f0f1f5 !important; }
+      html[data-theme="dark"] a.nav-link.is-active::after { background-color: rgba(62, 183, 240, 0.6); }
       @media (hover: hover) {
         html[data-theme="dark"] .nav-link:hover,
         html[data-theme="dark"] .lang-switch:hover { color: #f0f1f5 !important; }
