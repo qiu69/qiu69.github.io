@@ -21,14 +21,18 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
-    <li><strong>[May. 2026]</strong> Our papers "CCD" and "<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>" have been accepted to <strong>SIGKDD 2026</strong>.</li>
+    <li><strong>[Sep. 2026]</strong> Our paper "<a href="https://rdcu.be/N2CBSicSmYDa">TFB-2</a>: Benchmarking and Automated Ensemble for Time Series Forecasting" has been accepted by <strong>VLDB Journal (VLDBJ) 2027</strong>.</li>
+    <li><strong>[Sep. 2026]</strong> Our paper "<a href="https://arxiv.org/pdf/2609.24444">WPBench</a>" has been accepted to <strong>ICDE 2027</strong>.</li>
+    <li><strong>[Sep. 2026]</strong> Our papers "<a href="https://arxiv.org/pdf/2509.23668">Hermes</a>" and "<a href="https://arxiv.org/pdf/2512.14253">FLAME</a>" have been accepted to <strong>NeurIPS 2026</strong>.</li>
+    <li><strong>[Aug. 2026]</strong> Our paper "<a href="https://arxiv.org/pdf/2602.14681">ST-EVO</a>" has been accepted to the <strong>EMNLP 2026 Main Conference</strong>.</li>
+    <li><strong>[May. 2026]</strong> Our papers "<a href="https://dl.acm.org/doi/pdf/10.1145/3770855.3817648">CCD</a>" and "<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>" have been accepted to <strong>SIGKDD 2026</strong>.</li>
     <li><strong>[May. 2026]</strong> I have received the <strong>ICML 2026 Silver Reviewer Award</strong>.</li>
     <li><strong>[May. 2026]</strong> I have received the <strong>IJCAI 2026 Gold Tier Reviewer Award</strong>.</li>
     <li><strong>[May. 2026]</strong> Our survey paper "<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>" has been accepted by <strong>IJCAI 2026</strong>.</li>
-    <li><strong>[May. 2026]</strong> Our papers "<a href="https://arxiv.org/pdf/2509.14933">DAG</a>", "<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>", "<a href="https://arxiv.org/pdf/2602.00589">SEER</a>", and "TeamWork" have been accepted to <strong>ICML 2026</strong>.</li>
+    <li><strong>[May. 2026]</strong> Our papers "<a href="https://arxiv.org/pdf/2509.14933">DAG</a>", "<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>", "<a href="https://arxiv.org/pdf/2602.00589">SEER</a>", and "<a href="https://raw.githubusercontent.com/mlresearch/v306/main/assets/hu26bf/hu26bf.pdf">TeamWork</a>" have been accepted to <strong>ICML 2026</strong>.</li>
     <li><strong>[Apr. 2026]</strong> Our time series anomaly prediction algorithm <a href="https://arxiv.org/abs/2410.15997">TAP</a> has been accepted by <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong>.</li>
     <li><strong>[Apr. 2026]</strong> Time series application platform (<a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE25</a>) was selected as <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">most influential papers</a> by Paper Digest (Rank 1st / 397 Accepted Papers).</li>
-    <li><strong>[Jan. 2026]</strong> Our papers "GCGNet &amp; ASTGI" have been accepted to <strong>ICLR 2026</strong>.</li>
+    <li><strong>[Jan. 2026]</strong> Our papers "<a href="https://openreview.net/pdf?id=EO5jwQ5NCw">GCGNet</a>" and "<a href="https://arxiv.org/pdf/2509.23313">ASTGI</a>" have been accepted to <strong>ICLR 2026</strong>.</li>
     <li><strong>[Dec. 2025]</strong> I have been selected for the <strong>Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program</strong> (China Association for Science and Technology).</li>
     <li><strong>[Dec. 2025]</strong> Time series model (<a href="https://arxiv.org/pdf/2412.10859">DUET, KDD25</a>) was selected as <a href="https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/">most influential papers</a> by Paper Digest.</li>
     <li><strong>[Nov. 2025]</strong> Our paper "<a href="https://arxiv.org/pdf/2505.11250">Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline</a>" has been accepted for an <strong>oral presentation at AAAI 2026</strong>.</li>

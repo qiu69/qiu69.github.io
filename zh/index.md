@@ -26,14 +26,18 @@ profile_affiliation: 华东师范大学
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
-    <li><strong>[2026 年 5 月]</strong> 我的论文 “CCD” 和 “<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>” 被 <strong>SIGKDD 2026</strong> 接收。</li>
+    <li><strong>[2026 年 9 月]</strong> 我们的论文 “<a href="https://rdcu.be/N2CBSicSmYDa">TFB-2</a>: Benchmarking and Automated Ensemble for Time Series Forecasting” 被 <strong>VLDB Journal (VLDBJ) 2027</strong> 接收。</li>
+    <li><strong>[2026 年 9 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2609.24444">WPBench</a>” 被 <strong>ICDE 2027</strong> 接收。</li>
+    <li><strong>[2026 年 9 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2509.23668">Hermes</a>” 和 “<a href="https://arxiv.org/pdf/2512.14253">FLAME</a>” 被 <strong>NeurIPS 2026</strong> 接收。</li>
+    <li><strong>[2026 年 8 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2602.14681">ST-EVO</a>” 被 <strong>EMNLP 2026 Main Conference</strong> 接收。</li>
+    <li><strong>[2026 年 5 月]</strong> 我的论文 “<a href="https://dl.acm.org/doi/pdf/10.1145/3770855.3817648">CCD</a>” 和 “<a href="https://arxiv.org/pdf/2602.13783">MEMTS</a>” 被 <strong>SIGKDD 2026</strong> 接收。</li>
     <li><strong>[2026 年 5 月]</strong> 我获得 <strong>ICML 2026 Silver Reviewer Award</strong>。</li>
     <li><strong>[2026 年 5 月]</strong> 我获得 <strong>IJCAI 2026 Gold Tier Reviewer Award</strong>。</li>
     <li><strong>[2026 年 5 月]</strong> 我们的综述论文 “<a href="https://arxiv.org/pdf/2502.10721">A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective</a>” 被 <strong>IJCAI 2026</strong> 接收。</li>
-    <li><strong>[2026 年 5 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2509.14933">DAG</a>”、“<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>”、“<a href="https://arxiv.org/pdf/2602.00589">SEER</a>” 和 “TeamWork” 被 <strong>ICML 2026</strong> 接收。</li>
+    <li><strong>[2026 年 5 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2509.14933">DAG</a>”、“<a href="https://arxiv.org/pdf/2602.00582">TFMixer</a>”、“<a href="https://arxiv.org/pdf/2602.00589">SEER</a>” 和 “<a href="https://raw.githubusercontent.com/mlresearch/v306/main/assets/hu26bf/hu26bf.pdf">TeamWork</a>” 被 <strong>ICML 2026</strong> 接收。</li>
     <li><strong>[2026 年 4 月]</strong> 我们的时间序列异常预测算法 <a href="https://arxiv.org/abs/2410.15997">TAP</a> 被 <strong>IEEE Transactions on Knowledge and Data Engineering (TKDE)</strong> 接收。</li>
     <li><strong>[2026 年 4 月]</strong> 时间序列应用平台 <a href="https://arxiv.org/pdf/2412.17603">EasyTime, ICDE 2025</a> 被 Paper Digest 评为 <a href="https://www.paperdigest.org/2026/03/most-influential-icde-papers-2026-03-version/">最具影响力论文</a>（397 篇接收论文中排名第 1）。</li>
-    <li><strong>[2026 年 1 月]</strong> 我们的论文 “GCGNet” 和 “ASTGI” 被 <strong>ICLR 2026</strong> 接收。</li>
+    <li><strong>[2026 年 1 月]</strong> 我们的论文 “<a href="https://openreview.net/pdf?id=EO5jwQ5NCw">GCGNet</a>” 和 “<a href="https://arxiv.org/pdf/2509.23313">ASTGI</a>” 被 <strong>ICLR 2026</strong> 接收。</li>
     <li><strong>[2025 年 12 月]</strong> 我入选 <strong>中国科协青年人才培育工程博士生专项计划</strong>。</li>
     <li><strong>[2025 年 12 月]</strong> 时间序列模型 <a href="https://arxiv.org/pdf/2412.10859">DUET, KDD 2025</a> 被 Paper Digest 评为 <a href="https://resources.paperdigest.org/2025/09/most-influential-kdd-papers-2025-09-version/">最具影响力论文</a>。</li>
     <li><strong>[2025 年 11 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2505.11250">Rethinking Irregular Time Series Forecasting: A Simple yet Effective Baseline</a>” 被 <strong>AAAI 2026</strong> 接收，并获 oral presentation。</li>

@@ -6,7 +6,7 @@
 {% assign collections = "benchmark|forecast|anomaly|others" | split: "|" %}
 
 <div class="publications">
-<ol class="bibliography">
+<ol class="bibliography" role="region" aria-label="{% if is_zh %}筛选后的论文{% else %}Filtered publications{% endif %}" tabindex="0">
 {% for collection in collections %}
   {% assign entries = site.data.publications[collection] %}
   {% for link in entries %}

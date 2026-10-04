@@ -16,7 +16,7 @@ benchmark:
     conference: International Conference on Very Large Databases, 2025.
     pdf: https://arxiv.org/pdf/2506.18046
     code: https://github.com/decisionintelligence/TAB
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    bibtex: https://dblp.org/rec/journals/pvldb/QiuLQHZWLGZSHJY25.html?view=bibtex
     image: ./assets/img/TAB.png
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: PVLDB, CCF A, Accepted
@@ -27,9 +27,35 @@ benchmark:
     conference: ACM Knowledge Discovery and Data Mining, 2025.
     pdf: https://arxiv.org/pdf/2410.11802
     code: https://github.com/decisionintelligence/TSFM-Bench
+    bibtex: https://dblp.org/rec/conf/kdd/0011Q00C0HGZJ025.html?view=bibtex
     blog: https://mp.weixin.qq.com/s/VhF9Xyt6e-XS5ervaA7tkA
     image: ./assets/img/FoundTS.png
     notes: SIGKDD, CCF A, Accepted
+
+  - title: "TFB-2: Benchmarking and Automated Ensemble for Time Series Forecasting"
+    authors: Zhengyu Li, Xingjian Wu, <strong>Xiangfei Qiu</strong>, Jilin Hu, Lekui Zhou, Chenjuan Guo, Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang
+    conference_short: VLDBJ
+    conference: VLDB Journal, 2027.
+    pdf: https://rdcu.be/N2CBSicSmYDa
+    bibtex: https://dblp.org/rec/journals/vldb/LiWQHZGZJSY26.html?view=bibtex
+    image: ./assets/img/TFB-2.png
+    notes: VLDBJ, CCF A, Accepted
+
+  - title: "WPBench: A Comprehensive Benchmark for Wind Power Forecasting"
+    authors: Yuhan Zhu, Jilin Hu#, Xinying Cai, Yingshan Li, Li Ma, <strong>Xiangfei Qiu</strong>, Linsen Li, Kai Zhang, Yao Fu, Weihao Jiang, Bin Yang
+    conference_short: ICDE
+    conference: IEEE International Conference on Data Engineering, 2027.
+    pdf: https://arxiv.org/pdf/2609.24444
+    image: ./assets/img/WPBench.png
+    notes: ICDE, CCF A, Accepted
+
+  - title: "BITS: Rethinking Fair and Comprehensive Evaluation for Irregular Time Series Forecasting"
+    authors: Kangjia Yan, Linfeng Wang, Tianen Shen, <strong>Xiangfei Qiu</strong>, Ruitong Zhang, Hao Miao, Jilin Hu, Chenjuan Guo, Bin Yang, Christian S. Jensen
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2609.33303
+    code: https://anonymous.4open.science/r/BITS-8F2E/
+    image: ./assets/img/BITS.png
   
 
 
@@ -40,6 +66,9 @@ forecast:
     conference_short: ICLR
     conference: International Conference on Learning Representations, 2026.
     pdf: https://openreview.net/pdf?id=EO5jwQ5NCw
+    code: https://github.com/decisionintelligence/GCGNet
+    bibtex: https://dblp.org/rec/conf/iclr/LiQZWHGY26.html?view=bibtex
+    blog: https://zhaoyang97.github.io/Paper-Notes/ICLR2026/time_series/gcgnet_graph-consistent_generative_network_for_time_series_forecasting_with_exog/
 #    code: https://github.com/decisionintelligence/APN
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/GCGNet.png
@@ -50,6 +79,9 @@ forecast:
     conference_short: ICLR
     conference: International Conference on Learning Representations, 2026.
     pdf: https://arxiv.org/pdf/2509.23313
+    code: https://github.com/decisionintelligence/ASTGI
+    bibtex: https://dblp.org/rec/conf/iclr/LiuQCWGYH26.html?view=bibtex
+    blog: https://zhaoyang97.github.io/Paper-Notes/ICLR2026/time_series/astgi_adaptive_spatio-temporal_graph_interactions_for_irregular_multivariate_tim/
 #    code: https://github.com/decisionintelligence/APN
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/ASTGI.png
@@ -61,6 +93,7 @@ forecast:
     conference: AAAI Conference on Artificial Intelligence, 2026.
     pdf: https://arxiv.org/pdf/2505.11250
     code: https://github.com/decisionintelligence/APN
+    bibtex: https://dblp.org/rec/conf/aaai/LiuQWLGHY26.html?view=bibtex
     blog: https://mp.weixin.qq.com/s/3gt4KR6Tb4ERZvS3a1H36Q
     image: ./assets/img/APN.png
     notes: ✨ AAAI, CCF A, Accepted (Oral, Top 4%)
@@ -71,7 +104,7 @@ forecast:
     conference: Neural Information Processing Systems Conference, 2025.
     pdf: https://arxiv.org/pdf/2510.14510
     code: https://github.com/decisionintelligence/SRSNet
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    bibtex: https://dblp.org/rec/conf/nips/WuQCLHGY25.html?view=bibtex
     image: ./assets/img/SRSNet.png
     blog: https://mp.weixin.qq.com/s/HKsO2ehRhHnz56i3dNf87A
     notes: ✨ NeurIPS, CCF A, Accepted (Spotlight, Top 3.2%)
@@ -82,7 +115,7 @@ forecast:
     conference: Neural Information Processing Systems Conference, 2025.
     pdf: https://arxiv.org/pdf/2510.23672
     code: https://github.com/decisionintelligence/DBLoss
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    bibtex: https://dblp.org/rec/conf/nips/QiuWCLGHY25.html?view=bibtex
     image: ./assets/img/DBLoss.png
     blog: https://mp.weixin.qq.com/s/Vwyei--9lzBmRzxUYjrpsg
     notes: NeurIPS, CCF A, Accepted
@@ -94,7 +127,7 @@ forecast:
     conference: International Conference on Machine Learning, 2025.
     pdf: https://arxiv.org/pdf/2505.23017
     code: https://github.com/decisionintelligence/K2VAE
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    bibtex: https://dblp.org/rec/conf/icml/WuQGH0G25.html?view=bibtex
     image: ./assets/img/k2vae.png
     blog: https://mp.weixin.qq.com/s/YebZ8_LGY8-PDEhfApjSMg
     notes: ✨ ICML, CCF A, Accepted (Spotlight, Top 2.6%)
@@ -106,6 +139,7 @@ forecast:
     conference: IEEE International Conference on Data Engineering, 2025.
     image: ./assets/img/EasyTime.png
     pdf: https://arxiv.org/pdf/2412.17603
+    bibtex: https://dblp.org/rec/conf/icde/QiuLPPWYHSLYGZJY25.html?view=bibtex
     notes: 🏆 ICDE, CCF A, Accepted (PaperDigest Most Influential Paper)
     
   - title: "DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting"
@@ -137,9 +171,8 @@ forecast:
     conference: International Conference on Machine Learning, 2026.
     pdf: https://arxiv.org/pdf/2509.14933
     code: https://github.com/decisionintelligence/DAG
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    blog: https://mp.weixin.qq.com/s/nHSB6P_WyS7ZYH_-uALBew
     image: ./assets/img/DAG.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: ICML, CCF A, Accepted
     
   - title: "Bridging Time and Frequency: A Joint Modeling Framework for Irregular Multivariate Time Series Forecasting"
@@ -147,10 +180,9 @@ forecast:
     conference_short: ICML
     conference: International Conference on Machine Learning, 2026.
     pdf: https://arxiv.org/pdf/2602.00582
-#    code: https://github.com/decisionintelligence/DAG
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    code: https://github.com/decisionintelligence/TFMixer
+    blog: https://mp.weixin.qq.com/s/mPsNtnyeaJsJ-GzqFefbLQ
     image: ./assets/img/TFMixer.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: ICML, CCF A, Accepted
 
   - title: "SEER: Transformer-based Robust Time Series Forecasting via Automated Patch Enhancement and Replacement"
@@ -158,10 +190,9 @@ forecast:
     conference_short: ICML
     conference: International Conference on Machine Learning, 2026.
     pdf: https://arxiv.org/pdf/2602.00589
-#    code: https://github.com/decisionintelligence/DAG
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
+    code: https://github.com/decisionintelligence/SEER
+    blog: https://mp.weixin.qq.com/s/-GZygM6xcXgedEQYwTVn0Q
     image: ./assets/img/SEER.png
-#    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: ICML, CCF A, Accepted
 
   - title: "A Comprehensive Survey of Deep Learning for Multivariate Time Series Forecasting: A Channel Strategy Perspective"
@@ -170,24 +201,65 @@ forecast:
     conference: International Joint Conference on Artificial Intelligence, 2026.
     pdf: https://arxiv.org/pdf/2502.10721
     code: https://github.com/decisionintelligence/CS4TS
+    bibtex: https://dblp.org/rec/conf/ijcai/QiuCWLHGJY26.html?view=bibtex
     blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/CS4TS.png
     notes: IJCAI, Core A*, Accepted
 
   - title: "Hermes: A Multi-Scale Spatial-Temporal Hypergraph Network for Stock Time Series Forecasting"
     authors: <strong>Xiangfei Qiu</strong>, Liu Yang, Xiangyu Xu, Hanyin Cheng, Xingjian Wu, Rongjia Wu, Zhigang Zhang, Ding Tu, Chenjuan Guo, Bin Yang, Christian S. Jensen, Jilin Hu#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
+    conference_short: NeurIPS
+    conference: Neural Information Processing Systems Conference, 2026.
     pdf: https://arxiv.org/pdf/2509.23668
 #    code: https://github.com/decisionintelligence/CS4TS
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/Hermes.png
-#    notes: Accepted
+    notes: NeurIPS, CCF A, Accepted
+
+  - title: "Enhancing Irregular Time Series Forecasting with Continuous-Time Modeling Framework"
+    authors: Tianen Shen, Zhengyu Li, Yutong Li, <strong>Xiangfei Qiu</strong>, Xingjian Wu, Bin Yang, Jilin Hu
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2607.28035
+    bibtex: https://dblp.org/rec/journals/corr/abs-2607-28035.html?view=bibtex
+    image: ./assets/img/WrapFlow.png
+
+  - title: "XMatch: Enhancing Covariate-Aware Time Series Forecasting through Tree-Structured Exogenous Matching"
+    authors: Ziyang Zhang, Hanyin Cheng, <strong>Xiangfei Qiu</strong>, Yang Shu, Bin Yang, Chenjuan Guo
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2609.34939
+    image: ./assets/img/XMatch.png
+
+  - title: "Aurora-X: Built for Extreme Time Series Forecasting"
+    authors: Xingjian Wu, Chenjuan Guo, <strong>Xiangfei Qiu</strong>, Zhigang Hu, Hanyin Cheng, Peng Chen, Yang Shu, Jilin Hu, Bin Yang
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2609.31038
+    image: ./assets/img/Aurora-X.png
+
+  - title: "WorldTS: World Modeling for Multimodal Covariate-aware Time Series Forecasting"
+    authors: Yuhan Zhu, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Wangmeng Shen, Chenjuan Guo, Bin Yang, Jilin Hu, Christian S. Jensen
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2609.31162
+    image: ./assets/img/WorldTS.png
+
+  - title: "MUSE: Dependency-Aware Adaptation of a Frozen Vision Backbone for Multivariate Time Series Forecasting"
+    authors: Xinying Cai, Junkai Lu, Yuhan Zhu, Xiaoyun Yu, <strong>Xiangfei Qiu</strong>, Jilin Hu
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2609.24441
+    code: https://github.com/decisionintelligence/MUSE
+    image: ./assets/img/MUSE.png
 
   - title: "CCD: Capturing Cross-Correlations with Deformable Convolutional Networks for Multivariate Time Series Forecasting"
     authors: Hanyin Cheng, Xingjian Wu, <strong>Xiangfei Qiu</strong>, Yang Shu, Bin Yang, Chenjuan Guo
     conference_short: SIGKDD
     conference: ACM Knowledge Discovery and Data Mining, 2026.
+    pdf: https://dl.acm.org/doi/pdf/10.1145/3770855.3817648
+    code: https://github.com/decisionintelligence/CCD
+    bibtex: https://dblp.org/rec/conf/kdd/ChengWQSYG26.html?view=bibtex
     image: ./assets/img/CCD.png
     notes: SIGKDD, CCF A, Accepted
 
@@ -196,6 +268,7 @@ forecast:
     conference_short: SIGKDD
     conference: ACM Knowledge Discovery and Data Mining, 2026.
     pdf: https://arxiv.org/pdf/2602.13783
+    bibtex: https://dblp.org/rec/conf/kdd/YuFQDHQPOCH26.html?view=bibtex
     image: ./assets/img/MEMTS.png
     notes: SIGKDD, CCF A, Accepted
 
@@ -204,6 +277,7 @@ forecast:
     conference_short: arXiv
     conference: arXiv preprint, 2026.
     pdf: https://arxiv.org/pdf/2602.10412
+    bibtex: https://dblp.org/rec/journals/corr/abs-2602-10412.html?view=bibtex
     image: ./assets/img/LightGTS-Cov.png
 
 anomaly:
@@ -211,6 +285,7 @@ anomaly:
     authors: Shiyan Hu, Dingxue Zhang, Jianxin Jin, <strong>Xiangfei Qiu</strong>, Bin Yang, Chenjuan Guo
     conference_short: ICML
     conference: International Conference on Machine Learning, 2026.
+    pdf: https://raw.githubusercontent.com/mlresearch/v306/main/assets/hu26bf/hu26bf.pdf
     image: ./assets/img/TeamWork.png
     notes: ICML, CCF A, Accepted
 
@@ -219,8 +294,8 @@ anomaly:
     conference_short: ICDE
     conference: IEEE International Conference on Data Engineering, 2026.
     pdf: https://arxiv.org/pdf/2510.18998
+    bibtex: https://dblp.org/rec/conf/icde/ZhangKQGHZJY26.html?view=bibtex
 #    code: https://github.com/decisionintelligence/TAB
-#    bibtex: https://dblp.org/rec/journals/pvldb/QiuHZWDZGZJSY24.html?view=bibtex
     image: ./assets/img/EDAD.png
 #    blog: https://mp.weixin.qq.com/s/OfZJtd3H3-TCkvBGATt0mA
     notes: ICDE, CCF A, Accepted
@@ -232,6 +307,7 @@ anomaly:
     pdf: https://arxiv.org/pdf/2410.12261
     image: ./assets/img/CATCH.png
     code: https://github.com/decisionintelligence/CATCH
+    bibtex: https://dblp.org/rec/conf/iclr/WuQL0HGXY25.html?view=bibtex
     blog: https://mp.weixin.qq.com/s/zhAp-texiJFnUFduJx8fgQ
     notes: ICLR, CCF A, Accepted
     
@@ -240,6 +316,7 @@ anomaly:
     conference_short: TKDE
     conference: IEEE Transactions on Knowledge and Data Engineering, 2026.
     pdf: https://arxiv.org/abs/2410.15997
+    bibtex: https://dblp.org/rec/journals/tkde/HuZGQSHJY26.html?view=bibtex
     blog: https://mp.weixin.qq.com/s/u-0mqxrm6EqlGkNx5thTPQ
     image: ./assets/img/MultiRC.png
     notes: TKDE, CCF A, Accepted
@@ -251,15 +328,16 @@ others:
     conference: ACM Knowledge Discovery and Data Mining, 2025.
     pdf: https://arxiv.org/pdf/2410.13338
     code: https://github.com/decisionintelligence/SSD-TS
-#    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FHf5dj7CBUYJ:scholar.google.com/&output=citation&scisdr=ClFkAvjDEJiXx6UI2Ng:AFWwaeYAAAAAZxUOwNjD9zgPCZrdbAjv7RZeJk8&scisig=AFWwaeYAAAAAZxUOwJjJItMlSyJSMA2TgXj8fkw&scisf=4&ct=citation&cd=-1
+    bibtex: https://dblp.org/rec/conf/kdd/GaoSQ00H25.html?view=bibtex
     image: ./assets/img/DiffImp.png
     notes: SIGKDD, CCF A, Accepted
 
   - title: "TimeART: Towards Agentic Time Series Reasoning via Tool-Augmentation"
     authors: Xingjian Wu, Junkai Lu, Zhengyu Li, <strong>Xiangfei Qiu</strong>, Jilin Hu, Chenjuan Guo, Christian S. Jensen, Bin Yang, Bin Yang#
     conference_short: arXiv
-    conference: arXiv preprint, 2025.
+    conference: arXiv preprint, 2026.
     pdf: https://arxiv.org/pdf/2601.13653
+    bibtex: https://dblp.org/rec/journals/corr/abs-2601-13653.html?view=bibtex
 #    code: https://github.com/decisionintelligence/CS4TS
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/TimeART.png
@@ -270,24 +348,43 @@ others:
     conference_short: arXiv
     conference: arXiv preprint, 2025.
     pdf: https://arxiv.org/pdf/2509.22279
+    code: https://anonymous.4open.science/r/PatchMoE-BD38/
+    bibtex: https://dblp.org/rec/journals/corr/abs-2509-22279.html?view=bibtex
 #    code: https://github.com/decisionintelligence/CS4TS
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/PatchMOE.png
 #    notes: Accepted
 
   - title: "FLAME: Flow Enhanced Legendre Memory Models for General Time Series Forecasting"
-    authors: Xingjian Wu, Hanyin Cheng, <strong>Xiangfei Qiu</strong>, Zhengyu Li, Jilin Hu, Chenjuan Guo, Bin Yang#
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
+    authors: Xingjian Wu*, Zhengyu Li*, Hanyin Cheng*, <strong>Xiangfei Qiu*</strong>, Jilin Hu, Chenjuan Guo, Bin Yang#
+    conference_short: NeurIPS
+    conference: Neural Information Processing Systems Conference, 2026.
     pdf: https://arxiv.org/pdf/2512.14253
-#    code: https://github.com/decisionintelligence/CS4TS
+    code: https://github.com/decisionintelligence/FLAME
 #    blog: https://mp.weixin.qq.com/s/W2MwOZKKrD2Lj5wOgBLz0Q
     image: ./assets/img/flame.png
-#    notes: Accepted
+    notes: NeurIPS, CCF A, Accepted
 
   - title: "ST-EVO: Towards Generative Spatio-Temporal Evolution of Multi-Agent Communication Topologies"
     authors: Xingjian Wu, Xvyuan Liu, Junkai Lu, Siyuan Wang, <strong>Xiangfei Qiu</strong>, Yang Shu, Jilin Hu, Chenjuan Guo, Bin Yang
+    conference_short: EMNLP
+    conference: Conference on Empirical Methods in Natural Language Processing, 2026.
+    pdf: https://arxiv.org/pdf/2602.14681
+    code: https://github.com/decisionintelligence/ST-EVO
+    image: ./assets/img/ST-EVO.png
+    notes: EMNLP, CCF B, Core A*, Accepted (Main)
+
+  - title: "Differentiable Mixture-of-Agents Incentivizes Swarm Intelligence of Large Language Models"
+    authors: Xingjian Wu, Junkai Lu, Siyu Yan, <strong>Xiangfei Qiu</strong>, Jilin Hu, Chenjuan Guo, Bin Yang#
     conference_short: arXiv
     conference: arXiv preprint, 2026.
-    pdf: https://arxiv.org/pdf/2602.14681
-    image: ./assets/img/ST-EVO.png
+    pdf: https://arxiv.org/pdf/2605.15706
+    bibtex: https://dblp.org/rec/journals/corr/abs-2605-15706.html?view=bibtex
+    image: ./assets/img/DMoA.png
+
+  - title: "HALO: Enhancing Time Series Generation via Hyperspherical Latents and Masked AutoregRessive Modeling"
+    authors: Chunyi Hou, <strong>Xiangfei Qiu</strong>, Hanyin Cheng, Yutong Li, Bin Yang
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/pdf/2609.34511
+    image: ./assets/img/HALO.png

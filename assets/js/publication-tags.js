@@ -21,6 +21,7 @@
     }
 
     var items = Array.prototype.slice.call(document.querySelectorAll(".publications .bibliography > li"));
+    var publicationList = document.querySelector(".publications .bibliography");
     if (!items.length) {
       return;
     }
@@ -30,6 +31,7 @@
       "benchmark",
       "forecasting",
       "anomaly-detection",
+      "others",
       "foundation-model",
       "graph-learning",
       "irregular-time-series",
@@ -94,8 +96,8 @@
     var modeAnyLabel = isZh ? "任一 (并集)" : "Any (Union)";
     var modeAllLabel = isZh ? "全部 (交集)" : "All (Intersection)";
     var description = isZh
-      ? "默认显示全部论文。点击主题或年份标签即可筛选。年份始终取并集（每篇论文只属于一个年份）；其余按下方“组合方式”切换：任一 = 命中任一所选标签即可，全部 = 同时满足所选主题，并落入所选年份。"
-      : "Default view shows all papers. Click a topic or year tag to filter. Years always combine as a union (each paper has only one year); everything else follows the “Match” toggle below — Any = match any selected tag, All = match every selected topic and fall within a selected year.";
+      ? "默认显示一作/共一论文。点击主题或年份标签即可筛选；筛选结果可在下方论文窗口中滚动查看。年份始终取并集（每篇论文只属于一个年份）；其余按下方“组合方式”切换：任一 = 命中任一所选标签即可，全部 = 同时满足所选主题，并落入所选年份。"
+      : "The default view shows first/co-first-author papers. Click a topic or year tag to filter, then scroll through the matching papers below. Years always combine as a union (each paper has only one year); everything else follows the “Match” toggle below — Any = match any selected tag, All = match every selected topic and fall within a selected year.";
 
     board.hidden = false;
     board.innerHTML = "";
@@ -187,9 +189,40 @@
     summary.className = "publication-filter-summary";
     board.appendChild(summary);
 
-    var activeTags = [];
+    var activeTags = counts["first-author"] ? ["first-author"] : [];
     var activeYears = [];
     var matchMode = "any";
+    var resizePending = false;
+
+    function updateScrollWindow(resetScroll) {
+      if (!publicationList) {
+        return;
+      }
+
+      var visibleItems = publicationList.querySelectorAll(":scope > li:not([hidden])");
+      if (visibleItems.length > 3) {
+        var firstItem = visibleItems[0].getBoundingClientRect();
+        var thirdItem = visibleItems[2].getBoundingClientRect();
+        publicationList.style.maxHeight = "min(75vh, " + Math.ceil(thirdItem.bottom - firstItem.top) + "px)";
+      } else {
+        publicationList.style.maxHeight = "";
+      }
+
+      if (resetScroll) {
+        publicationList.scrollTop = 0;
+      }
+    }
+
+    function scheduleScrollWindowUpdate() {
+      if (resizePending) {
+        return;
+      }
+      resizePending = true;
+      window.requestAnimationFrame(function () {
+        resizePending = false;
+        updateScrollWindow(false);
+      });
+    }
 
     function toggleTag(tagId) {
       var index = activeTags.indexOf(tagId);
@@ -262,6 +295,8 @@
         chip.classList.toggle("is-active", activeTags.indexOf(chip.dataset.tagId) !== -1);
       });
 
+      updateScrollWindow(true);
+
       if (!activeTags.length && !activeYears.length) {
         summary.textContent = isZh ? "当前显示全部论文。" : "Showing all papers.";
         return;
@@ -324,8 +359,26 @@
     board.addEventListener("click", handleFilterButtonClick);
     document.addEventListener("click", handleChipClick);
 
+    var resizeObserver = null;
+    if (window.ResizeObserver) {
+      resizeObserver = new ResizeObserver(scheduleScrollWindowUpdate);
+      items.forEach(function (item) {
+        resizeObserver.observe(item);
+      });
+    } else {
+      window.addEventListener("resize", scheduleScrollWindowUpdate);
+      window.addEventListener("load", scheduleScrollWindowUpdate);
+    }
+
     window.__pubTagsCleanup = function () {
+      board.removeEventListener("click", handleFilterButtonClick);
       document.removeEventListener("click", handleChipClick);
+      if (resizeObserver) {
+        resizeObserver.disconnect();
+      } else {
+        window.removeEventListener("resize", scheduleScrollWindowUpdate);
+        window.removeEventListener("load", scheduleScrollWindowUpdate);
+      }
     };
 
     applyFilter();

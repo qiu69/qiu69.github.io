@@ -34,7 +34,7 @@
   {% assign note_suffix = link.notes | split: "(" | last | split: "," | first | remove: ")" | strip %}
 {% endif %}
 
-{% capture tag_ids %}{% if is_first_or_cofirst %}first-author|{% endif %}{% if collection == "benchmark" %}benchmark|{% elsif collection == "forecast" %}forecasting|{% elsif collection == "anomaly" %}anomaly-detection|{% endif %}{% if link.notes and link.notes contains "CCF A" %}ccf-a|{% endif %}{% if link.conference_short == "arXiv" %}preprint|{% endif %}{% if note_suffix == "Spotlight" %}spotlight|{% endif %}{% if note_suffix == "Oral" %}oral|{% endif %}{% if note_suffix == "Best Paper Award Nomination" %}best-paper|{% endif %}{% if note_suffix == "PaperDigest Most Influential Paper" %}most-influential-paper|{% endif %}{% endcapture %}
+{% capture tag_ids %}{% if is_first_or_cofirst %}first-author|{% endif %}{% if collection == "benchmark" %}benchmark|{% elsif collection == "forecast" %}forecasting|{% elsif collection == "anomaly" %}anomaly-detection|{% elsif collection == "others" %}others|{% endif %}{% if link.notes and link.notes contains "CCF A" %}ccf-a|{% endif %}{% if link.conference_short == "arXiv" %}preprint|{% endif %}{% if note_suffix == "Spotlight" %}spotlight|{% endif %}{% if note_suffix == "Oral" %}oral|{% endif %}{% if note_suffix == "Best Paper Award Nomination" %}best-paper|{% endif %}{% if note_suffix == "PaperDigest Most Influential Paper" %}most-influential-paper|{% endif %}{% endcapture %}
 {% assign tag_ids = tag_ids | split: "|" %}
 
 {% capture tag_chips %}
@@ -55,6 +55,9 @@
       {% when "anomaly-detection" %}
         {% assign tag_label = "异常检测" %}
         {% unless is_zh %}{% assign tag_label = "Anomaly Detection" %}{% endunless %}
+      {% when "others" %}
+        {% assign tag_label = "其他" %}
+        {% unless is_zh %}{% assign tag_label = "Others" %}{% endunless %}
       {% when "ccf-a" %}
         {% assign tag_label = "CCF-A" %}
       {% when "preprint" %}

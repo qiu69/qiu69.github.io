@@ -34,7 +34,29 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; margin-top: 2rem; margin-bottom: 0rem; text-align: right; }
 
-.publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
+.publications ol.bibliography {
+    position: relative;
+    list-style: none;
+    max-height: 75vh;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    padding: 0 0.65rem 0 0;
+    margin-top: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.publications ol.bibliography:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+}
+
+@media print {
+    .publications ol.bibliography {
+        max-height: none !important;
+        overflow: visible;
+        box-shadow: none;
+    }
+}
 
 .publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
 
