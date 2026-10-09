@@ -26,6 +26,7 @@ profile_affiliation: 华东师范大学
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[2026 年 10 月]</strong> 我获评 <strong>NeurIPS 2026 Top Reviewer</strong>。</li>
     <li><strong>[2026 年 9 月]</strong> 我们的论文 “<a href="https://rdcu.be/N2CBSicSmYDa">TFB-2</a>: Benchmarking and Automated Ensemble for Time Series Forecasting” 被 <strong>VLDB Journal (VLDBJ) 2027</strong> 接收。</li>
     <li><strong>[2026 年 9 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2609.24444">WPBench</a>” 被 <strong>ICDE 2027</strong> 接收。</li>
     <li><strong>[2026 年 9 月]</strong> 我们的论文 “<a href="https://arxiv.org/pdf/2509.23668">Hermes</a>” 和 “<a href="https://arxiv.org/pdf/2512.14253">FLAME</a>” 被 <strong>NeurIPS 2026</strong> 接收。</li>
@@ -113,6 +114,7 @@ profile_affiliation: 华东师范大学
 
 ## 🎖 荣誉奖项
 
+- **NeurIPS 2026 Top Reviewer**，2026
 - **ICML 2026 Silver Reviewer Award**，2026
 - **IJCAI 2026 Gold Tier Reviewer Award**，2026
 - **中国科协青年人才培育工程博士生专项计划**，2025

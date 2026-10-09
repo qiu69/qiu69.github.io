@@ -21,6 +21,7 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 <div class="news-scrollbox">
   <ul class="news-list" dir="auto">
+    <li><strong>[Oct. 2026]</strong> I have been recognized as a <strong>NeurIPS 2026 Top Reviewer</strong>.</li>
     <li><strong>[Sep. 2026]</strong> Our paper "<a href="https://rdcu.be/N2CBSicSmYDa">TFB-2</a>: Benchmarking and Automated Ensemble for Time Series Forecasting" has been accepted by <strong>VLDB Journal (VLDBJ) 2027</strong>.</li>
     <li><strong>[Sep. 2026]</strong> Our paper "<a href="https://arxiv.org/pdf/2609.24444">WPBench</a>" has been accepted to <strong>ICDE 2027</strong>.</li>
     <li><strong>[Sep. 2026]</strong> Our papers "<a href="https://arxiv.org/pdf/2509.23668">Hermes</a>" and "<a href="https://arxiv.org/pdf/2512.14253">FLAME</a>" have been accepted to <strong>NeurIPS 2026</strong>.</li>
@@ -109,6 +110,7 @@ My research interests cover Time Series Analysis and Deep Learning. I am current
 
 ## 🎖 Awards
 
+- **NeurIPS 2026 Top Reviewer**, 2026
 - **ICML 2026 Silver Reviewer Award**, 2026
 - **IJCAI 2026 Gold Tier Reviewer Award**, 2026
 - **Youth Science and Technology Talents Cultivation Project -- Doctoral Student Special Program** (China Association for Science and Technology), 2025
